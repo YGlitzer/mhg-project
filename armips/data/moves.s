@@ -9179,6 +9179,7 @@ movedata MOVE_PARABOLIC_CHARGE, "Parabolic Charge"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_PARABOLIC_CHARGE, "The user attacks\neverything around it.\nHP is restored by half \nthe damage taken by\nthose hit."
     terminatedata
 
 movedata MOVE_FORESTS_CURSE, "Forest’s Curse"
@@ -9209,6 +9210,7 @@ movedata MOVE_PETAL_BLIZZARD, "Petal Blizzard"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_PETAL_BLIZZARD, "The user stirs up a\nviolent petal blizzard\nand attacks everything\naround it.\n"
     terminatedata
 
 movedata MOVE_FREEZE_DRY, "Freeze-Dry"
@@ -9239,6 +9241,7 @@ movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_DISARMING_VOICE, "Letting out a charming\ncry, the user does\nemotional damage to\nopposing Pokémon.\nAlways hits."
     terminatedata
 
 movedata MOVE_PARTING_SHOT, "Parting Shot"
@@ -9284,6 +9287,7 @@ movedata MOVE_DRAINING_KISS, "Draining Kiss"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_DRAINING_KISS, "The user steals the\ntarget’s HP with a\nkiss to heal the\nuser’s HP by half of\nthe damage caused."
     terminatedata
 
 movedata MOVE_CRAFTY_SHIELD, "Crafty Shield"
@@ -9374,6 +9378,7 @@ movedata MOVE_PLAY_ROUGH, "Play Rough"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_PLAY_ROUGH, "The user plays rough\nwith the target and\nattacks it. May also\nlower the target’s\nAttack stat."
     terminatedata
 
 movedata MOVE_FAIRY_WIND, "Fairy Wind"
@@ -9389,6 +9394,7 @@ movedata MOVE_FAIRY_WIND, "Fairy Wind"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_FAIRY_WIND, "The user stirs up a\nfairy wind and strikes\nthe target with it."
     terminatedata
 
 movedata MOVE_MOONBLAST, "Moonblast"
@@ -9404,6 +9410,7 @@ movedata MOVE_MOONBLAST, "Moonblast"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_MOONBLAST, "Borrowing the power\nof the moon, the user\nattacks the target.\nThis may also lower\nthe target’s Sp. Atk."
     terminatedata
 
 movedata MOVE_BOOMBURST, "Boomburst"
@@ -9419,6 +9426,7 @@ movedata MOVE_BOOMBURST, "Boomburst"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_BOOMBURST, "The user attacks\neverything around it\nwith the destructive\npower of an explosive\nsound."
     terminatedata
 
 movedata MOVE_FAIRY_LOCK, "Fairy Lock"
@@ -9434,6 +9442,7 @@ movedata MOVE_FAIRY_LOCK, "Fairy Lock"
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_FAIRY_LOCK, "By locking down the\nbattlefield, the user\nkeeps all Pokémon from\nfleeing during the next\nturn."
     terminatedata
 
 movedata MOVE_KINGS_SHIELD, "King’s Shield"
@@ -9554,6 +9563,7 @@ movedata MOVE_MYSTICAL_FIRE, "Mystical Fire"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_MYSTICAL_FIRE, "The user attacks by\nbreathing a special,\nhot fire. This also\nlowers the target’s\nSp. Atk."
     terminatedata
 
 movedata MOVE_SPIKY_SHIELD, "Spiky Shield"
@@ -9704,6 +9714,7 @@ movedata MOVE_DAZZLING_GLEAM, "Dazzling Gleam"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_DAZZLING_GLEAM, "The user damages\nopposing Pokémon\nby emitting a\npowerful flash."
     terminatedata
 
 movedata MOVE_CELEBRATE, "Celebrate"
@@ -9749,6 +9760,7 @@ movedata MOVE_BABY_DOLL_EYES, "Baby-Doll Eyes"
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_BABY_DOLL_EYES, "The user looks at\nthe target with its\ncute eyes, lowering\nits Attack. Always\ngoes first."
     terminatedata
 
 movedata MOVE_NUZZLE, "Nuzzle"
@@ -9764,6 +9776,7 @@ movedata MOVE_NUZZLE, "Nuzzle"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_NUZZLE, "The user nuzzles\nits electrified cheeks\nagainst the target,\nleaving the target\nwith paralysis."
     terminatedata
 
 movedata MOVE_HOLD_BACK, "Hold Back"
@@ -9809,6 +9822,7 @@ movedata MOVE_POWER_UP_PUNCH, "Power-Up Punch"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_POWER_UP_PUNCH, "Striking opponents\nover and over makes\nthe user’s fists\nharder, raising its\nAttack."
     terminatedata
 
 movedata MOVE_OBLIVION_WING, "Oblivion Wing"
@@ -9899,6 +9913,7 @@ movedata MOVE_ORIGIN_PULSE, "Origin Pulse"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_ORIGIN_PULSE, "The user attacks \nopposing Pokémon with\ncountless beams of\nlight that glows in\nbrilliance."
     terminatedata
 
 movedata MOVE_PRECIPICE_BLADES, "Precipice Blades"
@@ -9914,6 +9929,7 @@ movedata MOVE_PRECIPICE_BLADES, "Precipice Blades"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_PRECIPICE_BLADES, "The user attacks \nopposing Pokémon by\nmanifesting the\nfearsome power of\nthe land."
     terminatedata
 
 movedata MOVE_DRAGON_ASCENT, "Dragon Ascent"
@@ -9929,6 +9945,7 @@ movedata MOVE_DRAGON_ASCENT, "Dragon Ascent"
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
+    movedescription MOVE_DRAGON_ASCENT, "The user attacks by\ndropping out of the\nsky at high speed.\nLowers the user’s\nDefense and Sp. Def."
     terminatedata
 
 movedata MOVE_HYPERSPACE_FURY, "Hyperspace Fury"
