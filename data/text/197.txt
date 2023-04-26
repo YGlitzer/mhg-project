@@ -777,8 +777,8 @@ It’s a one-hit KO!
 1, 2, and... ... ... Poof!
 And...
                                
-It’s not very effective...
-It’s super effective!
+The attack was ineffective...
+The attack was super effective!
 Got away safely!\r
 {STRVAR_1 1, 0, 0} fled\nusing its {STRVAR_1 8, 1, 0}!\r
 {STRVAR_1 1, 0, 0} fled\nusing {STRVAR_1 5, 1, 0}!\r
