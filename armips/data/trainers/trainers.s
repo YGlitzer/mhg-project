@@ -8,7 +8,7 @@
 .include "armips/include/movenums.s"
 .include "armips/include/monnums.s"
 
-trainerdata 0, "-"
+trainerdata 0 //  -
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PKMN_TRAINER_0
     battletype SINGLE_BATTLE
@@ -30,7 +30,7 @@ trainerdata 0, "-"
         ballseal 0
     endparty
 
-trainerdata 1, "Silver"
+trainerdata 1 // Silver - Azalea
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -45,28 +45,28 @@ trainerdata 1, "Silver"
 
     party 1
         // mon 0
-        ivs 30
+        ivs 40
         abilityslot 0
         level 14
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 40
         abilityslot 0
         level 16
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
-        ivs 30
+        ivs 50
         abilityslot 0
         level 18
         pokemon SPECIES_BAYLEEF
         ballseal 0
     endparty
 
-trainerdata 2, "Silver"
+trainerdata 2 // Silver
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -88,7 +88,7 @@ trainerdata 2, "Silver"
         ballseal 0
     endparty
 
-trainerdata 3, "Silver"
+trainerdata 3 // Silver
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -110,7 +110,7 @@ trainerdata 3, "Silver"
         ballseal 0
     endparty
 
-trainerdata 4, "Wade"
+trainerdata 4 // Wade
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -127,33 +127,33 @@ trainerdata 4, "Wade"
         // mon 0
         ivs 0
         abilityslot 0
-        level 2
+        level 5
         pokemon SPECIES_CATERPIE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 2
-        pokemon SPECIES_CATERPIE
+        level 4
+        pokemon SPECIES_WEEDLE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_WEEDLE
+        level 5
+        pokemon SPECIES_WURMPLE
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 2
-        pokemon SPECIES_CATERPIE
+        level 4
+        pokemon SPECIES_BURMY
         ballseal 0
     endparty
 
-trainerdata 5, "Victoria"
+trainerdata 5 // Victoria
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -170,26 +170,26 @@ trainerdata 5, "Victoria"
         // mon 0
         ivs 10
         abilityslot 32
-        level 9
+        level 13
         pokemon SPECIES_SENTRET
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 32
-        level 13
-        pokemon SPECIES_SENTRET
+        level 14
+        pokemon SPECIES_ZIGZAGOON
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 32
         level 16
-        pokemon SPECIES_SENTRET
+        pokemon SPECIES_WHISMUR
         ballseal 0
     endparty
 
-trainerdata 6, "Keith"
+trainerdata 6 // Keith
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POLICEMAN
     battletype SINGLE_BATTLE
@@ -211,7 +211,7 @@ trainerdata 6, "Keith"
         ballseal 0
     endparty
 
-trainerdata 7, "Irwin"
+trainerdata 7 // Irwin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_JUGGLER
     battletype SINGLE_BATTLE
@@ -228,37 +228,37 @@ trainerdata 7, "Irwin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 2
+        level 6
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 6
+        level 10
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 10
+        level 13
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 32
-        level 14
+        level 16
         pokemon SPECIES_VOLTORB
         ballseal 0
     endparty
 
-trainerdata 8, "Joey"
+trainerdata 8 // Joey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -271,16 +271,23 @@ trainerdata 8, "Joey"
         // mon 0
         ivs 0
         abilityslot 0
-        level 4
+        level 5
+        pokemon SPECIES_RATTATA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 3
         pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 
-trainerdata 9, "Elaine"
+trainerdata 9 // Elaine
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -293,12 +300,19 @@ trainerdata 9, "Elaine"
         // mon 0
         ivs 0
         abilityslot 32
-        level 21
+        level 27
         pokemon SPECIES_STARYU
+        ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 28
+        pokemon SPECIES_CHINCHOU
         ballseal 0
     endparty
 
-trainerdata 10, "Amy & Mimi"
+trainerdata 10 // Amy & Mimi
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -327,7 +341,7 @@ trainerdata 10, "Amy & Mimi"
         ballseal 0
     endparty
 
-trainerdata 11, "Mickey"
+trainerdata 11 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_KIMONO_GIRL
     battletype SINGLE_BATTLE
@@ -363,7 +377,7 @@ trainerdata 11, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 12, "Grunt"
+trainerdata 12 // Grunt - Slowpoke well
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -380,30 +394,30 @@ trainerdata 12, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 7
+        level 8
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 9
-        pokemon SPECIES_ZUBAT
+        level 10
+        pokemon SPECIES_STUNKY
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_ZUBAT
         ballseal 0
     endparty
 
-trainerdata 13, "Grunt"
+trainerdata 13 // Grunt - Slowpoke well
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     battletype SINGLE_BATTLE
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -416,7 +430,7 @@ trainerdata 13, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_ZUBAT
         ballseal 0
 
@@ -426,9 +440,16 @@ trainerdata 13, "Grunt"
         level 11
         pokemon SPECIES_EKANS
         ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 12
+        pokemon SPECIES_GLAMEOW
+        ballseal 0
     endparty
 
-trainerdata 14, "Duncan"
+trainerdata 14 // Duncan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BURGLAR
     battletype SINGLE_BATTLE
@@ -464,7 +485,7 @@ trainerdata 14, "Duncan"
         ballseal 0
     endparty
 
-trainerdata 15, "Otis"
+trainerdata 15 // Otis
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -500,7 +521,7 @@ trainerdata 15, "Otis"
         ballseal 0
     endparty
 
-trainerdata 16, "Simon"
+trainerdata 16 // Simon
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -517,19 +538,19 @@ trainerdata 16, "Simon"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 28
         pokemon SPECIES_TENTACOOL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 20
-        pokemon SPECIES_TENTACOOL
+        level 28
+        pokemon SPECIES_TENTACRUEL
         ballseal 0
     endparty
 
-trainerdata 17, "Kenji"
+trainerdata 17 // Kenji
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -546,12 +567,12 @@ trainerdata 17, "Kenji"
         // mon 0
         ivs 30
         abilityslot 0
-        level 28
+        level 39
         pokemon SPECIES_MACHOKE
         ballseal 0
     endparty
 
-trainerdata 18, "Justin"
+trainerdata 18 // Justin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -568,14 +589,14 @@ trainerdata 18, "Justin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 5
+        level 8
         pokemon SPECIES_MAGIKARP
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 5
+        level 12
         pokemon SPECIES_MAGIKARP
         ballseal 0
 
@@ -589,12 +610,12 @@ trainerdata 18, "Justin"
         // mon 3
         ivs 0
         abilityslot 0
-        level 5
+        level 10
         pokemon SPECIES_MAGIKARP
         ballseal 0
     endparty
 
-trainerdata 19, "Mickey"
+trainerdata 19 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -630,7 +651,7 @@ trainerdata 19, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 20, "Falkner"
+trainerdata 20 // Falkner
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_M
     battletype SINGLE_BATTLE
@@ -645,36 +666,36 @@ trainerdata 20, "Falkner"
 
     party 20
         // mon 0
-        ivs 50
+        ivs 60
         abilityslot 0
         level 9
-        pokemon SPECIES_PIDGEY
+        pokemon SPECIES_TAILLOW
         item ITEM_NONE
-        move MOVE_TACKLE
-        move MOVE_SAND_ATTACK
-        move MOVE_NONE
+        move MOVE_PECK
+        move MOVE_GROWL
+        move MOVE_QUICK_ATTACK
         move MOVE_NONE
         ballseal 0
 
         // mon 1
-        ivs 50
+        ivs 60
         abilityslot 0
         level 13
         pokemon SPECIES_PIDGEOTTO
         item ITEM_NONE
-        move MOVE_TACKLE
-        move MOVE_ROOST
-        move MOVE_GUST
+        move MOVE_AERIAL_ACE
+        move MOVE_QUICK_ATTACK
+        move MOVE_MUD_SLAP
         move MOVE_NONE
         ballseal 0
     endparty
 
-trainerdata 21, "Bugsy"
+trainerdata 21 // Bugsy
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_F
     battletype SINGLE_BATTLE
     nummons 3
-    item ITEM_SUPER_POTION
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -699,28 +720,28 @@ trainerdata 21, "Bugsy"
         ivs 80
         abilityslot 0
         level 15
-        pokemon SPECIES_KAKUNA
+        pokemon SPECIES_KRICKETUNE
         item ITEM_NONE
-        move MOVE_POISON_STING
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_FURY_CUTTER
+        move MOVE_CUT
+        move MOVE_ABSORB
         move MOVE_NONE
         ballseal 0
 
         // mon 2
         ivs 80
         abilityslot 0
-        level 15
-        pokemon SPECIES_METAPOD
-        item ITEM_NONE
-        move MOVE_TACKLE
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        level 16
+        pokemon SPECIES_BEEDRILL
+        item ITEM_POISON_BARB
+        move MOVE_POISON_STING
+        move MOVE_FURY_ATTACK
+        move MOVE_FURY_CUTTER
+        move MOVE_ROCK_SMASH
         ballseal 0
     endparty
 
-trainerdata 22, "Carrie"
+trainerdata 22 // Carrie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -737,7 +758,7 @@ trainerdata 22, "Carrie"
         // mon 0
         ivs 10
         abilityslot 0
-        level 17
+        level 19
         pokemon SPECIES_SNUBBULL
         move MOVE_SCARY_FACE
         move MOVE_CHARM
@@ -746,7 +767,7 @@ trainerdata 22, "Carrie"
         ballseal 0
     endparty
 
-trainerdata 23, "Larry"
+trainerdata 23 // Larry
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -763,16 +784,16 @@ trainerdata 23, "Larry"
         // mon 0
         ivs 0
         abilityslot 32
-        level 11
+        level 12
         pokemon SPECIES_SLOWPOKE
         ballseal 0
     endparty
 
-trainerdata 24, "Alan"
+trainerdata 24 // Alan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -788,9 +809,16 @@ trainerdata 24, "Alan"
         level 17
         pokemon SPECIES_TANGELA
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 17
+        pokemon SPECIES_CARNIVINE
+        ballseal 0
     endparty
 
-trainerdata 25, "Russel"
+trainerdata 25 // Russel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -807,26 +835,26 @@ trainerdata 25, "Russel"
         // mon 0
         ivs 0
         abilityslot 32
-        level 4
+        level 6
         pokemon SPECIES_GEODUDE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 6
+        level 9
         pokemon SPECIES_GEODUDE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
-        level 8
+        level 12
         pokemon SPECIES_GEODUDE
         ballseal 0
     endparty
 
-trainerdata 26, "Roland"
+trainerdata 26 // Roland
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -848,7 +876,7 @@ trainerdata 26, "Roland"
         ballseal 0
     endparty
 
-trainerdata 27, "Liz"
+trainerdata 27 // Liz
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -865,12 +893,12 @@ trainerdata 27, "Liz"
         // mon 0
         ivs 0
         abilityslot 32
-        level 8
+        level 10
         pokemon SPECIES_NIDORAN_F
         ballseal 0
     endparty
 
-trainerdata 28, "Jake"
+trainerdata 28 // Jake
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -887,7 +915,7 @@ trainerdata 28, "Jake"
         // mon 0
         ivs 50
         abilityslot 32
-        level 33
+        level 40
         pokemon SPECIES_PARASECT
         move MOVE_LEECH_LIFE
         move MOVE_SPORE
@@ -898,7 +926,7 @@ trainerdata 28, "Jake"
         // mon 1
         ivs 50
         abilityslot 32
-        level 35
+        level 41
         pokemon SPECIES_GOLDUCK
         move MOVE_PSYCHIC
         move MOVE_SCREECH
@@ -909,7 +937,7 @@ trainerdata 28, "Jake"
         // mon 2
         ivs 50
         abilityslot 0
-        level 33
+        level 39
         pokemon SPECIES_VAPOREON
         move MOVE_BITE
         move MOVE_QUICK_ATTACK
@@ -918,7 +946,7 @@ trainerdata 28, "Jake"
         ballseal 0
     endparty
 
-trainerdata 29, "Rod"
+trainerdata 29 // Rod
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -943,17 +971,17 @@ trainerdata 29, "Rod"
         ivs 30
         abilityslot 0
         level 7
-        pokemon SPECIES_PIDGEY
+        pokemon SPECIES_SPEAROW
         ballseal 0
     endparty
 
-trainerdata 30, "Whitney"
+trainerdata 30 // Whitney
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER
     battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_SUPER_POTION
-    item ITEM_SUPER_POTION
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -962,7 +990,19 @@ trainerdata 30, "Whitney"
 
     party 30
         // mon 0
-        ivs 100
+        ivs 120
+        abilityslot 32
+        level 15
+        pokemon SPECIES_SKITTY
+        item ITEM_NONE
+        move MOVE_FAKE_OUT
+        move MOVE_WISH
+        move MOVE_TACKLE
+        move MOVE_ATTRACT
+        ballseal 0
+
+        // mon 1
+        ivs 120
         abilityslot 0
         level 17
         pokemon SPECIES_CLEFAIRY
@@ -973,8 +1013,8 @@ trainerdata 30, "Whitney"
         move MOVE_METRONOME
         ballseal 0
 
-        // mon 1
-        ivs 100
+        // mon 2
+        ivs 120
         abilityslot 32
         level 19
         pokemon SPECIES_MILTANK
@@ -986,13 +1026,13 @@ trainerdata 30, "Whitney"
         ballseal 0
     endparty
 
-trainerdata 31, "Morty"
+trainerdata 31 // Morty
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_0
     battletype SINGLE_BATTLE
     nummons 4
-    item ITEM_HYPER_POTION
-    item ITEM_HYPER_POTION
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -1001,19 +1041,19 @@ trainerdata 31, "Morty"
 
     party 31
         // mon 0
-        ivs 100
+        ivs 120
         abilityslot 0
         level 21
-        pokemon SPECIES_GASTLY
-        item ITEM_NONE
-        move MOVE_LICK
-        move MOVE_SPITE
+        pokemon SPECIES_MISDREAVUS
+        item ITEM_TWISTEDSPOON
+        move MOVE_ASTONISH
+        move MOVE_CONFUSE_RAY
         move MOVE_MEAN_LOOK
-        move MOVE_CURSE
+        move MOVE_PSYBEAM
         ballseal 0
 
         // mon 1
-        ivs 100
+        ivs 120
         abilityslot 0
         level 21
         pokemon SPECIES_HAUNTER
@@ -1025,7 +1065,7 @@ trainerdata 31, "Morty"
         ballseal 0
 
         // mon 2
-        ivs 100
+        ivs 120
         abilityslot 0
         level 25
         pokemon SPECIES_GENGAR
@@ -1037,25 +1077,25 @@ trainerdata 31, "Morty"
         ballseal 0
 
         // mon 3
-        ivs 100
+        ivs 120
         abilityslot 0
         level 23
-        pokemon SPECIES_HAUNTER
-        item ITEM_NONE
-        move MOVE_CURSE
-        move MOVE_MEAN_LOOK
-        move MOVE_SUCKER_PUNCH
+        pokemon SPECIES_SHUPPET
+        item ITEM_SPELL_TAG
+        move MOVE_WILL_O_WISP
+        move MOVE_SHADOW_SNEAK
+        move MOVE_KNOCK_OFF
         move MOVE_NIGHT_SHADE
         ballseal 0
     endparty
 
-trainerdata 32, "Pryce"
+trainerdata 32 // Pryce
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_1
     battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_HYPER_POTION
-    item ITEM_FULL_RESTORE
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
@@ -1063,50 +1103,63 @@ trainerdata 32, "Pryce"
     endentry
 
     party 32
+
         // mon 0
-        ivs 150
+        ivs 200
         abilityslot 0
-        level 30
-        pokemon SPECIES_SEEL
-        item ITEM_NONE
-        move MOVE_SNORE
-        move MOVE_HAIL
+        level 36
+        pokemon SPECIES_SNORUNT
+        item ITEM_ICY_ROCK
         move MOVE_ICY_WIND
-        move MOVE_REST
+        move MOVE_ROLLOUT
+        move MOVE_ICE_FANG
+        move MOVE_HAIL
         ballseal 0
 
         // mon 1
-        ivs 150
+        ivs 200
         abilityslot 0
-        level 32
+        level 36
+        pokemon SPECIES_SEALEO
+        item ITEM_LUM_BERRY
+        move MOVE_BODY_SLAM
+        move MOVE_SWAGGER
+        move MOVE_ICE_BALL
+        move MOVE_REST
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 37
         pokemon SPECIES_DEWGONG
-        item ITEM_NONE
+        item ITEM_NEVERMELTICE
         move MOVE_SLEEP_TALK
         move MOVE_ICE_SHARD
         move MOVE_AURORA_BEAM
         move MOVE_REST
         ballseal 0
 
-        // mon 2
-        ivs 150
+        // mon 3
+        ivs 200
         abilityslot 32
-        level 34
-        pokemon SPECIES_PILOSWINE
+        level 38
+        pokemon SPECIES_MAMOSWINE
         item ITEM_SITRUS_BERRY
-        move MOVE_HAIL
+        move MOVE_ANCIENT_POWER
         move MOVE_ICE_FANG
         move MOVE_MUD_BOMB
         move MOVE_BLIZZARD
         ballseal 0
     endparty
 
-trainerdata 33, "Jasmine"
+trainerdata 33 // Jasmine
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_2
     battletype SINGLE_BATTLE
     nummons 3
-    item ITEM_HYPER_POTION
-    item ITEM_HYPER_POTION
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -1114,50 +1167,51 @@ trainerdata 33, "Jasmine"
     endentry
 
     party 33
+
         // mon 0
-        ivs 150
-        abilityslot 0
+        ivs 180
+        abilityslot 32
         level 30
-        pokemon SPECIES_MAGNEMITE
-        item ITEM_NONE
-        move MOVE_THUNDERBOLT
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        move MOVE_THUNDER_WAVE
+        pokemon SPECIES_SKARMORY
+        item ITEM_SHARP_BEAK
+        move MOVE_STEEL_WING
+        move MOVE_AERIAL_ACE
+        move MOVE_SPIKES
+        move MOVE_ROCK_SLIDE
         ballseal 0
 
         // mon 1
-        ivs 150
-        abilityslot 32
+        ivs 180
+        abilityslot 0
         level 30
-        pokemon SPECIES_MAGNEMITE
+        pokemon SPECIES_MAGNETON
         item ITEM_NONE
         move MOVE_THUNDERBOLT
         move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
+        move MOVE_ENERGY_BALL
         move MOVE_THUNDER_WAVE
         ballseal 0
 
         // mon 2
-        ivs 150
+        ivs 180
         abilityslot 32
         level 35
         pokemon SPECIES_STEELIX
         item ITEM_SITRUS_BERRY
         move MOVE_SCREECH
-        move MOVE_SANDSTORM
-        move MOVE_ROCK_THROW
+        move MOVE_EARTHQUAKE
+        move MOVE_ROCK_SLIDE
         move MOVE_IRON_TAIL
         ballseal 0
     endparty
 
-trainerdata 34, "Chuck"
+trainerdata 34 // Chuck
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_3
     battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_HYPER_POTION
-    item ITEM_HYPER_POTION
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
@@ -1168,7 +1222,19 @@ trainerdata 34, "Chuck"
         // mon 0
         ivs 150
         abilityslot 0
-        level 29
+        level 28
+        pokemon SPECIES_MEDITITE
+        item ITEM_WIDE_LENS
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_HI_JUMP_KICK
+        move MOVE_RECOVER
+        move MOVE_ROCK_SLIDE
+        ballseal 0
+
+        // mon 0
+        ivs 150
+        abilityslot 0
+        level 30
         pokemon SPECIES_PRIMEAPE
         item ITEM_NONE
         move MOVE_LEER
@@ -1180,7 +1246,7 @@ trainerdata 34, "Chuck"
         // mon 1
         ivs 150
         abilityslot 0
-        level 31
+        level 32
         pokemon SPECIES_POLIWRATH
         item ITEM_SITRUS_BERRY
         move MOVE_HYPNOSIS
@@ -1190,13 +1256,13 @@ trainerdata 34, "Chuck"
         ballseal 0
     endparty
 
-trainerdata 35, "Clair"
+trainerdata 35 // Clair
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_4
     battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_HYPER_POTION
-    item ITEM_FULL_RESTORE
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -1221,7 +1287,7 @@ trainerdata 35, "Clair"
         abilityslot 0
         level 38
         pokemon SPECIES_DRAGONAIR
-        item ITEM_NONE
+        item ITEM_WIDE_LENS
         move MOVE_THUNDER_WAVE
         move MOVE_FIRE_BLAST
         move MOVE_SLAM
@@ -1231,29 +1297,41 @@ trainerdata 35, "Clair"
         // mon 2
         ivs 200
         abilityslot 0
-        level 38
-        pokemon SPECIES_DRAGONAIR
-        item ITEM_NONE
-        move MOVE_THUNDER_WAVE
-        move MOVE_AQUA_TAIL
-        move MOVE_SLAM
-        move MOVE_DRAGON_PULSE
+        level 39
+        pokemon SPECIES_CHARMELEON
+        item ITEM_KINGS_ROCK
+        move MOVE_FLAMETHROWER
+        move MOVE_SHADOW_CLAW
+        move MOVE_DRAGON_TAIL
+        move MOVE_THUNDER_PUNCH
         ballseal 0
 
         // mon 3
+        ivs 200
+        abilityslot 0
+        level 39
+        pokemon SPECIES_AERODACTYL
+        item ITEM_HARD_STONE
+        move MOVE_DOUBLE_EDGE
+        move MOVE_FLY
+        move MOVE_EARTHQUAKE
+        move MOVE_ROCK_SLIDE
+        ballseal 0
+
+        // mon 4
         ivs 200
         abilityslot 32
         level 41
         pokemon SPECIES_KINGDRA
         item ITEM_SITRUS_BERRY
-        move MOVE_SMOKESCREEN
+        move MOVE_SWIFT
         move MOVE_HYDRO_PUMP
         move MOVE_HYPER_BEAM
         move MOVE_DRAGON_PULSE
         ballseal 0
     endparty
 
-trainerdata 36, "Joyce"
+trainerdata 36 // Joyce
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -1270,7 +1348,7 @@ trainerdata 36, "Joyce"
         // mon 0
         ivs 50
         abilityslot 0
-        level 36
+        level 41
         pokemon SPECIES_PIKACHU
         move MOVE_QUICK_ATTACK
         move MOVE_DOUBLE_TEAM
@@ -1281,7 +1359,7 @@ trainerdata 36, "Joyce"
         // mon 1
         ivs 50
         abilityslot 0
-        level 36
+        level 41
         pokemon SPECIES_BLASTOISE
         move MOVE_BITE
         move MOVE_AQUA_TAIL
@@ -1290,12 +1368,12 @@ trainerdata 36, "Joyce"
         ballseal 0
     endparty
 
-trainerdata 37, "Preston"
+trainerdata 37 // Preston
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GENTLEMAN
     battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_FULL_RESTORE
+    nummons 3
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1307,19 +1385,26 @@ trainerdata 37, "Preston"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 26
         pokemon SPECIES_GROWLITHE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 18
+        level 27
         pokemon SPECIES_GROWLITHE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_ARCANINE
         ballseal 0
     endparty
 
-trainerdata 38, "Colette"
+trainerdata 38 // Colette
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     battletype SINGLE_BATTLE
@@ -1341,7 +1426,7 @@ trainerdata 38, "Colette"
         ballseal 0
     endparty
 
-trainerdata 39, "Eugene"
+trainerdata 39 // Eugene
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -1377,7 +1462,7 @@ trainerdata 39, "Eugene"
         ballseal 0
     endparty
 
-trainerdata 40, "Mickey"
+trainerdata 40 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -1399,7 +1484,7 @@ trainerdata 40, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 41, "Clyde"
+trainerdata 41 // Clyde
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GUITARIST
     battletype SINGLE_BATTLE
@@ -1421,7 +1506,7 @@ trainerdata 41, "Clyde"
         ballseal 0
     endparty
 
-trainerdata 42, "Nathan"
+trainerdata 42 // Nathan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -1443,7 +1528,7 @@ trainerdata 42, "Nathan"
         ballseal 0
     endparty
 
-trainerdata 43, "Chow"
+trainerdata 43 // Chow
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -1460,26 +1545,26 @@ trainerdata 43, "Chow"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
+        level 5
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
 
-trainerdata 44, "Derek"
+trainerdata 44 // Derek
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -1505,7 +1590,7 @@ trainerdata 44, "Derek"
         ballseal 0
     endparty
 
-trainerdata 45, "Ruth"
+trainerdata 45 // Ruth
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_POKEFAN_F
     battletype SINGLE_BATTLE
@@ -1531,7 +1616,7 @@ trainerdata 45, "Ruth"
         ballseal 0
     endparty
 
-trainerdata 46, "Martha"
+trainerdata 46 // Martha
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     battletype SINGLE_BATTLE
@@ -1555,19 +1640,19 @@ trainerdata 46, "Martha"
         // mon 1
         ivs 10
         abilityslot 0
-        level 20
+        level 21
         pokemon SPECIES_HAUNTER
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 0
-        level 20
-        pokemon SPECIES_GASTLY
+        level 21
+        pokemon SPECIES_DRIFLOON
         ballseal 0
     endparty
 
-trainerdata 47, "Mikey"
+trainerdata 47 // Mikey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -1584,19 +1669,19 @@ trainerdata 47, "Mikey"
         // mon 0
         ivs 0
         abilityslot 0
-        level 2
+        level 3
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 1
         ivs 0
-        abilityslot 32
+        abilityslot 0
         level 4
         pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 
-trainerdata 48, "Rob"
+trainerdata 48 // Rob
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -1625,7 +1710,7 @@ trainerdata 48, "Rob"
         ballseal 0
     endparty
 
-trainerdata 49, "Albert"
+trainerdata 49 // Albert
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -1642,7 +1727,7 @@ trainerdata 49, "Albert"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
+        level 9
         pokemon SPECIES_RATTATA
         ballseal 0
 
@@ -1654,7 +1739,7 @@ trainerdata 49, "Albert"
         ballseal 0
     endparty
 
-trainerdata 50, "Abe"
+trainerdata 50 // Abe
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -1674,9 +1759,15 @@ trainerdata 50, "Abe"
         level 9
         pokemon SPECIES_SPEAROW
         ballseal 0
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 5
+        pokemon SPECIES_TAILLOW
+        ballseal 0
     endparty
 
-trainerdata 51, "Nico"
+trainerdata 51 // Nico
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -1693,26 +1784,26 @@ trainerdata 51, "Nico"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
 
-trainerdata 52, "Edmond"
+trainerdata 52 // Edmond
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -1729,30 +1820,30 @@ trainerdata 52, "Edmond"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
+        level 5
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
 
-trainerdata 53, "Jin"
+trainerdata 53 // Jin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1765,12 +1856,18 @@ trainerdata 53, "Jin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
+        level 7
         pokemon SPECIES_BELLSPROUT
+        ballseal 0
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 3
+        pokemon SPECIES_HOOTHOOT
         ballseal 0
     endparty
 
-trainerdata 54, "Troy"
+trainerdata 54 // Troy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -1787,19 +1884,19 @@ trainerdata 54, "Troy"
         // mon 0
         ivs 0
         abilityslot 0
-        level 7
+        level 8
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 7
+        level 8
         pokemon SPECIES_HOOTHOOT
         ballseal 0
     endparty
 
-trainerdata 55, "Neal"
+trainerdata 55 // Neal
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -1816,12 +1913,12 @@ trainerdata 55, "Neal"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
+        level 8
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
 
-trainerdata 56, "Gordon"
+trainerdata 56 // Gordon
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -1843,7 +1940,7 @@ trainerdata 56, "Gordon"
         ballseal 0
     endparty
 
-trainerdata 57, "Ralph"
+trainerdata 57 // Ralph
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -1860,12 +1957,12 @@ trainerdata 57, "Ralph"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 11
         pokemon SPECIES_GOLDEEN
         ballseal 0
     endparty
 
-trainerdata 58, "Arnold"
+trainerdata 58 // Arnold
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -1887,7 +1984,7 @@ trainerdata 58, "Arnold"
         ballseal 0
     endparty
 
-trainerdata 59, "Kyle"
+trainerdata 59 // Kyle
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -1923,7 +2020,7 @@ trainerdata 59, "Kyle"
         ballseal 0
     endparty
 
-trainerdata 60, "Henry"
+trainerdata 60 // Henry
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -1947,16 +2044,16 @@ trainerdata 60, "Henry"
         // mon 1
         ivs 0
         abilityslot 32
-        level 8
+        level 9
         pokemon SPECIES_POLIWAG
         ballseal 0
     endparty
 
-trainerdata 61, "Anthony"
+trainerdata 61 // Anthony
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1969,19 +2066,26 @@ trainerdata 61, "Anthony"
         // mon 0
         ivs 0
         abilityslot 0
-        level 11
+        level 13
         pokemon SPECIES_GEODUDE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 11
+        level 14
         pokemon SPECIES_MACHOP
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_MAKUHITA
         ballseal 0
     endparty
 
-trainerdata 62, "Samuel"
+trainerdata 62 // Samuel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -1998,7 +2102,7 @@ trainerdata 62, "Samuel"
         // mon 0
         ivs 0
         abilityslot 32
-        level 7
+        level 11
         pokemon SPECIES_RATTATA
         ballseal 0
 
@@ -2012,19 +2116,19 @@ trainerdata 62, "Samuel"
         // mon 2
         ivs 0
         abilityslot 0
-        level 8
-        pokemon SPECIES_SPEAROW
+        level 12
+        pokemon SPECIES_BIDOOF
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 8
+        level 12
         pokemon SPECIES_SPEAROW
         ballseal 0
     endparty
 
-trainerdata 63, "Mickey"
+trainerdata 63 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -2046,7 +2150,7 @@ trainerdata 63, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 64, "Ian"
+trainerdata 64 // Ian
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -2063,7 +2167,7 @@ trainerdata 64, "Ian"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 12
         pokemon SPECIES_MANKEY
         move MOVE_FOCUS_ENERGY
         move MOVE_SCRATCH
@@ -2074,7 +2178,7 @@ trainerdata 64, "Ian"
         // mon 1
         ivs 0
         abilityslot 0
-        level 12
+        level 15
         pokemon SPECIES_DIGLETT
         move MOVE_ASTONISH
         move MOVE_GROWL
@@ -2083,7 +2187,7 @@ trainerdata 64, "Ian"
         ballseal 0
     endparty
 
-trainerdata 65, "Gina"
+trainerdata 65 // Gina
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -2100,30 +2204,30 @@ trainerdata 65, "Gina"
         // mon 0
         ivs 0
         abilityslot 0
-        level 9
+        level 13
         pokemon SPECIES_HOPPIP
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 9
-        pokemon SPECIES_HOPPIP
+        level 13
+        pokemon SPECIES_BUDEW
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 12
+        level 15
         pokemon SPECIES_BULBASAUR
         ballseal 0
     endparty
 
-trainerdata 66, "Todd"
+trainerdata 66 // Todd
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2139,9 +2243,16 @@ trainerdata 66, "Todd"
         level 14
         pokemon SPECIES_PSYDUCK
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_GEODUDE
+        ballseal 0
     endparty
 
-trainerdata 67, "Benny"
+trainerdata 67 // Benny
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -2177,7 +2288,7 @@ trainerdata 67, "Benny"
         ballseal 0
     endparty
 
-trainerdata 68, "Al"
+trainerdata 68 // Al
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -2206,7 +2317,7 @@ trainerdata 68, "Al"
         ballseal 0
     endparty
 
-trainerdata 69, "Josh"
+trainerdata 69 // Josh
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -2228,7 +2339,7 @@ trainerdata 69, "Josh"
         ballseal 0
     endparty
 
-trainerdata 70, "Samantha"
+trainerdata 70 // Samantha
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -2256,16 +2367,16 @@ trainerdata 70, "Samantha"
         // mon 1
         ivs 10
         abilityslot 32
-        level 16
-        pokemon SPECIES_MEOWTH
-        move MOVE_SCRATCH
-        move MOVE_GROWL
-        move MOVE_BITE
+        level 17
+        pokemon SPECIES_GLAMEOW
         move MOVE_SLASH
+        move MOVE_GROWL
+        move MOVE_FAKE_OUT
+        move MOVE_AERIAL_ACE
         ballseal 0
     endparty
 
-trainerdata 71, "Cathy"
+trainerdata 71 // Cathy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -2289,19 +2400,19 @@ trainerdata 71, "Cathy"
         // mon 1
         ivs 10
         abilityslot 0
-        level 15
+        level 17
         pokemon SPECIES_JIGGLYPUFF
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 0
-        level 15
-        pokemon SPECIES_JIGGLYPUFF
+        level 18
+        pokemon SPECIES_CLEFAIRY
         ballseal 0
     endparty
 
-trainerdata 72, "Bryan"
+trainerdata 72 // Bryan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -2318,19 +2429,19 @@ trainerdata 72, "Bryan"
         // mon 0
         ivs 50
         abilityslot 0
-        level 12
+        level 15
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 14
+        level 17
         pokemon SPECIES_PIDGEOTTO
         ballseal 0
     endparty
 
-trainerdata 73, "Theo"
+trainerdata 73 // Theo
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -2354,33 +2465,33 @@ trainerdata 73, "Theo"
         // mon 1
         ivs 50
         abilityslot 32
-        level 15
+        level 19
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 19
-        pokemon SPECIES_PIDGEY
+        level 23
+        pokemon SPECIES_PIDGEOTTO
         ballseal 0
 
         // mon 3
         ivs 50
         abilityslot 32
-        level 15
-        pokemon SPECIES_PIDGEY
+        level 25
+        pokemon SPECIES_FEAROW
         ballseal 0
 
         // mon 4
         ivs 50
         abilityslot 0
-        level 15
-        pokemon SPECIES_PIDGEY
+        level 25
+        pokemon SPECIES_PIDGEOTTO
         ballseal 0
     endparty
 
-trainerdata 74, "Ivan"
+trainerdata 74 // Ivan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -2397,26 +2508,26 @@ trainerdata 74, "Ivan"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 13
         pokemon SPECIES_DIGLETT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 10
+        level 13
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 14
+        level 17
         pokemon SPECIES_DIGLETT
         ballseal 0
     endparty
 
-trainerdata 75, "Elliot"
+trainerdata 75 // Elliot
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -2433,23 +2544,30 @@ trainerdata 75, "Elliot"
         // mon 0
         ivs 0
         abilityslot 0
-        level 13
+        level 15
         pokemon SPECIES_SANDSHREW
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 15
+        level 16
+        pokemon SPECIES_CROAGUNK
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 17
         pokemon SPECIES_MARILL
         ballseal 0
     endparty
 
-trainerdata 76, "Brooke"
+trainerdata 76 // Brooke
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2469,13 +2587,24 @@ trainerdata 76, "Brooke"
         move MOVE_QUICK_ATTACK
         move MOVE_DOUBLE_TEAM
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_PACHIRISU
+        move MOVE_ENDURE
+        move MOVE_CHARM
+        move MOVE_QUICK_ATTACK
+        move MOVE_SPARK
+        ballseal 0
     endparty
 
-trainerdata 77, "Kim"
+trainerdata 77 // Kim
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2488,16 +2617,23 @@ trainerdata 77, "Kim"
         // mon 0
         ivs 0
         abilityslot 0
-        level 15
+        level 16
         pokemon SPECIES_VULPIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_NIDORAN_F
         ballseal 0
     endparty
 
-trainerdata 78, "Arnie"
+trainerdata 78 // Arnie
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2510,12 +2646,26 @@ trainerdata 78, "Arnie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 15
+        level 16
+        pokemon SPECIES_VOLBEAT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_ILLUMISE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 18
         pokemon SPECIES_VENONAT
         ballseal 0
     endparty
 
-trainerdata 79, "Ken"
+trainerdata 79 // Ken
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -2544,11 +2694,11 @@ trainerdata 79, "Ken"
         ballseal 0
     endparty
 
-trainerdata 80, "Dirk"
+trainerdata 80 // Dirk
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POLICEMAN
     battletype SINGLE_BATTLE
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2561,19 +2711,26 @@ trainerdata 80, "Dirk"
         // mon 0
         ivs 0
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_GROWLITHE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 14
+        level 17
+        pokemon SPECIES_GROWLITHE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 17
         pokemon SPECIES_GROWLITHE
         ballseal 0
     endparty
 
-trainerdata 81, "Tori & Til"
+trainerdata 81 // Tori & Til
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -2590,19 +2747,19 @@ trainerdata 81, "Tori & Til"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 19
         pokemon SPECIES_MARILL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 16
+        level 19
         pokemon SPECIES_MAREEP
         ballseal 0
     endparty
 
-trainerdata 82, "Toby"
+trainerdata 82 // Toby
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -2619,26 +2776,26 @@ trainerdata 82, "Toby"
         // mon 0
         ivs 50
         abilityslot 32
-        level 16
+        level 23
         pokemon SPECIES_DODUO
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
-        level 17
-        pokemon SPECIES_DODUO
+        level 24
+        pokemon SPECIES_FARFETCHD
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 32
-        level 18
+        level 24
         pokemon SPECIES_DODUO
         ballseal 0
     endparty
 
-trainerdata 83, "Cindy"
+trainerdata 83 // Cindy
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -2664,7 +2821,7 @@ trainerdata 83, "Cindy"
         ballseal 0
     endparty
 
-trainerdata 84, "Barry"
+trainerdata 84 // Barry
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -2690,11 +2847,11 @@ trainerdata 84, "Barry"
         ballseal 0
     endparty
 
-trainerdata 85, "Paula"
+trainerdata 85 // Paula
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2707,19 +2864,26 @@ trainerdata 85, "Paula"
         // mon 0
         ivs 0
         abilityslot 32
-        level 19
+        level 26
         pokemon SPECIES_STARYU
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 19
+        level 26
         pokemon SPECIES_SHELLDER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 26
+        pokemon SPECIES_BUIZEL
         ballseal 0
     endparty
 
-trainerdata 86, "Randall"
+trainerdata 86 // Randall
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -2736,7 +2900,7 @@ trainerdata 86, "Randall"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 26
         pokemon SPECIES_SHELLDER
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
@@ -2747,7 +2911,7 @@ trainerdata 86, "Randall"
         // mon 1
         ivs 0
         abilityslot 0
-        level 20
+        level 28
         pokemon SPECIES_WARTORTLE
         move MOVE_RAPID_SPIN
         move MOVE_BITE
@@ -2758,7 +2922,7 @@ trainerdata 86, "Randall"
         // mon 2
         ivs 0
         abilityslot 32
-        level 18
+        level 27
         pokemon SPECIES_SHELLDER
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
@@ -2767,7 +2931,7 @@ trainerdata 86, "Randall"
         ballseal 0
     endparty
 
-trainerdata 87, "Mickey"
+trainerdata 87 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -2789,7 +2953,7 @@ trainerdata 87, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 88, "Mickey"
+trainerdata 88 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -2839,7 +3003,7 @@ trainerdata 88, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 89, "Grace"
+trainerdata 89 // Grace
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     battletype SINGLE_BATTLE
@@ -2863,12 +3027,12 @@ trainerdata 89, "Grace"
         // mon 1
         ivs 10
         abilityslot 0
-        level 20
-        pokemon SPECIES_HAUNTER
+        level 21
+        pokemon SPECIES_DUSKULL
         ballseal 0
     endparty
 
-trainerdata 90, "Kaylee"
+trainerdata 90 // Kaylee
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -2885,7 +3049,7 @@ trainerdata 90, "Kaylee"
         // mon 0
         ivs 0
         abilityslot 32
-        level 18
+        level 25
         pokemon SPECIES_GOLDEEN
         move MOVE_WATER_PULSE
         move MOVE_HORN_ATTACK
@@ -2896,7 +3060,7 @@ trainerdata 90, "Kaylee"
         // mon 1
         ivs 0
         abilityslot 0
-        level 20
+        level 27
         pokemon SPECIES_GOLDEEN
         move MOVE_WATER_PULSE
         move MOVE_HORN_ATTACK
@@ -2907,7 +3071,7 @@ trainerdata 90, "Kaylee"
         // mon 2
         ivs 0
         abilityslot 32
-        level 20
+        level 29
         pokemon SPECIES_SEAKING
         move MOVE_WATER_PULSE
         move MOVE_HORN_ATTACK
@@ -2916,11 +3080,11 @@ trainerdata 90, "Kaylee"
         ballseal 0
     endparty
 
-trainerdata 91, "Susie"
+trainerdata 91 // Susie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2933,7 +3097,7 @@ trainerdata 91, "Susie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 25
         pokemon SPECIES_PSYDUCK
         move MOVE_SCRATCH
         move MOVE_WATER_GUN
@@ -2944,20 +3108,31 @@ trainerdata 91, "Susie"
         // mon 1
         ivs 0
         abilityslot 0
-        level 22
+        level 27
         pokemon SPECIES_GOLDEEN
         move MOVE_FLAIL
         move MOVE_WATER_PULSE
         move MOVE_SUPERSONIC
         move MOVE_HORN_ATTACK
         ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_FEEBAS
+        move MOVE_SURF
+        move MOVE_WATER_PULSE
+        move MOVE_RAIN_DANCE
+        move MOVE_ICE_BEAM
+        ballseal 0
     endparty
 
-trainerdata 92, "Denise"
+trainerdata 92 // Denise
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2970,12 +3145,19 @@ trainerdata 92, "Denise"
         // mon 0
         ivs 0
         abilityslot 0
-        level 22
+        level 27
         pokemon SPECIES_SEEL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_SEALEO
         ballseal 0
     endparty
 
-trainerdata 93, "Kara"
+trainerdata 93 // Kara
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -2992,19 +3174,19 @@ trainerdata 93, "Kara"
         // mon 0
         ivs 0
         abilityslot 32
-        level 20
+        level 29
         pokemon SPECIES_STARYU
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 20
+        level 29
         pokemon SPECIES_STARMIE
         ballseal 0
     endparty
 
-trainerdata 94, "Wendy"
+trainerdata 94 // Wendy
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -3021,7 +3203,7 @@ trainerdata 94, "Wendy"
         // mon 0
         ivs 0
         abilityslot 0
-        level 21
+        level 28
         pokemon SPECIES_HORSEA
         move MOVE_BUBBLE
         move MOVE_SMOKESCREEN
@@ -3032,7 +3214,7 @@ trainerdata 94, "Wendy"
         // mon 1
         ivs 0
         abilityslot 32
-        level 21
+        level 29
         pokemon SPECIES_HORSEA
         move MOVE_FOCUS_ENERGY
         move MOVE_SMOKESCREEN
@@ -3041,7 +3223,7 @@ trainerdata 94, "Wendy"
         ballseal 0
     endparty
 
-trainerdata 95, "Charlie"
+trainerdata 95 // Charlie
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -3058,26 +3240,26 @@ trainerdata 95, "Charlie"
         // mon 0
         ivs 0
         abilityslot 32
-        level 21
+        level 28
         pokemon SPECIES_SHELLDER
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 19
+        level 27
         pokemon SPECIES_TENTACOOL
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
-        level 19
+        level 27
         pokemon SPECIES_TENTACRUEL
         ballseal 0
     endparty
 
-trainerdata 96, "George"
+trainerdata 96 // George
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -3094,47 +3276,47 @@ trainerdata 96, "George"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 25
         pokemon SPECIES_TENTACOOL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 17
+        level 25
         pokemon SPECIES_TENTACOOL
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 16
+        level 26
         pokemon SPECIES_TENTACOOL
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 32
-        level 19
+        level 26
         pokemon SPECIES_STARYU
         ballseal 0
 
         // mon 4
         ivs 0
         abilityslot 0
-        level 17
-        pokemon SPECIES_TENTACOOL
+        level 27
+        pokemon SPECIES_BUIZEL
         ballseal 0
 
         // mon 5
         ivs 0
         abilityslot 0
-        level 19
+        level 26
         pokemon SPECIES_REMORAID
         ballseal 0
     endparty
 
-trainerdata 97, "Berke"
+trainerdata 97 // Berke
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -3151,12 +3333,12 @@ trainerdata 97, "Berke"
         // mon 0
         ivs 0
         abilityslot 0
-        level 23
+        level 30
         pokemon SPECIES_QWILFISH
         ballseal 0
     endparty
 
-trainerdata 98, "Ronald"
+trainerdata 98 // Ronald
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -3173,19 +3355,19 @@ trainerdata 98, "Ronald"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 29
         pokemon SPECIES_GYARADOS
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_GYARADOS
+        level 29
+        pokemon SPECIES_BUIZEL
         ballseal 0
     endparty
 
-trainerdata 99, "Matthew"
+trainerdata 99 // Matthew
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -3202,12 +3384,12 @@ trainerdata 99, "Matthew"
         // mon 0
         ivs 0
         abilityslot 0
-        level 23
+        level 30
         pokemon SPECIES_KRABBY
         ballseal 0
     endparty
 
-trainerdata 100, "Anthony"
+trainerdata 100 // Anthony
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -3236,7 +3418,7 @@ trainerdata 100, "Anthony"
         ballseal 0
     endparty
 
-trainerdata 101, "Grunt"
+trainerdata 101 // Grunt - Slowpoke well
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -3253,19 +3435,19 @@ trainerdata 101, "Grunt"
         // mon 0
         ivs 30
         abilityslot 32
-        level 9
+        level 10
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
-        level 9
-        pokemon SPECIES_RATTATA
+        level 11
+        pokemon SPECIES_POOCHYENA
         ballseal 0
     endparty
 
-trainerdata 102, "Gaven"
+trainerdata 102 // Gaven
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3282,7 +3464,7 @@ trainerdata 102, "Gaven"
         // mon 0
         ivs 50
         abilityslot 0
-        level 32
+        level 38
         pokemon SPECIES_VICTREEBEL
         move MOVE_WRAP
         move MOVE_TOXIC
@@ -3293,7 +3475,7 @@ trainerdata 102, "Gaven"
         // mon 1
         ivs 50
         abilityslot 0
-        level 32
+        level 39
         pokemon SPECIES_KINGLER
         move MOVE_BUBBLE_BEAM
         move MOVE_STOMP
@@ -3304,7 +3486,7 @@ trainerdata 102, "Gaven"
         // mon 2
         ivs 50
         abilityslot 0
-        level 32
+        level 40
         pokemon SPECIES_FLAREON
         move MOVE_SAND_ATTACK
         move MOVE_QUICK_ATTACK
@@ -3313,7 +3495,7 @@ trainerdata 102, "Gaven"
         ballseal 0
     endparty
 
-trainerdata 103, "Blake"
+trainerdata 103 // Blake
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3330,7 +3512,7 @@ trainerdata 103, "Blake"
         // mon 0
         ivs 50
         abilityslot 32
-        level 33
+        level 38
         pokemon SPECIES_MAGNETON
         move MOVE_THUNDERBOLT
         move MOVE_SUPERSONIC
@@ -3341,7 +3523,7 @@ trainerdata 103, "Blake"
         // mon 1
         ivs 50
         abilityslot 32
-        level 31
+        level 39
         pokemon SPECIES_QUAGSIRE
         move MOVE_WATER_GUN
         move MOVE_SLAM
@@ -3352,7 +3534,7 @@ trainerdata 103, "Blake"
         // mon 2
         ivs 50
         abilityslot 0
-        level 31
+        level 40
         pokemon SPECIES_EXEGGCUTE
         move MOVE_LEECH_SEED
         move MOVE_CONFUSION
@@ -3361,7 +3543,7 @@ trainerdata 103, "Blake"
         ballseal 0
     endparty
 
-trainerdata 104, "Brian"
+trainerdata 104 // Brian
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3378,8 +3560,8 @@ trainerdata 104, "Brian"
         // mon 0
         ivs 50
         abilityslot 0
-        level 35
-        pokemon SPECIES_MAREEP
+        level 42
+        pokemon SPECIES_AMPHAROS
         move MOVE_DISCHARGE
         move MOVE_SIGNAL_BEAM
         move MOVE_COTTON_SPORE
@@ -3387,7 +3569,7 @@ trainerdata 104, "Brian"
         ballseal 0
     endparty
 
-trainerdata 105, "Mickey"
+trainerdata 105 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3423,7 +3605,7 @@ trainerdata 105, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 106, "Mickey"
+trainerdata 106 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3459,7 +3641,7 @@ trainerdata 106, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 107, "Mickey"
+trainerdata 107 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3495,7 +3677,7 @@ trainerdata 107, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 108, "Ryan"
+trainerdata 108 // Ryan
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3512,7 +3694,7 @@ trainerdata 108, "Ryan"
         // mon 0
         ivs 50
         abilityslot 0
-        level 25
+        level 39
         pokemon SPECIES_PIDGEOT
         move MOVE_SAND_ATTACK
         move MOVE_QUICK_ATTACK
@@ -3523,7 +3705,7 @@ trainerdata 108, "Ryan"
         // mon 1
         ivs 50
         abilityslot 0
-        level 27
+        level 39
         pokemon SPECIES_ELECTABUZZ
         move MOVE_THUNDER_PUNCH
         move MOVE_LIGHT_SCREEN
@@ -3532,7 +3714,7 @@ trainerdata 108, "Ryan"
         ballseal 0
     endparty
 
-trainerdata 109, "Alton"
+trainerdata 109 // Alton
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3549,26 +3731,26 @@ trainerdata 109, "Alton"
         // mon 0
         ivs 50
         abilityslot 0
-        level 24
+        level 35
         pokemon SPECIES_IVYSAUR
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 24
+        level 35
         pokemon SPECIES_CHARMELEON
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 24
+        level 35
         pokemon SPECIES_WARTORTLE
         ballseal 0
     endparty
 
-trainerdata 110, "Paulo"
+trainerdata 110 // Paulo
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3586,29 +3768,29 @@ trainerdata 110, "Paulo"
         ivs 60
         abilityslot 0
         level 35
-        pokemon SPECIES_DRATINI
+        pokemon SPECIES_SWABLU
         ballseal 0
 
         // mon 1
         ivs 60
         abilityslot 32
-        level 35
+        level 36
         pokemon SPECIES_SEADRA
         ballseal 0
 
         // mon 2
         ivs 60
         abilityslot 0
-        level 35
+        level 36
         pokemon SPECIES_DRATINI
         ballseal 0
     endparty
 
-trainerdata 111, "Mike"
+trainerdata 111 // Mike
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3621,12 +3803,19 @@ trainerdata 111, "Mike"
         // mon 0
         ivs 60
         abilityslot 0
-        level 38
+        level 37
         pokemon SPECIES_DRAGONAIR
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GARCHOMP
         ballseal 0
     endparty
 
-trainerdata 112, "Cody"
+trainerdata 112 // Cody
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -3644,7 +3833,7 @@ trainerdata 112, "Cody"
         ivs 60
         abilityslot 0
         level 35
-        pokemon SPECIES_HORSEA
+        pokemon SPECIES_VIBRAVA
         ballseal 0
 
         // mon 1
@@ -3655,7 +3844,7 @@ trainerdata 112, "Cody"
         ballseal 0
     endparty
 
-trainerdata 113, "Jamie"
+trainerdata 113 // Jamie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -3672,7 +3861,7 @@ trainerdata 113, "Jamie"
         // mon 0
         ivs 50
         abilityslot 32
-        level 36
+        level 38
         pokemon SPECIES_RAPIDASH
         move MOVE_STOMP
         move MOVE_FIRE_SPIN
@@ -3683,7 +3872,7 @@ trainerdata 113, "Jamie"
         // mon 1
         ivs 50
         abilityslot 0
-        level 31
+        level 36
         pokemon SPECIES_FLAAFFY
         move MOVE_DISCHARGE
         move MOVE_COTTON_SPORE
@@ -3692,7 +3881,7 @@ trainerdata 113, "Jamie"
         ballseal 0
     endparty
 
-trainerdata 114, "Reena"
+trainerdata 114 // Reena
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -3728,7 +3917,7 @@ trainerdata 114, "Reena"
         ballseal 0
     endparty
 
-trainerdata 115, "Megan"
+trainerdata 115 // Megan
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -3745,7 +3934,7 @@ trainerdata 115, "Megan"
         // mon 0
         ivs 50
         abilityslot 0
-        level 32
+        level 39
         pokemon SPECIES_BULBASAUR
         move MOVE_GROWL
         move MOVE_LEECH_SEED
@@ -3756,7 +3945,7 @@ trainerdata 115, "Megan"
         // mon 1
         ivs 50
         abilityslot 0
-        level 32
+        level 39
         pokemon SPECIES_IVYSAUR
         move MOVE_GIGA_DRAIN
         move MOVE_LEECH_SEED
@@ -3767,7 +3956,7 @@ trainerdata 115, "Megan"
         // mon 2
         ivs 50
         abilityslot 0
-        level 32
+        level 40
         pokemon SPECIES_VENUSAUR
         move MOVE_PETAL_DANCE
         move MOVE_SLEEP_POWDER
@@ -3776,7 +3965,7 @@ trainerdata 115, "Megan"
         ballseal 0
     endparty
 
-trainerdata 116, "Lois"
+trainerdata 116 // Lois
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -3793,8 +3982,8 @@ trainerdata 116, "Lois"
         // mon 0
         ivs 50
         abilityslot 0
-        level 25
-        pokemon SPECIES_MAREEP
+        level 35
+        pokemon SPECIES_FLAAFFY
         move MOVE_THUNDER_SHOCK
         move MOVE_COTTON_SPORE
         move MOVE_THUNDER_WAVE
@@ -3804,7 +3993,7 @@ trainerdata 116, "Lois"
         // mon 1
         ivs 50
         abilityslot 0
-        level 25
+        level 36
         pokemon SPECIES_NINETALES
         move MOVE_FLAMETHROWER
         move MOVE_QUICK_ATTACK
@@ -3813,7 +4002,7 @@ trainerdata 116, "Lois"
         ballseal 0
     endparty
 
-trainerdata 117, "Lola"
+trainerdata 117 // Lola
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -3842,7 +4031,7 @@ trainerdata 117, "Lola"
         ballseal 0
     endparty
 
-trainerdata 118, "Kate"
+trainerdata 118 // Kate
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -3871,11 +4060,11 @@ trainerdata 118, "Kate"
         ballseal 0
     endparty
 
-trainerdata 119, "Fran"
+trainerdata 119 // Fran
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3891,9 +4080,16 @@ trainerdata 119, "Fran"
         level 38
         pokemon SPECIES_SEADRA
         ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 32
+        level 38
+        pokemon SPECIES_SHELGON
+        ballseal 0
     endparty
 
-trainerdata 120, "Irene"
+trainerdata 120 // Irene
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -3922,7 +4118,7 @@ trainerdata 120, "Irene"
         ballseal 0
     endparty
 
-trainerdata 121, "Kelly"
+trainerdata 121 // Kelly
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -3939,26 +4135,26 @@ trainerdata 121, "Kelly"
         // mon 0
         ivs 50
         abilityslot 0
-        level 27
-        pokemon SPECIES_MARILL
+        level 39
+        pokemon SPECIES_AZUMARILL
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 24
+        level 40
         pokemon SPECIES_WARTORTLE
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 24
+        level 39
         pokemon SPECIES_WARTORTLE
         ballseal 0
     endparty
 
-trainerdata 122, "Marvin"
+trainerdata 122 // Marvin
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -3975,42 +4171,42 @@ trainerdata 122, "Marvin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 33
         pokemon SPECIES_MAGIKARP
         move MOVE_SPLASH
         move MOVE_TACKLE
-        move MOVE_NONE
+        move MOVE_FLAIL
         move MOVE_NONE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 20
+        level 33
         pokemon SPECIES_GYARADOS
         move MOVE_THRASH
         move MOVE_SURF
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_BITE
+        move MOVE_ICE_FANG
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 15
-        pokemon SPECIES_MAGIKARP
-        move MOVE_SPLASH
+        level 33
+        pokemon SPECIES_GYARADOS
+        move MOVE_CRUNCH
         move MOVE_TACKLE
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_BRINE
+        move MOVE_WATERFALL
         ballseal 0
     endparty
 
-trainerdata 123, "Tully"
+trainerdata 123 // Tully
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4023,12 +4219,19 @@ trainerdata 123, "Tully"
         // mon 0
         ivs 0
         abilityslot 0
-        level 19
+        level 31
         pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_FEEBAS
         ballseal 0
     endparty
 
-trainerdata 124, "Wilton"
+trainerdata 124 // Wilton
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -4045,26 +4248,26 @@ trainerdata 124, "Wilton"
         // mon 0
         ivs 0
         abilityslot 0
-        level 26
+        level 32
         pokemon SPECIES_GOLDEEN
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 26
+        level 33
         pokemon SPECIES_GOLDEEN
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 28
+        level 33
         pokemon SPECIES_SEAKING
         ballseal 0
     endparty
 
-trainerdata 125, "Edgar"
+trainerdata 125 // Edgar
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -4081,7 +4284,7 @@ trainerdata 125, "Edgar"
         // mon 0
         ivs 0
         abilityslot 0
-        level 28
+        level 35
         pokemon SPECIES_REMORAID
         move MOVE_LOCK_ON
         move MOVE_PSYBEAM
@@ -4101,7 +4304,7 @@ trainerdata 125, "Edgar"
         ballseal 0
     endparty
 
-trainerdata 126, "Andre"
+trainerdata 126 // Andre
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -4118,12 +4321,12 @@ trainerdata 126, "Andre"
         // mon 0
         ivs 0
         abilityslot 0
-        level 27
+        level 35
         pokemon SPECIES_GYARADOS
         ballseal 0
     endparty
 
-trainerdata 127, "Raymond"
+trainerdata 127 // Raymond
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -4140,33 +4343,33 @@ trainerdata 127, "Raymond"
         // mon 0
         ivs 0
         abilityslot 0
-        level 22
+        level 38
         pokemon SPECIES_MAGIKARP
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 22
-        pokemon SPECIES_MAGIKARP
+        level 38
+        pokemon SPECIES_FEEBAS
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 22
+        level 38
         pokemon SPECIES_MAGIKARP
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 22
-        pokemon SPECIES_MAGIKARP
+        level 38
+        pokemon SPECIES_FEEBAS
         ballseal 0
     endparty
 
-trainerdata 128, "Jonah"
+trainerdata 128 // Jonah
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -4209,7 +4412,7 @@ trainerdata 128, "Jonah"
         ballseal 0
     endparty
 
-trainerdata 129, "Shane"
+trainerdata 129 // Shane
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -4226,19 +4429,19 @@ trainerdata 129, "Shane"
         // mon 0
         ivs 0
         abilityslot 0
-        level 17
+        level 32
         pokemon SPECIES_NIDORINA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 17
+        level 32
         pokemon SPECIES_NIDORINO
         ballseal 0
     endparty
 
-trainerdata 130, "Beckett"
+trainerdata 130 // Beckett
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -4255,12 +4458,12 @@ trainerdata 130, "Beckett"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 31
         pokemon SPECIES_SLOWBRO
         ballseal 0
     endparty
 
-trainerdata 131, "Brent"
+trainerdata 131 // Brent
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -4277,19 +4480,19 @@ trainerdata 131, "Brent"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 31
         pokemon SPECIES_NIDORINA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 24
+        level 30
         pokemon SPECIES_NIDORINO
         ballseal 0
     endparty
 
-trainerdata 132, "Ron"
+trainerdata 132 // Ron
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -4306,12 +4509,12 @@ trainerdata 132, "Ron"
         // mon 0
         ivs 0
         abilityslot 32
-        level 20
+        level 32
         pokemon SPECIES_NIDOKING
         ballseal 0
     endparty
 
-trainerdata 133, "Morgan"
+trainerdata 133 // Morgan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -4340,7 +4543,7 @@ trainerdata 133, "Morgan"
         ballseal 0
     endparty
 
-trainerdata 134, "Benjamin"
+trainerdata 134 // Benjamin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -4357,26 +4560,26 @@ trainerdata 134, "Benjamin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 15
-        pokemon SPECIES_DIGLETT
+        level 31
+        pokemon SPECIES_DUGTRIO
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 15
-        pokemon SPECIES_GEODUDE
+        level 31
+        pokemon SPECIES_GRAVELER
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 17
+        level 32
         pokemon SPECIES_DUGTRIO
         ballseal 0
     endparty
 
-trainerdata 135, "Johnny"
+trainerdata 135 // Johnny
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -4412,7 +4615,7 @@ trainerdata 135, "Johnny"
         ballseal 0
     endparty
 
-trainerdata 136, "Linda"
+trainerdata 136 // Linda
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -4460,7 +4663,7 @@ trainerdata 136, "Linda"
         ballseal 0
     endparty
 
-trainerdata 137, "Vance"
+trainerdata 137 // Vance
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -4477,19 +4680,19 @@ trainerdata 137, "Vance"
         // mon 0
         ivs 50
         abilityslot 0
-        level 28
+        level 31
         pokemon SPECIES_HOOTHOOT
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 28
+        level 34
         pokemon SPECIES_PIDGEOTTO
         ballseal 0
     endparty
 
-trainerdata 138, "Mickey"
+trainerdata 138 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -4511,7 +4714,7 @@ trainerdata 138, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 139, "Debra"
+trainerdata 139 // Debra
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -4533,7 +4736,7 @@ trainerdata 139, "Debra"
         ballseal 0
     endparty
 
-trainerdata 140, "Doug"
+trainerdata 140 // Doug
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -4562,7 +4765,7 @@ trainerdata 140, "Doug"
         ballseal 0
     endparty
 
-trainerdata 141, "Mickey"
+trainerdata 141 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -4584,7 +4787,7 @@ trainerdata 141, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 142, "Gina"
+trainerdata 142 // Gina
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -4620,7 +4823,7 @@ trainerdata 142, "Gina"
         ballseal 0
     endparty
 
-trainerdata 143, "Erik"
+trainerdata 143 // Erik
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -4637,26 +4840,26 @@ trainerdata 143, "Erik"
         // mon 0
         ivs 0
         abilityslot 0
-        level 24
+        level 36
         pokemon SPECIES_MACHOP
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 27
+        level 37
         pokemon SPECIES_GRAVELER
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 27
+        level 38
         pokemon SPECIES_MACHOP
         ballseal 0
     endparty
 
-trainerdata 144, "Michael"
+trainerdata 144 // Michael
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -4673,26 +4876,26 @@ trainerdata 144, "Michael"
         // mon 0
         ivs 0
         abilityslot 32
-        level 25
+        level 39
         pokemon SPECIES_GEODUDE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 25
+        level 40
         pokemon SPECIES_GRAVELER
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
-        level 25
+        level 42
         pokemon SPECIES_GOLEM
         ballseal 0
     endparty
 
-trainerdata 145, "Parry"
+trainerdata 145 // Parry
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -4709,12 +4912,12 @@ trainerdata 145, "Parry"
         // mon 0
         ivs 0
         abilityslot 0
-        level 30
+        level 42
         pokemon SPECIES_ONIX
         ballseal 0
     endparty
 
-trainerdata 146, "Timothy"
+trainerdata 146 // Timothy
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -4731,7 +4934,7 @@ trainerdata 146, "Timothy"
         // mon 0
         ivs 0
         abilityslot 0
-        level 27
+        level 40
         pokemon SPECIES_DIGLETT
         move MOVE_EARTH_POWER
         move MOVE_DIG
@@ -4742,7 +4945,7 @@ trainerdata 146, "Timothy"
         // mon 1
         ivs 0
         abilityslot 0
-        level 27
+        level 42
         pokemon SPECIES_DUGTRIO
         move MOVE_EARTH_POWER
         move MOVE_DIG
@@ -4751,7 +4954,7 @@ trainerdata 146, "Timothy"
         ballseal 0
     endparty
 
-trainerdata 147, "Ted"
+trainerdata 147 // Ted
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -4773,7 +4976,7 @@ trainerdata 147, "Ted"
         ballseal 0
     endparty
 
-trainerdata 148, "Lloyd"
+trainerdata 148 // Lloyd
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -4795,7 +4998,7 @@ trainerdata 148, "Lloyd"
         ballseal 0
     endparty
 
-trainerdata 149, "Dean"
+trainerdata 149 // Dean
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -4824,7 +5027,7 @@ trainerdata 149, "Dean"
         ballseal 0
     endparty
 
-trainerdata 150, "Sid"
+trainerdata 150 // Sid
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -4860,7 +5063,7 @@ trainerdata 150, "Sid"
         ballseal 0
     endparty
 
-trainerdata 151, "Erin"
+trainerdata 151 // Erin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -4889,7 +5092,7 @@ trainerdata 151, "Erin"
         ballseal 0
     endparty
 
-trainerdata 152, "Hope"
+trainerdata 152 // Hope
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -4911,7 +5114,7 @@ trainerdata 152, "Hope"
         ballseal 0
     endparty
 
-trainerdata 153, "Sharon"
+trainerdata 153 // Sharon
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -4940,7 +5143,7 @@ trainerdata 153, "Sharon"
         ballseal 0
     endparty
 
-trainerdata 154, "Bailey"
+trainerdata 154 // Bailey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -4990,7 +5193,7 @@ trainerdata 154, "Bailey"
         ballseal 0
     endparty
 
-trainerdata 155, "Anthony"
+trainerdata 155 // Anthony
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -5026,7 +5229,7 @@ trainerdata 155, "Anthony"
         ballseal 0
     endparty
 
-trainerdata 156, "Yoshi"
+trainerdata 156 // Yoshi
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -5043,7 +5246,7 @@ trainerdata 156, "Yoshi"
         // mon 0
         ivs 40
         abilityslot 32
-        level 27
+        level 28
         pokemon SPECIES_HITMONLEE
         move MOVE_DOUBLE_KICK
         move MOVE_MEDITATE
@@ -5052,7 +5255,7 @@ trainerdata 156, "Yoshi"
         ballseal 0
     endparty
 
-trainerdata 157, "Lao"
+trainerdata 157 // Lao
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -5069,7 +5272,7 @@ trainerdata 157, "Lao"
         // mon 0
         ivs 40
         abilityslot 32
-        level 27
+        level 28
         pokemon SPECIES_HITMONCHAN
         move MOVE_MACH_PUNCH
         move MOVE_THUNDER_PUNCH
@@ -5078,7 +5281,7 @@ trainerdata 157, "Lao"
         ballseal 0
     endparty
 
-trainerdata 158, "Kiyo"
+trainerdata 158 // Kiyo
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -5107,7 +5310,7 @@ trainerdata 158, "Kiyo"
         ballseal 0
     endparty
 
-trainerdata 159, "Lung"
+trainerdata 159 // Lung
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -5124,26 +5327,26 @@ trainerdata 159, "Lung"
         // mon 0
         ivs 40
         abilityslot 0
-        level 23
+        level 29
         pokemon SPECIES_MANKEY
         ballseal 0
 
         // mon 1
         ivs 40
         abilityslot 32
-        level 23
+        level 29
         pokemon SPECIES_MANKEY
         ballseal 0
 
         // mon 2
         ivs 40
         abilityslot 32
-        level 25
+        level 30
         pokemon SPECIES_PRIMEAPE
         ballseal 0
     endparty
 
-trainerdata 160, "Naoko"
+trainerdata 160 // Naoko
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_KIMONO_GIRL
     battletype SINGLE_BATTLE
@@ -5160,7 +5363,7 @@ trainerdata 160, "Naoko"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 40
         pokemon SPECIES_ESPEON
         item ITEM_NONE
         move MOVE_LAST_RESORT
@@ -5170,7 +5373,7 @@ trainerdata 160, "Naoko"
         ballseal 0
     endparty
 
-trainerdata 161, "Sayo"
+trainerdata 161 // Sayo
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_KIMONO_GIRL
     battletype SINGLE_BATTLE
@@ -5187,7 +5390,7 @@ trainerdata 161, "Sayo"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 40
         pokemon SPECIES_JOLTEON
         item ITEM_NONE
         move MOVE_LAST_RESORT
@@ -5197,7 +5400,7 @@ trainerdata 161, "Sayo"
         ballseal 0
     endparty
 
-trainerdata 162, "Zuki"
+trainerdata 162 // Zuki
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_KIMONO_GIRL
     battletype SINGLE_BATTLE
@@ -5214,7 +5417,7 @@ trainerdata 162, "Zuki"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 40
         pokemon SPECIES_UMBREON
         item ITEM_NONE
         move MOVE_LAST_RESORT
@@ -5224,7 +5427,7 @@ trainerdata 162, "Zuki"
         ballseal 0
     endparty
 
-trainerdata 163, "Kuni"
+trainerdata 163 // Kuni
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_KIMONO_GIRL
     battletype SINGLE_BATTLE
@@ -5241,7 +5444,7 @@ trainerdata 163, "Kuni"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 40
         pokemon SPECIES_VAPOREON
         item ITEM_NONE
         move MOVE_LAST_RESORT
@@ -5251,7 +5454,7 @@ trainerdata 163, "Kuni"
         ballseal 0
     endparty
 
-trainerdata 164, "Miki"
+trainerdata 164 // Miki
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_KIMONO_GIRL
     battletype SINGLE_BATTLE
@@ -5268,7 +5471,7 @@ trainerdata 164, "Miki"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 40
         pokemon SPECIES_FLAREON
         item ITEM_NONE
         move MOVE_LAST_RESORT
@@ -5278,7 +5481,7 @@ trainerdata 164, "Miki"
         ballseal 0
     endparty
 
-trainerdata 165, "Mickey"
+trainerdata 165 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -5300,7 +5503,7 @@ trainerdata 165, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 166, "Mickey"
+trainerdata 166 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -5322,7 +5525,7 @@ trainerdata 166, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 167, "Mickey"
+trainerdata 167 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -5344,7 +5547,7 @@ trainerdata 167, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 168, "Mickey"
+trainerdata 168 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -5380,7 +5583,7 @@ trainerdata 168, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 169, "Mickey"
+trainerdata 169 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -5409,7 +5612,7 @@ trainerdata 169, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 170, "Mickey"
+trainerdata 170 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -5445,7 +5648,7 @@ trainerdata 170, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 171, "Mickey"
+trainerdata 171 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -5481,7 +5684,7 @@ trainerdata 171, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 172, "Brent"
+trainerdata 172 // Brent
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -5498,26 +5701,26 @@ trainerdata 172, "Brent"
         // mon 0
         ivs 0
         abilityslot 0
-        level 32
+        level 36
         pokemon SPECIES_NIDORINA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 34
+        level 36
         pokemon SPECIES_NIDORINO
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 32
+        level 36
         pokemon SPECIES_GYARADOS
         ballseal 0
     endparty
 
-trainerdata 173, "Brent"
+trainerdata 173 // Brent
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -5560,7 +5763,7 @@ trainerdata 173, "Brent"
         ballseal 0
     endparty
 
-trainerdata 174, "Mickey"
+trainerdata 174 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -5596,7 +5799,7 @@ trainerdata 174, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 175, "Bethany"
+trainerdata 175 // Bethany
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     battletype SINGLE_BATTLE
@@ -5618,7 +5821,7 @@ trainerdata 175, "Bethany"
         ballseal 0
     endparty
 
-trainerdata 176, "Margaret"
+trainerdata 176 // Margaret
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     battletype SINGLE_BATTLE
@@ -5640,7 +5843,7 @@ trainerdata 176, "Margaret"
         ballseal 0
     endparty
 
-trainerdata 177, "Ethel"
+trainerdata 177 // Ethel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     battletype SINGLE_BATTLE
@@ -5662,7 +5865,7 @@ trainerdata 177, "Ethel"
         ballseal 0
     endparty
 
-trainerdata 178, "Jack"
+trainerdata 178 // Jack
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -5679,19 +5882,19 @@ trainerdata 178, "Jack"
         // mon 0
         ivs 0
         abilityslot 0
-        level 12
+        level 15
         pokemon SPECIES_ODDISH
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 15
+        level 16
         pokemon SPECIES_VOLTORB
         ballseal 0
     endparty
 
-trainerdata 179, "Kipp"
+trainerdata 179 // Kipp
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -5734,7 +5937,7 @@ trainerdata 179, "Kipp"
         ballseal 0
     endparty
 
-trainerdata 180, "Mickey"
+trainerdata 180 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -5756,7 +5959,7 @@ trainerdata 180, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 181, "William"
+trainerdata 181 // William
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -5778,7 +5981,7 @@ trainerdata 181, "William"
         ballseal 0
     endparty
 
-trainerdata 182, "Beverly"
+trainerdata 182 // Beverly
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     battletype SINGLE_BATTLE
@@ -5800,7 +6003,7 @@ trainerdata 182, "Beverly"
         ballseal 0
     endparty
 
-trainerdata 183, "Alice"
+trainerdata 183 // Alice
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -5848,7 +6051,7 @@ trainerdata 183, "Alice"
         ballseal 0
     endparty
 
-trainerdata 184, "Krise"
+trainerdata 184 // Krise
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -5865,7 +6068,7 @@ trainerdata 184, "Krise"
         // mon 0
         ivs 0
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_ODDISH
         ballseal 0
 
@@ -5877,7 +6080,7 @@ trainerdata 184, "Krise"
         ballseal 0
     endparty
 
-trainerdata 185, "Grunt"
+trainerdata 185 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -5906,7 +6109,7 @@ trainerdata 185, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 186, "Grunt"
+trainerdata 186 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -5942,7 +6145,7 @@ trainerdata 186, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 187, "Grunt"
+trainerdata 187 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -5992,7 +6195,7 @@ trainerdata 187, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 188, "Grunt"
+trainerdata 188 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6021,7 +6224,7 @@ trainerdata 188, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 189, "Grunt"
+trainerdata 189 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6064,7 +6267,7 @@ trainerdata 189, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 190, "Grunt"
+trainerdata 190 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6086,7 +6289,7 @@ trainerdata 190, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 191, "Grunt"
+trainerdata 191 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6115,7 +6318,7 @@ trainerdata 191, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 192, "Grunt"
+trainerdata 192 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6151,7 +6354,7 @@ trainerdata 192, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 193, "Grunt"
+trainerdata 193 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6187,7 +6390,7 @@ trainerdata 193, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 194, "Mickey"
+trainerdata 194 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6209,7 +6412,7 @@ trainerdata 194, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 195, "Grunt"
+trainerdata 195 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6231,7 +6434,7 @@ trainerdata 195, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 196, "Grunt"
+trainerdata 196 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6260,7 +6463,7 @@ trainerdata 196, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 197, "Grunt"
+trainerdata 197 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6289,7 +6492,7 @@ trainerdata 197, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 198, "Grunt"
+trainerdata 198 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     battletype SINGLE_BATTLE
@@ -6311,7 +6514,7 @@ trainerdata 198, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 199, "Grunt"
+trainerdata 199 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     battletype SINGLE_BATTLE
@@ -6340,7 +6543,7 @@ trainerdata 199, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 200, "Grunt"
+trainerdata 200 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     battletype SINGLE_BATTLE
@@ -6383,7 +6586,7 @@ trainerdata 200, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 201, "Andrew"
+trainerdata 201 // Andrew
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -6412,7 +6615,7 @@ trainerdata 201, "Andrew"
         ballseal 0
     endparty
 
-trainerdata 202, "Calvin"
+trainerdata 202 // Calvin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -6434,7 +6637,7 @@ trainerdata 202, "Calvin"
         ballseal 0
     endparty
 
-trainerdata 203, "Phillip"
+trainerdata 203 // Phillip
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -6463,7 +6666,7 @@ trainerdata 203, "Phillip"
         ballseal 0
     endparty
 
-trainerdata 204, "Leonard"
+trainerdata 204 // Leonard
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -6492,7 +6695,7 @@ trainerdata 204, "Leonard"
         ballseal 0
     endparty
 
-trainerdata 205, "Nick"
+trainerdata 205 // Nick
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -6540,7 +6743,7 @@ trainerdata 205, "Nick"
         ballseal 0
     endparty
 
-trainerdata 206, "Gwen"
+trainerdata 206 // Gwen
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -6583,7 +6786,7 @@ trainerdata 206, "Gwen"
         ballseal 0
     endparty
 
-trainerdata 207, "Mickey"
+trainerdata 207 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -6605,7 +6808,7 @@ trainerdata 207, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 208, "Mickey"
+trainerdata 208 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -6627,7 +6830,7 @@ trainerdata 208, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 209, "Cassie"
+trainerdata 209 // Cassie
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -6656,7 +6859,7 @@ trainerdata 209, "Cassie"
         ballseal 0
     endparty
 
-trainerdata 210, "Caroline"
+trainerdata 210 // Caroline
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -6692,7 +6895,7 @@ trainerdata 210, "Caroline"
         ballseal 0
     endparty
 
-trainerdata 211, "Huey"
+trainerdata 211 // Huey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -6709,19 +6912,26 @@ trainerdata 211, "Huey"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 21
         pokemon SPECIES_POLIWAG
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 20
+        level 24
         pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_CROAGUNK
         ballseal 0
     endparty
 
-trainerdata 212, "Terrell"
+trainerdata 212 // Terrell
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -6738,12 +6948,19 @@ trainerdata 212, "Terrell"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 25
         pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_CORPHISH
         ballseal 0
     endparty
 
-trainerdata 213, "Kent"
+trainerdata 213 // Kent
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -6760,7 +6977,7 @@ trainerdata 213, "Kent"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 23
         pokemon SPECIES_KRABBY
         move MOVE_BUBBLE_BEAM
         move MOVE_LEER
@@ -6771,7 +6988,7 @@ trainerdata 213, "Kent"
         // mon 1
         ivs 0
         abilityslot 32
-        level 20
+        level 24
         pokemon SPECIES_KRABBY
         move MOVE_BUBBLE_BEAM
         move MOVE_MUD_SHOT
@@ -6780,7 +6997,7 @@ trainerdata 213, "Kent"
         ballseal 0
     endparty
 
-trainerdata 214, "Roberto"
+trainerdata 214 // Roberto
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -6797,30 +7014,30 @@ trainerdata 214, "Roberto"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 26
         pokemon SPECIES_MACHOP
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 18
-        pokemon SPECIES_MACHOP
+        level 26
+        pokemon SPECIES_MACHOKE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 18
+        level 26
         pokemon SPECIES_POLIWHIRL
         ballseal 0
     endparty
 
-trainerdata 215, "Connie"
+trainerdata 215 // Connie
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -6833,12 +7050,19 @@ trainerdata 215, "Connie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 21
+        level 27
         pokemon SPECIES_MARILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_AZUMARILL
         ballseal 0
     endparty
 
-trainerdata 216, "Grunt"
+trainerdata 216 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6881,7 +7105,7 @@ trainerdata 216, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 217, "Denis"
+trainerdata 217 // Denis
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -6898,26 +7122,26 @@ trainerdata 217, "Denis"
         // mon 0
         ivs 50
         abilityslot 0
-        level 18
+        level 23
         pokemon SPECIES_SPEAROW
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 20
+        level 23
         pokemon SPECIES_FEAROW
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 18
-        pokemon SPECIES_SPEAROW
+        level 25
+        pokemon SPECIES_STARAVIA
         ballseal 0
     endparty
 
-trainerdata 218, "Grunt"
+trainerdata 218 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6939,7 +7163,7 @@ trainerdata 218, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 219, "Grunt"
+trainerdata 219 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6975,7 +7199,7 @@ trainerdata 219, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 220, "Grunt"
+trainerdata 220 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7004,7 +7228,7 @@ trainerdata 220, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 221, "Mickey"
+trainerdata 221 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7026,7 +7250,7 @@ trainerdata 221, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 222, "Grunt"
+trainerdata 222 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7048,7 +7272,7 @@ trainerdata 222, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 223, "Grunt"
+trainerdata 223 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7077,7 +7301,7 @@ trainerdata 223, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 224, "Grunt"
+trainerdata 224 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7113,7 +7337,7 @@ trainerdata 224, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 225, "Mickey"
+trainerdata 225 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7135,7 +7359,7 @@ trainerdata 225, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 226, "Mickey"
+trainerdata 226 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7157,7 +7381,7 @@ trainerdata 226, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 227, "Grunt"
+trainerdata 227 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7186,7 +7410,7 @@ trainerdata 227, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 228, "Grunt"
+trainerdata 228 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7215,7 +7439,7 @@ trainerdata 228, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 229, "Mickey"
+trainerdata 229 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7244,7 +7468,7 @@ trainerdata 229, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 230, "Franklin"
+trainerdata 230 // Franklin
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -7281,7 +7505,7 @@ trainerdata 230, "Franklin"
         ballseal 0
     endparty
 
-trainerdata 231, "Edward"
+trainerdata 231 // Edward
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GENTLEMAN
     battletype SINGLE_BATTLE
@@ -7303,7 +7527,7 @@ trainerdata 231, "Edward"
         ballseal 0
     endparty
 
-trainerdata 232, "Vincent"
+trainerdata 232 // Vincent
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_GUITARIST
     battletype SINGLE_BATTLE
@@ -7351,7 +7575,7 @@ trainerdata 232, "Vincent"
         ballseal 0
     endparty
 
-trainerdata 233, "Eric"
+trainerdata 233 // Eric
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -7380,7 +7604,7 @@ trainerdata 233, "Eric"
         ballseal 0
     endparty
 
-trainerdata 234, "Eoin"
+trainerdata 234 // Eoin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -7416,7 +7640,7 @@ trainerdata 234, "Eoin"
         ballseal 0
     endparty
 
-trainerdata 235, "Noland"
+trainerdata 235 // Noland
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -7445,7 +7669,7 @@ trainerdata 235, "Noland"
         ballseal 0
     endparty
 
-trainerdata 236, "Shaye"
+trainerdata 236 // Shaye
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -7493,7 +7717,7 @@ trainerdata 236, "Shaye"
         ballseal 0
     endparty
 
-trainerdata 237, "Carol"
+trainerdata 237 // Carol
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -7541,7 +7765,7 @@ trainerdata 237, "Carol"
         ballseal 0
     endparty
 
-trainerdata 238, "Stanly"
+trainerdata 238 // Stanly
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -7577,7 +7801,7 @@ trainerdata 238, "Stanly"
         ballseal 0
     endparty
 
-trainerdata 239, "Jeff"
+trainerdata 239 // Jeff
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -7606,7 +7830,7 @@ trainerdata 239, "Jeff"
         ballseal 0
     endparty
 
-trainerdata 240, "Garrett"
+trainerdata 240 // Garrett
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -7628,7 +7852,7 @@ trainerdata 240, "Garrett"
         ballseal 0
     endparty
 
-trainerdata 241, "Kenneth"
+trainerdata 241 // Kenneth
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -7671,7 +7895,7 @@ trainerdata 241, "Kenneth"
         ballseal 0
     endparty
 
-trainerdata 242, "Fritz"
+trainerdata 242 // Fritz
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_JUGGLER
     battletype SINGLE_BATTLE
@@ -7719,7 +7943,7 @@ trainerdata 242, "Fritz"
         ballseal 0
     endparty
 
-trainerdata 243, "Katie"
+trainerdata 243 // Katie
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -7741,15 +7965,15 @@ trainerdata 243, "Katie"
         ballseal 0
     endparty
 
-trainerdata 244, "Lance"
+trainerdata 244 // Lance
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CHAMPION
     battletype SINGLE_BATTLE
     nummons 6
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype2 0
     endentry
@@ -7771,11 +7995,11 @@ trainerdata 244, "Lance"
         ivs 250
         abilityslot 0
         level 49
-        pokemon SPECIES_DRAGONITE
-        item ITEM_NONE
-        move MOVE_THUNDER_WAVE
-        move MOVE_DRAGON_RUSH
-        move MOVE_THUNDER
+        pokemon SPECIES_SALAMENCE
+        item ITEM_YACHE_BERRY
+        move MOVE_FLY
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_DRAGON_CLAW
         move MOVE_HYPER_BEAM
         ballseal 0
 
@@ -7808,11 +8032,11 @@ trainerdata 244, "Lance"
         abilityslot 0
         level 48
         pokemon SPECIES_CHARIZARD
-        item ITEM_NONE
+        item ITEM_MEGA_STONE_CHARIZARD_Y
         move MOVE_SHADOW_CLAW
         move MOVE_AIR_SLASH
-        move MOVE_DRAGON_CLAW
-        move MOVE_FIRE_FANG
+        move MOVE_DRAGON_TAIL
+        move MOVE_FIRE_BLAST
         ballseal 0
 
         // mon 5
@@ -7828,13 +8052,13 @@ trainerdata 244, "Lance"
         ballseal 0
     endparty
 
-trainerdata 245, "Will"
+trainerdata 245 // Will
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_0
     battletype SINGLE_BATTLE
     nummons 5
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -7845,7 +8069,7 @@ trainerdata 245, "Will"
         // mon 0
         ivs 250
         abilityslot 0
-        level 40
+        level 45
         pokemon SPECIES_XATU
         item ITEM_NONE
         move MOVE_U_TURN
@@ -7857,7 +8081,7 @@ trainerdata 245, "Will"
         // mon 1
         ivs 250
         abilityslot 0
-        level 41
+        level 43
         pokemon SPECIES_JYNX
         item ITEM_NONE
         move MOVE_DOUBLE_SLAP
@@ -7869,21 +8093,21 @@ trainerdata 245, "Will"
         // mon 2
         ivs 250
         abilityslot 0
-        level 41
-        pokemon SPECIES_EXEGGUTOR
+        level 43
+        pokemon SPECIES_GARDEVOIR
         item ITEM_NONE
-        move MOVE_REFLECT
-        move MOVE_HYPNOSIS
-        move MOVE_EGG_BOMB
+        move MOVE_CALM_MIND
+        move MOVE_CHARGE_BEAM
+        move MOVE_FOCUS_BLAST
         move MOVE_PSYCHIC
         ballseal 0
 
         // mon 3
         ivs 250
         abilityslot 32
-        level 41
+        level 44
         pokemon SPECIES_SLOWBRO
-        item ITEM_NONE
+        item ITEM_QUICK_CLAW
         move MOVE_CURSE
         move MOVE_AMNESIA
         move MOVE_WATER_PULSE
@@ -7893,7 +8117,7 @@ trainerdata 245, "Will"
         // mon 4
         ivs 250
         abilityslot 32
-        level 42
+        level 45
         pokemon SPECIES_XATU
         item ITEM_SITRUS_BERRY
         move MOVE_AERIAL_ACE
@@ -7903,13 +8127,13 @@ trainerdata 245, "Will"
         ballseal 0
     endparty
 
-trainerdata 246, "Karen"
+trainerdata 246 // Karen
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_1
     battletype SINGLE_BATTLE
     nummons 5
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -7932,11 +8156,11 @@ trainerdata 246, "Karen"
         // mon 1
         ivs 250
         abilityslot 0
-        level 42
+        level 45
         pokemon SPECIES_VILEPLUME
-        item ITEM_NONE
+        item ITEM_MIRACLE_SEED
         move MOVE_STUN_SPORE
-        move MOVE_ACID
+        move MOVE_SLUDGE_BOMB
         move MOVE_MOONLIGHT
         move MOVE_PETAL_DANCE
         ballseal 0
@@ -7944,11 +8168,11 @@ trainerdata 246, "Karen"
         // mon 2
         ivs 250
         abilityslot 0
-        level 45
+        level 46
         pokemon SPECIES_GENGAR
         item ITEM_NONE
-        move MOVE_LICK
-        move MOVE_SPITE
+        move MOVE_SHADOW_BALL
+        move MOVE_PSYCHIC
         move MOVE_FOCUS_BLAST
         move MOVE_DESTINY_BOND
         ballseal 0
@@ -7957,7 +8181,7 @@ trainerdata 246, "Karen"
         ivs 250
         abilityslot 32
         level 44
-        pokemon SPECIES_MURKROW
+        pokemon SPECIES_HONCHKROW
         item ITEM_NONE
         move MOVE_PLUCK
         move MOVE_WHIRLWIND
@@ -7978,13 +8202,13 @@ trainerdata 246, "Karen"
         ballseal 0
     endparty
 
-trainerdata 247, "Koga"
+trainerdata 247 // Koga
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_2
     battletype SINGLE_BATTLE
     nummons 5
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -7995,12 +8219,12 @@ trainerdata 247, "Koga"
         // mon 0
         ivs 250
         abilityslot 32
-        level 40
+        level 41
         pokemon SPECIES_ARIADOS
-        item ITEM_NONE
+        item ITEM_BIG_ROOT
         move MOVE_POISON_JAB
         move MOVE_SPIDER_WEB
-        move MOVE_BATON_PASS
+        move MOVE_LEECH_LIFE
         move MOVE_GIGA_DRAIN
         ballseal 0
 
@@ -8019,19 +8243,19 @@ trainerdata 247, "Koga"
         // mon 2
         ivs 250
         abilityslot 0
-        level 43
-        pokemon SPECIES_FORRETRESS
+        level 44
+        pokemon SPECIES_TOXICROAK
         item ITEM_NONE
-        move MOVE_PROTECT
-        move MOVE_SWIFT
-        move MOVE_EXPLOSION
-        move MOVE_TOXIC_SPIKES
+        move MOVE_SWAGGER
+        move MOVE_X_SCISSOR
+        move MOVE_GUNK_SHOT
+        move MOVE_CROSS_CHOP
         ballseal 0
 
         // mon 3
         ivs 250
         abilityslot 32
-        level 42
+        level 45
         pokemon SPECIES_MUK
         item ITEM_BLACK_SLUDGE
         move MOVE_MINIMIZE
@@ -8053,7 +8277,7 @@ trainerdata 247, "Koga"
         ballseal 0
     endparty
 
-trainerdata 248, "Ed"
+trainerdata 248 // Ed
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -8089,7 +8313,7 @@ trainerdata 248, "Ed"
         ballseal 0
     endparty
 
-trainerdata 249, "Don"
+trainerdata 249 // Don
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -8106,19 +8330,19 @@ trainerdata 249, "Don"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_CATERPIE
+        level 4
+        pokemon SPECIES_METAPOD
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_CATERPIE
+        level 4
+        pokemon SPECIES_KAKUNA
         ballseal 0
     endparty
 
-trainerdata 250, "Kenji"
+trainerdata 250 // Kenji
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -8135,33 +8359,33 @@ trainerdata 250, "Kenji"
         // mon 0
         ivs 30
         abilityslot 0
-        level 27
+        level 41
         pokemon SPECIES_ONIX
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 32
+        level 41
         pokemon SPECIES_HITMONLEE
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
-        level 27
+        level 42
         pokemon SPECIES_ONIX
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 0
-        level 32
+        level 42
         pokemon SPECIES_MACHOKE
         ballseal 0
     endparty
 
-trainerdata 251, "Nob"
+trainerdata 251 // Nob
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -8178,7 +8402,7 @@ trainerdata 251, "Nob"
         // mon 0
         ivs 40
         abilityslot 32
-        level 25
+        level 28
         pokemon SPECIES_MACHOP
         move MOVE_VITAL_THROW
         move MOVE_FOCUS_ENERGY
@@ -8189,7 +8413,7 @@ trainerdata 251, "Nob"
         // mon 1
         ivs 40
         abilityslot 32
-        level 25
+        level 29
         pokemon SPECIES_MACHOKE
         move MOVE_LEER
         move MOVE_KARATE_CHOP
@@ -8198,7 +8422,7 @@ trainerdata 251, "Nob"
         ballseal 0
     endparty
 
-trainerdata 252, "Harold"
+trainerdata 252 // Harold
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -8227,7 +8451,7 @@ trainerdata 252, "Harold"
         ballseal 0
     endparty
 
-trainerdata 253, "Brock"
+trainerdata 253 // Brock
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_5
     battletype SINGLE_BATTLE
@@ -8302,7 +8526,7 @@ trainerdata 253, "Brock"
         ballseal 0
     endparty
 
-trainerdata 254, "Misty"
+trainerdata 254 // Misty
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_6
     battletype SINGLE_BATTLE
@@ -8365,7 +8589,7 @@ trainerdata 254, "Misty"
         ballseal 0
     endparty
 
-trainerdata 255, "Lt. Surge"
+trainerdata 255 // Lt. Surge
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_7
     battletype SINGLE_BATTLE
@@ -8440,7 +8664,7 @@ trainerdata 255, "Lt. Surge"
         ballseal 0
     endparty
 
-trainerdata 256, "Erika"
+trainerdata 256 // Erika
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_8
     battletype SINGLE_BATTLE
@@ -8503,7 +8727,7 @@ trainerdata 256, "Erika"
         ballseal 0
     endparty
 
-trainerdata 257, "Janine"
+trainerdata 257 // Janine
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_9
     battletype SINGLE_BATTLE
@@ -8578,7 +8802,7 @@ trainerdata 257, "Janine"
         ballseal 0
     endparty
 
-trainerdata 258, "Sabrina"
+trainerdata 258 // Sabrina
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_10
     battletype SINGLE_BATTLE
@@ -8629,7 +8853,7 @@ trainerdata 258, "Sabrina"
         ballseal 0
     endparty
 
-trainerdata 259, "Blaine"
+trainerdata 259 // Blaine
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_11
     battletype SINGLE_BATTLE
@@ -8680,15 +8904,15 @@ trainerdata 259, "Blaine"
         ballseal 0
     endparty
 
-trainerdata 260, "Red"
+trainerdata 260 // Red
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_9
     battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype2 0
     endentry
@@ -8710,12 +8934,12 @@ trainerdata 260, "Red"
         ivs 250
         abilityslot 32
         level 80
-        pokemon SPECIES_LAPRAS
-        item ITEM_NONE
-        move MOVE_BLIZZARD
-        move MOVE_BRINE
+        pokemon SPECIES_ESPEON
+        item ITEM_LIGHT_CLAY
+        move MOVE_LIGHT_SCREEN
+        move MOVE_TOXIC
         move MOVE_PSYCHIC
-        move MOVE_BODY_SLAM
+        move MOVE_REFLECT
         ballseal 0
 
         // mon 2
@@ -8723,7 +8947,7 @@ trainerdata 260, "Red"
         abilityslot 32
         level 82
         pokemon SPECIES_SNORLAX
-        item ITEM_NONE
+        item ITEM_LIFE_ORB
         move MOVE_SHADOW_BALL
         move MOVE_CRUNCH
         move MOVE_BLIZZARD
@@ -8735,7 +8959,7 @@ trainerdata 260, "Red"
         abilityslot 0
         level 84
         pokemon SPECIES_VENUSAUR
-        item ITEM_NONE
+        item ITEM_BIG_ROOT
         move MOVE_SLUDGE_BOMB
         move MOVE_GIGA_DRAIN
         move MOVE_SLEEP_POWDER
@@ -8747,7 +8971,7 @@ trainerdata 260, "Red"
         abilityslot 0
         level 84
         pokemon SPECIES_CHARIZARD
-        item ITEM_NONE
+        item ITEM_MEGA_STONE_CHARIZARD_X
         move MOVE_FLARE_BLITZ
         move MOVE_AIR_SLASH
         move MOVE_BLAST_BURN
@@ -8759,7 +8983,7 @@ trainerdata 260, "Red"
         abilityslot 0
         level 84
         pokemon SPECIES_BLASTOISE
-        item ITEM_NONE
+        item ITEM_WIDE_LENS
         move MOVE_FOCUS_BLAST
         move MOVE_HYDRO_CANNON
         move MOVE_BLIZZARD
@@ -8767,7 +8991,7 @@ trainerdata 260, "Red"
         ballseal 0
     endparty
 
-trainerdata 261, "Blue"
+trainerdata 261 // Blue
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_12
     battletype SINGLE_BATTLE
@@ -8854,7 +9078,7 @@ trainerdata 261, "Blue"
         ballseal 0
     endparty
 
-trainerdata 262, "Mickey"
+trainerdata 262 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -8890,7 +9114,7 @@ trainerdata 262, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 263, "Silver"
+trainerdata 263 // Silver - Burned Tower
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -8905,7 +9129,7 @@ trainerdata 263, "Silver"
 
     party 263
         // mon 0
-        ivs 80
+        ivs 90
         abilityslot 0
         level 20
         pokemon SPECIES_GASTLY
@@ -8927,7 +9151,7 @@ trainerdata 263, "Silver"
         ballseal 0
 
         // mon 2
-        ivs 80
+        ivs 90
         abilityslot 0
         level 20
         pokemon SPECIES_ZUBAT
@@ -8938,7 +9162,7 @@ trainerdata 263, "Silver"
         ballseal 0
 
         // mon 3
-        ivs 80
+        ivs 120
         abilityslot 0
         level 22
         pokemon SPECIES_BAYLEEF
@@ -8949,7 +9173,7 @@ trainerdata 263, "Silver"
         ballseal 0
     endparty
 
-trainerdata 264, "Silver"
+trainerdata 264 // Silver - Victory Road
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -8964,9 +9188,9 @@ trainerdata 264, "Silver"
 
     party 264
         // mon 0
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 36
+        level 41
         pokemon SPECIES_SNEASEL
         move MOVE_QUICK_ATTACK
         move MOVE_ICY_WIND
@@ -8975,9 +9199,9 @@ trainerdata 264, "Silver"
         ballseal 0
 
         // mon 1
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 38
+        level 43
         pokemon SPECIES_GOLBAT
         move MOVE_ASTONISH
         move MOVE_BITE
@@ -8986,9 +9210,9 @@ trainerdata 264, "Silver"
         ballseal 0
 
         // mon 2
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 37
+        level 42
         pokemon SPECIES_MAGNETON
         move MOVE_SPARK
         move MOVE_SUPERSONIC
@@ -8997,9 +9221,9 @@ trainerdata 264, "Silver"
         ballseal 0
 
         // mon 3
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 37
+        level 42
         pokemon SPECIES_HAUNTER
         move MOVE_MEAN_LOOK
         move MOVE_CURSE
@@ -9008,9 +9232,9 @@ trainerdata 264, "Silver"
         ballseal 0
 
         // mon 4
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 37
+        level 40
         pokemon SPECIES_KADABRA
         move MOVE_DISABLE
         move MOVE_PSYBEAM
@@ -9019,9 +9243,9 @@ trainerdata 264, "Silver"
         ballseal 0
 
         // mon 5
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 40
+        level 43
         pokemon SPECIES_MEGANIUM
         move MOVE_REFLECT
         move MOVE_PETAL_DANCE
@@ -9030,7 +9254,7 @@ trainerdata 264, "Silver"
         ballseal 0
     endparty
 
-trainerdata 265, "Silver"
+trainerdata 265 // Silver
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -9052,7 +9276,7 @@ trainerdata 265, "Silver"
         ballseal 0
     endparty
 
-trainerdata 266, "Silver"
+trainerdata 266 // Silver - Azalea
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -9067,28 +9291,28 @@ trainerdata 266, "Silver"
 
     party 266
         // mon 0
-        ivs 30
+        ivs 40
         abilityslot 0
         level 14
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 40
         abilityslot 0
         level 16
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
-        ivs 30
+        ivs 50
         abilityslot 0
         level 18
         pokemon SPECIES_QUILAVA
         ballseal 0
     endparty
 
-trainerdata 267, "Silver"
+trainerdata 267 // Silver - Burned Tower
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -9103,7 +9327,7 @@ trainerdata 267, "Silver"
 
     party 267
         // mon 0
-        ivs 80
+        ivs 90
         abilityslot 0
         level 20
         pokemon SPECIES_GASTLY
@@ -9125,7 +9349,7 @@ trainerdata 267, "Silver"
         ballseal 0
 
         // mon 2
-        ivs 80
+        ivs 90
         abilityslot 0
         level 20
         pokemon SPECIES_ZUBAT
@@ -9136,7 +9360,7 @@ trainerdata 267, "Silver"
         ballseal 0
 
         // mon 3
-        ivs 80
+        ivs 120
         abilityslot 0
         level 22
         pokemon SPECIES_QUILAVA
@@ -9147,7 +9371,7 @@ trainerdata 267, "Silver"
         ballseal 0
     endparty
 
-trainerdata 268, "Silver"
+trainerdata 268 // Silver - Victory Road
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -9162,9 +9386,9 @@ trainerdata 268, "Silver"
 
     party 268
         // mon 0
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 36
+        level 41
         pokemon SPECIES_SNEASEL
         move MOVE_QUICK_ATTACK
         move MOVE_ICY_WIND
@@ -9173,9 +9397,9 @@ trainerdata 268, "Silver"
         ballseal 0
 
         // mon 1
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 38
+        level 43
         pokemon SPECIES_GOLBAT
         move MOVE_ASTONISH
         move MOVE_BITE
@@ -9184,9 +9408,9 @@ trainerdata 268, "Silver"
         ballseal 0
 
         // mon 2
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 37
+        level 42
         pokemon SPECIES_MAGNETON
         move MOVE_SPARK
         move MOVE_SUPERSONIC
@@ -9195,9 +9419,9 @@ trainerdata 268, "Silver"
         ballseal 0
 
         // mon 3
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 37
+        level 42
         pokemon SPECIES_HAUNTER
         move MOVE_MEAN_LOOK
         move MOVE_CURSE
@@ -9206,9 +9430,9 @@ trainerdata 268, "Silver"
         ballseal 0
 
         // mon 4
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 37
+        level 40
         pokemon SPECIES_KADABRA
         move MOVE_DISABLE
         move MOVE_PSYBEAM
@@ -9217,9 +9441,9 @@ trainerdata 268, "Silver"
         ballseal 0
 
         // mon 5
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 40
+        level 43
         pokemon SPECIES_TYPHLOSION
         move MOVE_LAVA_PLUME
         move MOVE_SWIFT
@@ -9228,7 +9452,7 @@ trainerdata 268, "Silver"
         ballseal 0
     endparty
 
-trainerdata 269, "Silver"
+trainerdata 269 // Silver - Azalea
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -9243,28 +9467,28 @@ trainerdata 269, "Silver"
 
     party 269
         // mon 0
-        ivs 30
+        ivs 40
         abilityslot 0
         level 14
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 40
         abilityslot 0
         level 16
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
-        ivs 30
+        ivs 50
         abilityslot 0
         level 18
         pokemon SPECIES_CROCONAW
         ballseal 0
     endparty
 
-trainerdata 270, "Silver"
+trainerdata 270 // Silver - Burned Tower
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -9301,7 +9525,7 @@ trainerdata 270, "Silver"
         ballseal 0
 
         // mon 2
-        ivs 80
+        ivs 90
         abilityslot 0
         level 20
         pokemon SPECIES_ZUBAT
@@ -9312,7 +9536,7 @@ trainerdata 270, "Silver"
         ballseal 0
 
         // mon 3
-        ivs 80
+        ivs 120
         abilityslot 0
         level 22
         pokemon SPECIES_CROCONAW
@@ -9323,7 +9547,7 @@ trainerdata 270, "Silver"
         ballseal 0
     endparty
 
-trainerdata 271, "Silver"
+trainerdata 271 // Silver
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -9393,7 +9617,7 @@ trainerdata 271, "Silver"
         ballseal 0
     endparty
 
-trainerdata 272, "Silver"
+trainerdata 272 // Silver - Victory Road
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -9408,9 +9632,9 @@ trainerdata 272, "Silver"
 
     party 272
         // mon 0
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 36
+        level 41
         pokemon SPECIES_SNEASEL
         move MOVE_QUICK_ATTACK
         move MOVE_ICY_WIND
@@ -9419,9 +9643,9 @@ trainerdata 272, "Silver"
         ballseal 0
 
         // mon 1
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 38
+        level 43
         pokemon SPECIES_GOLBAT
         move MOVE_ASTONISH
         move MOVE_BITE
@@ -9430,9 +9654,9 @@ trainerdata 272, "Silver"
         ballseal 0
 
         // mon 2
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 37
+        level 42
         pokemon SPECIES_MAGNETON
         move MOVE_SPARK
         move MOVE_SUPERSONIC
@@ -9441,9 +9665,9 @@ trainerdata 272, "Silver"
         ballseal 0
 
         // mon 3
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 37
+        level 42
         pokemon SPECIES_HAUNTER
         move MOVE_MEAN_LOOK
         move MOVE_CURSE
@@ -9452,9 +9676,9 @@ trainerdata 272, "Silver"
         ballseal 0
 
         // mon 4
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 37
+        level 40
         pokemon SPECIES_KADABRA
         move MOVE_DISABLE
         move MOVE_PSYBEAM
@@ -9463,9 +9687,9 @@ trainerdata 272, "Silver"
         ballseal 0
 
         // mon 5
-        ivs 160
+        ivs 220
         abilityslot 0
-        level 40
+        level 43
         pokemon SPECIES_FERALIGATR
         move MOVE_WATERFALL
         move MOVE_ICE_FANG
@@ -9474,7 +9698,7 @@ trainerdata 272, "Silver"
         ballseal 0
     endparty
 
-trainerdata 273, "Mickey"
+trainerdata 273 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -9510,7 +9734,7 @@ trainerdata 273, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 274, "Todd"
+trainerdata 274 // Todd
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -9546,7 +9770,7 @@ trainerdata 274, "Todd"
         ballseal 0
     endparty
 
-trainerdata 275, "Todd"
+trainerdata 275 // Todd
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -9589,7 +9813,7 @@ trainerdata 275, "Todd"
         ballseal 0
     endparty
 
-trainerdata 276, "Liz"
+trainerdata 276 // Liz
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -9618,7 +9842,7 @@ trainerdata 276, "Liz"
         ballseal 0
     endparty
 
-trainerdata 277, "Liz"
+trainerdata 277 // Liz
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -9654,7 +9878,7 @@ trainerdata 277, "Liz"
         ballseal 0
     endparty
 
-trainerdata 278, "Kenji"
+trainerdata 278 // Kenji
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -9671,33 +9895,33 @@ trainerdata 278, "Kenji"
         // mon 0
         ivs 30
         abilityslot 0
-        level 30
+        level 45
         pokemon SPECIES_ONIX
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 37
+        level 48
         pokemon SPECIES_MACHAMP
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
-        level 33
+        level 48
         pokemon SPECIES_ONIX
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 0
-        level 41
+        level 47
         pokemon SPECIES_HITMONLEE
         ballseal 0
     endparty
 
-trainerdata 279, "Joey"
+trainerdata 279 // Joey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -9719,7 +9943,7 @@ trainerdata 279, "Joey"
         ballseal 0
     endparty
 
-trainerdata 280, "Joey"
+trainerdata 280 // Joey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -9745,7 +9969,7 @@ trainerdata 280, "Joey"
         ballseal 0
     endparty
 
-trainerdata 281, "Richard"
+trainerdata 281 // Richard
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -9762,12 +9986,12 @@ trainerdata 281, "Richard"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 20
         pokemon SPECIES_CHARMELEON
         ballseal 0
     endparty
 
-trainerdata 282, "Ned"
+trainerdata 282 // Ned
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -9784,26 +10008,26 @@ trainerdata 282, "Ned"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 17
+        level 18
         pokemon SPECIES_GROWLITHE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 16
-        pokemon SPECIES_KOFFING
+        level 19
+        pokemon SPECIES_MAGMAR
         ballseal 0
     endparty
 
-trainerdata 283, "Orson"
+trainerdata 283 // Orson
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BURGLAR
     battletype SINGLE_BATTLE
@@ -9840,7 +10064,7 @@ trainerdata 283, "Orson"
         ballseal 0
     endparty
 
-trainerdata 284, "Corey"
+trainerdata 284 // Corey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BURGLAR
     battletype SINGLE_BATTLE
@@ -9883,7 +10107,7 @@ trainerdata 284, "Corey"
         ballseal 0
     endparty
 
-trainerdata 285, "Silver"
+trainerdata 285 // Silver
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -9964,7 +10188,7 @@ trainerdata 285, "Silver"
         ballseal 0
     endparty
 
-trainerdata 286, "Silver"
+trainerdata 286 // Silver
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -10045,7 +10269,7 @@ trainerdata 286, "Silver"
         ballseal 0
     endparty
 
-trainerdata 287, "Silver"
+trainerdata 287 // Silver
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -10126,7 +10350,7 @@ trainerdata 287, "Silver"
         ballseal 0
     endparty
 
-trainerdata 288, "Silver"
+trainerdata 288 // Silver
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -10196,7 +10420,7 @@ trainerdata 288, "Silver"
         ballseal 0
     endparty
 
-trainerdata 289, "Silver"
+trainerdata 289 // Silver
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -10266,7 +10490,7 @@ trainerdata 289, "Silver"
         ballseal 0
     endparty
 
-trainerdata 290, "Li"
+trainerdata 290 // Li
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ELDER
     battletype SINGLE_BATTLE
@@ -10290,7 +10514,7 @@ trainerdata 290, "Li"
         // mon 1
         ivs 0
         abilityslot 0
-        level 7
+        level 8
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
@@ -10302,7 +10526,7 @@ trainerdata 290, "Li"
         ballseal 0
     endparty
 
-trainerdata 291, "Debbie"
+trainerdata 291 // Debbie
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -10324,7 +10548,7 @@ trainerdata 291, "Debbie"
         ballseal 0
     endparty
 
-trainerdata 292, "Mickey"
+trainerdata 292 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -10346,7 +10570,7 @@ trainerdata 292, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 293, "Nicole"
+trainerdata 293 // Nicole
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -10382,7 +10606,7 @@ trainerdata 293, "Nicole"
         ballseal 0
     endparty
 
-trainerdata 294, "Lori"
+trainerdata 294 // Lori
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -10430,7 +10654,7 @@ trainerdata 294, "Lori"
         ballseal 0
     endparty
 
-trainerdata 295, "Mickey"
+trainerdata 295 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -10452,7 +10676,7 @@ trainerdata 295, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 296, "Nikki"
+trainerdata 296 // Nikki
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -10481,7 +10705,7 @@ trainerdata 296, "Nikki"
         ballseal 0
     endparty
 
-trainerdata 297, "Diana"
+trainerdata 297 // Diana
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -10507,7 +10731,7 @@ trainerdata 297, "Diana"
         ballseal 0
     endparty
 
-trainerdata 298, "Briana"
+trainerdata 298 // Briana
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -10544,7 +10768,7 @@ trainerdata 298, "Briana"
         ballseal 0
     endparty
 
-trainerdata 299, "Hank"
+trainerdata 299 // Hank
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -10573,7 +10797,7 @@ trainerdata 299, "Hank"
         ballseal 0
     endparty
 
-trainerdata 300, "Roy"
+trainerdata 300 // Roy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -10602,7 +10826,7 @@ trainerdata 300, "Roy"
         ballseal 0
     endparty
 
-trainerdata 301, "Boris"
+trainerdata 301 // Boris
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -10638,7 +10862,7 @@ trainerdata 301, "Boris"
         ballseal 0
     endparty
 
-trainerdata 302, "Bob"
+trainerdata 302 // Bob
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -10660,7 +10884,7 @@ trainerdata 302, "Bob"
         ballseal 0
     endparty
 
-trainerdata 303, "Jose"
+trainerdata 303 // Jose
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -10682,7 +10906,7 @@ trainerdata 303, "Jose"
         ballseal 0
     endparty
 
-trainerdata 304, "Mickey"
+trainerdata 304 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -10725,7 +10949,7 @@ trainerdata 304, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 305, "Mickey"
+trainerdata 305 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -10768,7 +10992,7 @@ trainerdata 305, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 306, "Mickey"
+trainerdata 306 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -10811,7 +11035,7 @@ trainerdata 306, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 307, "Mickey"
+trainerdata 307 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -10854,7 +11078,7 @@ trainerdata 307, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 308, "Jerry"
+trainerdata 308 // Jerry
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -10880,7 +11104,7 @@ trainerdata 308, "Jerry"
         ballseal 0
     endparty
 
-trainerdata 309, "Dwayne"
+trainerdata 309 // Dwayne
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -10923,7 +11147,7 @@ trainerdata 309, "Dwayne"
         ballseal 0
     endparty
 
-trainerdata 310, "Harris"
+trainerdata 310 // Harris
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -10945,7 +11169,7 @@ trainerdata 310, "Harris"
         ballseal 0
     endparty
 
-trainerdata 311, "Zeke"
+trainerdata 311 // Zeke
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -10974,7 +11198,7 @@ trainerdata 311, "Zeke"
         ballseal 0
     endparty
 
-trainerdata 312, "Charles"
+trainerdata 312 // Charles
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -11010,7 +11234,7 @@ trainerdata 312, "Charles"
         ballseal 0
     endparty
 
-trainerdata 313, "Reese"
+trainerdata 313 // Reese
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -11032,7 +11256,7 @@ trainerdata 313, "Reese"
         ballseal 0
     endparty
 
-trainerdata 314, "Joel"
+trainerdata 314 // Joel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -11061,7 +11285,7 @@ trainerdata 314, "Joel"
         ballseal 0
     endparty
 
-trainerdata 315, "Glenn"
+trainerdata 315 // Glenn
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -11097,7 +11321,7 @@ trainerdata 315, "Glenn"
         ballseal 0
     endparty
 
-trainerdata 316, "Herman"
+trainerdata 316 // Herman
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -11145,7 +11369,7 @@ trainerdata 316, "Herman"
         ballseal 0
     endparty
 
-trainerdata 317, "Fidel"
+trainerdata 317 // Fidel
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -11171,7 +11395,7 @@ trainerdata 317, "Fidel"
         ballseal 0
     endparty
 
-trainerdata 318, "Burt"
+trainerdata 318 // Burt
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -11208,7 +11432,7 @@ trainerdata 318, "Burt"
         ballseal 0
     endparty
 
-trainerdata 319, "Bill"
+trainerdata 319 // Bill
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -11225,19 +11449,19 @@ trainerdata 319, "Bill"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
+        level 9
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 6
+        level 9
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty
 
-trainerdata 320, "Martin"
+trainerdata 320 // Martin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -11266,7 +11490,7 @@ trainerdata 320, "Martin"
         ballseal 0
     endparty
 
-trainerdata 321, "Stephen"
+trainerdata 321 // Stephen
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -11302,7 +11526,7 @@ trainerdata 321, "Stephen"
         ballseal 0
     endparty
 
-trainerdata 322, "Barney"
+trainerdata 322 // Barney
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -11338,7 +11562,7 @@ trainerdata 322, "Barney"
         ballseal 0
     endparty
 
-trainerdata 323, "Tully"
+trainerdata 323 // Tully
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -11355,12 +11579,19 @@ trainerdata 323, "Tully"
         // mon 0
         ivs 0
         abilityslot 0
-        level 33
+        level 40
         pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MILOTIC
         ballseal 0
     endparty
 
-trainerdata 324, "Tully"
+trainerdata 324 // Tully
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -11377,26 +11608,33 @@ trainerdata 324, "Tully"
         // mon 0
         ivs 0
         abilityslot 0
-        level 30
+        level 38
         pokemon SPECIES_GOLDEEN
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 30
+        level 38
         pokemon SPECIES_GOLDEEN
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 38
+        level 40
         pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MILOTIC
         ballseal 0
     endparty
 
-trainerdata 325, "Wilton"
+trainerdata 325 // Wilton
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -11413,26 +11651,26 @@ trainerdata 325, "Wilton"
         // mon 0
         ivs 0
         abilityslot 0
-        level 32
+        level 37
         pokemon SPECIES_GOLDEEN
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 32
+        level 37
         pokemon SPECIES_GOLDEEN
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 36
+        level 37
         pokemon SPECIES_SEAKING
         ballseal 0
     endparty
 
-trainerdata 326, "Jo & Zoe"
+trainerdata 326 // Jo & Zoe
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -11469,7 +11707,7 @@ trainerdata 326, "Jo & Zoe"
         ballseal 0
     endparty
 
-trainerdata 327, "Danny"
+trainerdata 327 // Danny
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -11505,7 +11743,7 @@ trainerdata 327, "Danny"
         ballseal 0
     endparty
 
-trainerdata 328, "Tommy"
+trainerdata 328 // Tommy
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -11542,7 +11780,7 @@ trainerdata 328, "Tommy"
         ballseal 0
     endparty
 
-trainerdata 329, "Dudley"
+trainerdata 329 // Dudley
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -11565,7 +11803,7 @@ trainerdata 329, "Dudley"
         ballseal 0
     endparty
 
-trainerdata 330, "Joe"
+trainerdata 330 // Joe
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -11596,7 +11834,7 @@ trainerdata 330, "Joe"
         ballseal 0
     endparty
 
-trainerdata 331, "Billy"
+trainerdata 331 // Billy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -11632,7 +11870,7 @@ trainerdata 331, "Billy"
         ballseal 0
     endparty
 
-trainerdata 332, "Heidi"
+trainerdata 332 // Heidi
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -11661,7 +11899,7 @@ trainerdata 332, "Heidi"
         ballseal 0
     endparty
 
-trainerdata 333, "Edna"
+trainerdata 333 // Edna
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -11690,7 +11928,7 @@ trainerdata 333, "Edna"
         ballseal 0
     endparty
 
-trainerdata 334, "Gina"
+trainerdata 334 // Gina
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -11726,7 +11964,7 @@ trainerdata 334, "Gina"
         ballseal 0
     endparty
 
-trainerdata 335, "Erin"
+trainerdata 335 // Erin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -11755,7 +11993,7 @@ trainerdata 335, "Erin"
         ballseal 0
     endparty
 
-trainerdata 336, "Tanya"
+trainerdata 336 // Tanya
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -11781,7 +12019,7 @@ trainerdata 336, "Tanya"
         ballseal 0
     endparty
 
-trainerdata 337, "Gregory"
+trainerdata 337 // Gregory
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_GENTLEMAN
     battletype SINGLE_BATTLE
@@ -11829,7 +12067,7 @@ trainerdata 337, "Gregory"
         ballseal 0
     endparty
 
-trainerdata 338, "Mickey"
+trainerdata 338 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GENTLEMAN
     battletype SINGLE_BATTLE
@@ -11851,7 +12089,7 @@ trainerdata 338, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 339, "Wai"
+trainerdata 339 // Wai
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -11887,7 +12125,7 @@ trainerdata 339, "Wai"
         ballseal 0
     endparty
 
-trainerdata 340, "Mickey"
+trainerdata 340 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -11909,7 +12147,7 @@ trainerdata 340, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 341, "Mickey"
+trainerdata 341 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -11931,7 +12169,7 @@ trainerdata 341, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 342, "Mickey"
+trainerdata 342 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -11953,7 +12191,7 @@ trainerdata 342, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 343, "Mickey"
+trainerdata 343 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -11975,7 +12213,7 @@ trainerdata 343, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 344, "Mickey"
+trainerdata 344 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -11997,7 +12235,7 @@ trainerdata 344, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 345, "Mickey"
+trainerdata 345 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -12019,7 +12257,7 @@ trainerdata 345, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 346, "Julia"
+trainerdata 346 // Julia
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -12067,7 +12305,7 @@ trainerdata 346, "Julia"
         ballseal 0
     endparty
 
-trainerdata 347, "Mickey"
+trainerdata 347 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -12089,7 +12327,7 @@ trainerdata 347, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 348, "Robert"
+trainerdata 348 // Robert
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -12111,7 +12349,7 @@ trainerdata 348, "Robert"
         ballseal 0
     endparty
 
-trainerdata 349, "Joshua"
+trainerdata 349 // Joshua
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -12168,7 +12406,7 @@ trainerdata 349, "Joshua"
         ballseal 0
     endparty
 
-trainerdata 350, "Carter"
+trainerdata 350 // Carter
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -12204,7 +12442,7 @@ trainerdata 350, "Carter"
         ballseal 0
     endparty
 
-trainerdata 351, "Trevor"
+trainerdata 351 // Trevor
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -12226,7 +12464,7 @@ trainerdata 351, "Trevor"
         ballseal 0
     endparty
 
-trainerdata 352, "Georgia"
+trainerdata 352 // Georgia
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     battletype SINGLE_BATTLE
@@ -12276,7 +12514,7 @@ trainerdata 352, "Georgia"
         ballseal 0
     endparty
 
-trainerdata 353, "Grunt"
+trainerdata 353 // Grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -12298,7 +12536,7 @@ trainerdata 353, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 354, "Laura"
+trainerdata 354 // Laura
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -12337,7 +12575,7 @@ trainerdata 354, "Laura"
         ballseal 0
     endparty
 
-trainerdata 355, "Shannon"
+trainerdata 355 // Shannon
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -12373,7 +12611,7 @@ trainerdata 355, "Shannon"
         ballseal 0
     endparty
 
-trainerdata 356, "Michelle"
+trainerdata 356 // Michelle
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -12421,7 +12659,7 @@ trainerdata 356, "Michelle"
         ballseal 0
     endparty
 
-trainerdata 357, "Clarke"
+trainerdata 357 // Clarke
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -12450,7 +12688,7 @@ trainerdata 357, "Clarke"
         ballseal 0
     endparty
 
-trainerdata 358, "Kenny"
+trainerdata 358 // Kenny
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -12486,7 +12724,7 @@ trainerdata 358, "Kenny"
         ballseal 0
     endparty
 
-trainerdata 359, "Jim"
+trainerdata 359 // Jim
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -12508,7 +12746,7 @@ trainerdata 359, "Jim"
         ballseal 0
     endparty
 
-trainerdata 360, "Arnie"
+trainerdata 360 // Arnie
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -12530,7 +12768,7 @@ trainerdata 360, "Arnie"
         ballseal 0
     endparty
 
-trainerdata 361, "Kevin"
+trainerdata 361 // Kevin
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -12578,7 +12816,7 @@ trainerdata 361, "Kevin"
         ballseal 0
     endparty
 
-trainerdata 362, "Quinn"
+trainerdata 362 // Quinn
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -12615,7 +12853,7 @@ trainerdata 362, "Quinn"
         ballseal 0
     endparty
 
-trainerdata 363, "Emma"
+trainerdata 363 // Emma
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -12637,7 +12875,7 @@ trainerdata 363, "Emma"
         ballseal 0
     endparty
 
-trainerdata 364, "Sam"
+trainerdata 364 // Sam
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -12668,7 +12906,7 @@ trainerdata 364, "Sam"
         ballseal 0
     endparty
 
-trainerdata 365, "Tyrone"
+trainerdata 365 // Tyrone
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -12704,7 +12942,7 @@ trainerdata 365, "Tyrone"
         ballseal 0
     endparty
 
-trainerdata 366, "Pat"
+trainerdata 366 // Pat
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -12731,7 +12969,7 @@ trainerdata 366, "Pat"
         ballseal 0
     endparty
 
-trainerdata 367, "Shawn"
+trainerdata 367 // Shawn
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -12770,7 +13008,7 @@ trainerdata 367, "Shawn"
         ballseal 0
     endparty
 
-trainerdata 368, "Rebecca"
+trainerdata 368 // Rebecca
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_MEDIUM
     battletype SINGLE_BATTLE
@@ -12807,7 +13045,7 @@ trainerdata 368, "Rebecca"
         ballseal 0
     endparty
 
-trainerdata 369, "Darcy"
+trainerdata 369 // Darcy
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_MEDIUM
     battletype SINGLE_BATTLE
@@ -12844,7 +13082,7 @@ trainerdata 369, "Darcy"
         ballseal 0
     endparty
 
-trainerdata 370, "Jerome"
+trainerdata 370 // Jerome
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -12887,7 +13125,7 @@ trainerdata 370, "Jerome"
         ballseal 0
     endparty
 
-trainerdata 371, "Tucker"
+trainerdata 371 // Tucker
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -12916,7 +13154,7 @@ trainerdata 371, "Tucker"
         ballseal 0
     endparty
 
-trainerdata 372, "Mickey"
+trainerdata 372 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -12952,7 +13190,7 @@ trainerdata 372, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 373, "Frankie"
+trainerdata 373 // Frankie
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -12974,7 +13212,7 @@ trainerdata 373, "Frankie"
         ballseal 0
     endparty
 
-trainerdata 374, "Tyson"
+trainerdata 374 // Tyson
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -13011,7 +13249,7 @@ trainerdata 374, "Tyson"
         ballseal 0
     endparty
 
-trainerdata 375, "Mickey"
+trainerdata 375 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -13047,7 +13285,7 @@ trainerdata 375, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 376, "Mickey"
+trainerdata 376 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -13083,7 +13321,7 @@ trainerdata 376, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 377, "Parker"
+trainerdata 377 // Parker
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -13120,7 +13358,7 @@ trainerdata 377, "Parker"
         ballseal 0
     endparty
 
-trainerdata 378, "Warren"
+trainerdata 378 // Warren
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -13149,7 +13387,7 @@ trainerdata 378, "Warren"
         ballseal 0
     endparty
 
-trainerdata 379, "Jimmy"
+trainerdata 379 // Jimmy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -13185,7 +13423,7 @@ trainerdata 379, "Jimmy"
         ballseal 0
     endparty
 
-trainerdata 380, "Owen"
+trainerdata 380 // Owen
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -13207,7 +13445,7 @@ trainerdata 380, "Owen"
         ballseal 0
     endparty
 
-trainerdata 381, "Jason"
+trainerdata 381 // Jason
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -13236,7 +13474,7 @@ trainerdata 381, "Jason"
         ballseal 0
     endparty
 
-trainerdata 382, "Hillary"
+trainerdata 382 // Hillary
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     battletype SINGLE_BATTLE
@@ -13265,7 +13503,7 @@ trainerdata 382, "Hillary"
         ballseal 0
     endparty
 
-trainerdata 383, "Peter"
+trainerdata 383 // Peter
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -13282,26 +13520,26 @@ trainerdata 383, "Peter"
         // mon 0
         ivs 50
         abilityslot 0
-        level 6
+        level 8
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
-        level 6
+        level 8
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 8
+        level 9
         pokemon SPECIES_SPEAROW
         ballseal 0
     endparty
 
-trainerdata 384, "Daniel"
+trainerdata 384 // Daniel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -13321,9 +13559,15 @@ trainerdata 384, "Daniel"
         level 11
         pokemon SPECIES_ONIX
         ballseal 0
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 6
+        pokemon SPECIES_NOSEPASS
+        ballseal 0
     endparty
 
-trainerdata 385, "Dara & Dia"
+trainerdata 385 // Dara & Dia
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -13352,7 +13596,7 @@ trainerdata 385, "Dara & Dia"
         ballseal 0
     endparty
 
-trainerdata 386, "Greg"
+trainerdata 386 // Greg
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -13376,9 +13620,20 @@ trainerdata 386, "Greg"
         move MOVE_DREAM_EATER
         move MOVE_NONE
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 17
+        pokemon SPECIES_KADABRA
+        move MOVE_IMPRISON
+        move MOVE_CONFUSION
+        move MOVE_KINESIS
+        move MOVE_NONE
+        ballseal 0
     endparty
 
-trainerdata 387, "Amy & Mimi"
+trainerdata 387 // Amy & Mimi
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -13407,7 +13662,7 @@ trainerdata 387, "Amy & Mimi"
         ballseal 0
     endparty
 
-trainerdata 388, "Walt"
+trainerdata 388 // Walt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -13424,19 +13679,19 @@ trainerdata 388, "Walt"
         // mon 0
         ivs 0
         abilityslot 0
-        level 11
+        level 15
         pokemon SPECIES_MAGMAR
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_MAGMAR
         ballseal 0
     endparty
 
-trainerdata 389, "Nelson"
+trainerdata 389 // Nelson
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -13473,7 +13728,7 @@ trainerdata 389, "Nelson"
         ballseal 0
     endparty
 
-trainerdata 390, "Ray"
+trainerdata 390 // Ray
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -13493,9 +13748,15 @@ trainerdata 390, "Ray"
         level 9
         pokemon SPECIES_VULPIX
         ballseal 0
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_GROWLITHE
+        ballseal 0
     endparty
 
-trainerdata 391, "Issac"
+trainerdata 391 // Issac
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -13521,7 +13782,7 @@ trainerdata 391, "Issac"
         ballseal 0
     endparty
 
-trainerdata 392, "Donald"
+trainerdata 392 // Donald
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -13550,7 +13811,7 @@ trainerdata 392, "Donald"
         ballseal 0
     endparty
 
-trainerdata 393, "Teru"
+trainerdata 393 // Teru
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -13593,7 +13854,7 @@ trainerdata 393, "Teru"
         ballseal 0
     endparty
 
-trainerdata 394, "Mickey"
+trainerdata 394 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -13629,7 +13890,7 @@ trainerdata 394, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 395, "Mark"
+trainerdata 395 // Mark
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -13650,7 +13911,7 @@ trainerdata 395, "Mark"
         pokemon SPECIES_ABRA
         move MOVE_TELEPORT
         move MOVE_FLASH
-        move MOVE_NONE
+        move MOVE_HIDDEN_POWER
         move MOVE_NONE
         ballseal 0
 
@@ -13661,7 +13922,7 @@ trainerdata 395, "Mark"
         pokemon SPECIES_ABRA
         move MOVE_TELEPORT
         move MOVE_FLASH
-        move MOVE_NONE
+        move MOVE_HIDDEN_POWER
         move MOVE_NONE
         ballseal 0
 
@@ -13673,11 +13934,11 @@ trainerdata 395, "Mark"
         move MOVE_TELEPORT
         move MOVE_KINESIS
         move MOVE_CONFUSION
-        move MOVE_NONE
+        move MOVE_HIDDEN_POWER
         ballseal 0
     endparty
 
-trainerdata 396, "Horton"
+trainerdata 396 // Horton
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_JUGGLER
     battletype SINGLE_BATTLE
@@ -13725,7 +13986,7 @@ trainerdata 396, "Horton"
         ballseal 0
     endparty
 
-trainerdata 397, "Chad"
+trainerdata 397 // Chad
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -13742,12 +14003,19 @@ trainerdata 397, "Chad"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
+        level 24
         pokemon SPECIES_MR_MIME
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_SUDOWOODO
         ballseal 0
     endparty
 
-trainerdata 398, "Valerie"
+trainerdata 398 // Valerie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -13764,8 +14032,8 @@ trainerdata 398, "Valerie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
-        pokemon SPECIES_HOPPIP
+        level 24
+        pokemon SPECIES_SKIPLOOM
         move MOVE_MEGA_DRAIN
         move MOVE_TAIL_WHIP
         move MOVE_TACKLE
@@ -13775,16 +14043,16 @@ trainerdata 398, "Valerie"
         // mon 1
         ivs 0
         abilityslot 32
-        level 18
-        pokemon SPECIES_SKIPLOOM
+        level 26
+        pokemon SPECIES_SUNFLORA
         move MOVE_MEGA_DRAIN
-        move MOVE_TAIL_WHIP
-        move MOVE_TACKLE
-        move MOVE_STUN_SPORE
+        move MOVE_GRASS_WHISTLE
+        move MOVE_BULLET_SEED
+        move MOVE_LEECH_SEED
         ballseal 0
     endparty
 
-trainerdata 399, "Lyle"
+trainerdata 399 // Lyle
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -13820,7 +14088,7 @@ trainerdata 399, "Lyle"
         ballseal 0
     endparty
 
-trainerdata 400, "Dana"
+trainerdata 400 // Dana
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -13837,7 +14105,7 @@ trainerdata 400, "Dana"
         // mon 0
         ivs 0
         abilityslot 0
-        level 19
+        level 22
         pokemon SPECIES_FLAAFFY
         move MOVE_TACKLE
         move MOVE_GROWL
@@ -13848,7 +14116,7 @@ trainerdata 400, "Dana"
         // mon 1
         ivs 0
         abilityslot 0
-        level 19
+        level 24
         pokemon SPECIES_PSYDUCK
         move MOVE_WATER_GUN
         move MOVE_TAIL_WHIP
@@ -13857,7 +14125,7 @@ trainerdata 400, "Dana"
         ballseal 0
     endparty
 
-trainerdata 401, "Alfred"
+trainerdata 401 // Alfred
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GENTLEMAN
     battletype SINGLE_BATTLE
@@ -13874,12 +14142,19 @@ trainerdata 401, "Alfred"
         // mon 0
         ivs 0
         abilityslot 0
-        level 22
+        level 25
         pokemon SPECIES_NOCTOWL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_KIRLIA
         ballseal 0
     endparty
 
-trainerdata 402, "Tiffany"
+trainerdata 402 // Tiffany
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -13896,7 +14171,7 @@ trainerdata 402, "Tiffany"
         // mon 0
         ivs 0
         abilityslot 0
-        level 21
+        level 32
         pokemon SPECIES_CLEFAIRY
         move MOVE_ENCORE
         move MOVE_SING
@@ -13905,7 +14180,7 @@ trainerdata 402, "Tiffany"
         ballseal 0
     endparty
 
-trainerdata 403, "Spencer"
+trainerdata 403 // Spencer
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -13922,26 +14197,26 @@ trainerdata 403, "Spencer"
         // mon 0
         ivs 0
         abilityslot 0
-        level 18
+        level 32
         pokemon SPECIES_SANDSHREW
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 18
+        level 33
         pokemon SPECIES_SANDSLASH
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_ZUBAT
+        level 32
+        pokemon SPECIES_GOLBAT
         ballseal 0
     endparty
 
-trainerdata 404, "Grunt"
+trainerdata 404 // Grunt
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TEAM_ROCKET_1
     battletype SINGLE_BATTLE
@@ -13978,7 +14253,7 @@ trainerdata 404, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 405, "Phil"
+trainerdata 405 // Phil
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -13995,8 +14270,8 @@ trainerdata 405, "Phil"
         // mon 0
         ivs 0
         abilityslot 0
-        level 27
-        pokemon SPECIES_NATU
+        level 34
+        pokemon SPECIES_XATU
         move MOVE_LEER
         move MOVE_NIGHT_SHADE
         move MOVE_ME_FIRST
@@ -14006,7 +14281,7 @@ trainerdata 405, "Phil"
         // mon 1
         ivs 0
         abilityslot 0
-        level 29
+        level 35
         pokemon SPECIES_KADABRA
         move MOVE_DISABLE
         move MOVE_PSYBEAM
@@ -14015,7 +14290,7 @@ trainerdata 405, "Phil"
         ballseal 0
     endparty
 
-trainerdata 406, "Zach"
+trainerdata 406 // Zach
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -14032,12 +14307,12 @@ trainerdata 406, "Zach"
         // mon 0
         ivs 0
         abilityslot 0
-        level 30
+        level 37
         pokemon SPECIES_RHYHORN
         ballseal 0
     endparty
 
-trainerdata 407, "Allen"
+trainerdata 407 // Allen
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -14054,7 +14329,7 @@ trainerdata 407, "Allen"
         // mon 0
         ivs 50
         abilityslot 0
-        level 29
+        level 36
         pokemon SPECIES_CHARMELEON
         move MOVE_EMBER
         move MOVE_SMOKESCREEN
@@ -14065,8 +14340,8 @@ trainerdata 407, "Allen"
         // mon 1
         ivs 50
         abilityslot 0
-        level 29
-        pokemon SPECIES_MAGNEMITE
+        level 36
+        pokemon SPECIES_MAGNETON
         move MOVE_SPARK
         move MOVE_THUNDER_WAVE
         move MOVE_SUPERSONIC
@@ -14074,7 +14349,7 @@ trainerdata 407, "Allen"
         ballseal 0
     endparty
 
-trainerdata 408, "Cybil"
+trainerdata 408 // Cybil
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -14091,8 +14366,8 @@ trainerdata 408, "Cybil"
         // mon 0
         ivs 50
         abilityslot 0
-        level 29
-        pokemon SPECIES_MAREEP
+        level 36
+        pokemon SPECIES_FLAAFFY
         move MOVE_DISCHARGE
         move MOVE_COTTON_SPORE
         move MOVE_CHARGE
@@ -14102,7 +14377,7 @@ trainerdata 408, "Cybil"
         // mon 1
         ivs 50
         abilityslot 0
-        level 29
+        level 36
         pokemon SPECIES_BELLOSSOM
         move MOVE_MEGA_DRAIN
         move MOVE_STUN_SPORE
@@ -14111,7 +14386,7 @@ trainerdata 408, "Cybil"
         ballseal 0
     endparty
 
-trainerdata 409, "Brandon"
+trainerdata 409 // Brandon
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -14128,19 +14403,26 @@ trainerdata 409, "Brandon"
         // mon 0
         ivs 0
         abilityslot 0
-        level 13
+        level 15
         pokemon SPECIES_SNUBBULL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 13
+        level 12
         pokemon SPECIES_MAREEP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_PACHIRISU
         ballseal 0
     endparty
 
-trainerdata 410, "Harry"
+trainerdata 410 // Harry
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -14157,7 +14439,7 @@ trainerdata 410, "Harry"
         // mon 0
         ivs 0
         abilityslot 32
-        level 20
+        level 22
         pokemon SPECIES_WOOPER
         move MOVE_WATER_GUN
         move MOVE_MUD_BOMB
@@ -14166,7 +14448,7 @@ trainerdata 410, "Harry"
         ballseal 0
     endparty
 
-trainerdata 411, "Vernon"
+trainerdata 411 // Vernon
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -14183,12 +14465,12 @@ trainerdata 411, "Vernon"
         // mon 0
         ivs 0
         abilityslot 0
-        level 36
+        level 42
         pokemon SPECIES_ESPEON
         ballseal 0
     endparty
 
-trainerdata 412, "Eli"
+trainerdata 412 // Eli
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -14205,26 +14487,26 @@ trainerdata 412, "Eli"
         // mon 0
         ivs 0
         abilityslot 0
-        level 30
+        level 39
         pokemon SPECIES_STARMIE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 30
+        level 37
         pokemon SPECIES_EXEGGCUTE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 34
+        level 39
         pokemon SPECIES_GIRAFARIG
         ballseal 0
     endparty
 
-trainerdata 413, "Scott"
+trainerdata 413 // Scott
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -14241,7 +14523,7 @@ trainerdata 413, "Scott"
         // mon 0
         ivs 0
         abilityslot 32
-        level 30
+        level 39
         pokemon SPECIES_QWILFISH
         move MOVE_WATER_GUN
         move MOVE_REVENGE
@@ -14252,7 +14534,7 @@ trainerdata 413, "Scott"
         // mon 1
         ivs 0
         abilityslot 0
-        level 30
+        level 39
         pokemon SPECIES_QWILFISH
         move MOVE_WATER_GUN
         move MOVE_REVENGE
@@ -14263,7 +14545,7 @@ trainerdata 413, "Scott"
         // mon 2
         ivs 0
         abilityslot 0
-        level 34
+        level 40
         pokemon SPECIES_SEAKING
         move MOVE_FURY_ATTACK
         move MOVE_AQUA_RING
@@ -14272,7 +14554,7 @@ trainerdata 413, "Scott"
         ballseal 0
     endparty
 
-trainerdata 414, "Jose"
+trainerdata 414 // Jose
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -14294,7 +14576,7 @@ trainerdata 414, "Jose"
         ballseal 0
     endparty
 
-trainerdata 415, "Jared"
+trainerdata 415 // Jared
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -14342,7 +14624,7 @@ trainerdata 415, "Jared"
         ballseal 0
     endparty
 
-trainerdata 416, "Jo & Zoe"
+trainerdata 416 // Jo & Zoe
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -14379,7 +14661,7 @@ trainerdata 416, "Jo & Zoe"
         ballseal 0
     endparty
 
-trainerdata 417, "Jenn"
+trainerdata 417 // Jenn
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -14408,13 +14690,13 @@ trainerdata 417, "Jenn"
         ballseal 0
     endparty
 
-trainerdata 418, "Bruno"
+trainerdata 418 // Bruno
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_3
     battletype SINGLE_BATTLE
     nummons 5
-    item ITEM_FULL_RESTORE
-    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -14425,7 +14707,7 @@ trainerdata 418, "Bruno"
         // mon 0
         ivs 250
         abilityslot 32
-        level 42
+        level 44
         pokemon SPECIES_HITMONTOP
         item ITEM_NONE
         move MOVE_COUNTER
@@ -14437,9 +14719,9 @@ trainerdata 418, "Bruno"
         // mon 1
         ivs 250
         abilityslot 32
-        level 42
+        level 41
         pokemon SPECIES_HITMONLEE
-        item ITEM_NONE
+        item ITEM_WIDE_LENS
         move MOVE_SWAGGER
         move MOVE_FOCUS_ENERGY
         move MOVE_HI_JUMP_KICK
@@ -14449,7 +14731,7 @@ trainerdata 418, "Bruno"
         // mon 2
         ivs 250
         abilityslot 32
-        level 42
+        level 43
         pokemon SPECIES_HITMONCHAN
         item ITEM_NONE
         move MOVE_THUNDER_PUNCH
@@ -14461,19 +14743,19 @@ trainerdata 418, "Bruno"
         // mon 3
         ivs 250
         abilityslot 32
-        level 43
-        pokemon SPECIES_ONIX
-        item ITEM_NONE
-        move MOVE_DRAGON_BREATH
-        move MOVE_EARTHQUAKE
-        move MOVE_SANDSTORM
+        level 45
+        pokemon SPECIES_HARIYAMA
+        item ITEM_FOCUS_SASH
+        move MOVE_BULK_UP
+        move MOVE_LOW_KICK
+        move MOVE_BULLET_PUNCH
         move MOVE_ROCK_SLIDE
         ballseal 0
 
         // mon 4
         ivs 250
         abilityslot 32
-        level 46
+        level 47
         pokemon SPECIES_MACHAMP
         item ITEM_SITRUS_BERRY
         move MOVE_ROCK_SLIDE
@@ -14483,7 +14765,7 @@ trainerdata 418, "Bruno"
         ballseal 0
     endparty
 
-trainerdata 419, "Ellen"
+trainerdata 419 // Ellen
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -14512,7 +14794,7 @@ trainerdata 419, "Ellen"
         ballseal 0
     endparty
 
-trainerdata 420, "Perry"
+trainerdata 420 // Perry
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -14534,7 +14816,7 @@ trainerdata 420, "Perry"
         ballseal 0
     endparty
 
-trainerdata 421, "Bret"
+trainerdata 421 // Bret
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -14563,7 +14845,7 @@ trainerdata 421, "Bret"
         ballseal 0
     endparty
 
-trainerdata 422, "Rodney"
+trainerdata 422 // Rodney
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PSYCHIC_M
     battletype SINGLE_BATTLE
@@ -14592,7 +14874,7 @@ trainerdata 422, "Rodney"
         ballseal 0
     endparty
 
-trainerdata 423, "Jeremy"
+trainerdata 423 // Jeremy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -14628,7 +14910,7 @@ trainerdata 423, "Jeremy"
         ballseal 0
     endparty
 
-trainerdata 424, "Colin"
+trainerdata 424 // Colin
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -14654,7 +14936,7 @@ trainerdata 424, "Colin"
         ballseal 0
     endparty
 
-trainerdata 425, "Meg & Peg"
+trainerdata 425 // Meg & Peg
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -14683,7 +14965,7 @@ trainerdata 425, "Meg & Peg"
         ballseal 0
     endparty
 
-trainerdata 426, "Meg & Peg"
+trainerdata 426 // Meg & Peg
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -14712,7 +14994,7 @@ trainerdata 426, "Meg & Peg"
         ballseal 0
     endparty
 
-trainerdata 427, "Shirley"
+trainerdata 427 // Shirley
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     battletype SINGLE_BATTLE
@@ -14741,7 +15023,7 @@ trainerdata 427, "Shirley"
         ballseal 0
     endparty
 
-trainerdata 428, "Nate"
+trainerdata 428 // Nate
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -14770,7 +15052,7 @@ trainerdata 428, "Nate"
         ballseal 0
     endparty
 
-trainerdata 429, "Ricky"
+trainerdata 429 // Ricky
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -14801,7 +15083,7 @@ trainerdata 429, "Ricky"
         ballseal 0
     endparty
 
-trainerdata 430, "Jack"
+trainerdata 430 // Jack
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -14830,7 +15112,7 @@ trainerdata 430, "Jack"
         ballseal 0
     endparty
 
-trainerdata 431, "Jack"
+trainerdata 431 // Jack
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -14859,7 +15141,7 @@ trainerdata 431, "Jack"
         ballseal 0
     endparty
 
-trainerdata 432, "Alan"
+trainerdata 432 // Alan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -14888,7 +15170,7 @@ trainerdata 432, "Alan"
         ballseal 0
     endparty
 
-trainerdata 433, "Alan"
+trainerdata 433 // Alan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -14931,7 +15213,7 @@ trainerdata 433, "Alan"
         ballseal 0
     endparty
 
-trainerdata 434, "Chad"
+trainerdata 434 // Chad
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -14960,7 +15242,7 @@ trainerdata 434, "Chad"
         ballseal 0
     endparty
 
-trainerdata 435, "Chad"
+trainerdata 435 // Chad
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -14989,7 +15271,7 @@ trainerdata 435, "Chad"
         ballseal 0
     endparty
 
-trainerdata 436, "Beverly"
+trainerdata 436 // Beverly
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     battletype SINGLE_BATTLE
@@ -15011,7 +15293,7 @@ trainerdata 436, "Beverly"
         ballseal 0
     endparty
 
-trainerdata 437, "Beverly"
+trainerdata 437 // Beverly
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     battletype SINGLE_BATTLE
@@ -15033,7 +15315,7 @@ trainerdata 437, "Beverly"
         ballseal 0
     endparty
 
-trainerdata 438, "Derek"
+trainerdata 438 // Derek
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -15062,7 +15344,7 @@ trainerdata 438, "Derek"
         ballseal 0
     endparty
 
-trainerdata 439, "Derek"
+trainerdata 439 // Derek
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -15105,7 +15387,7 @@ trainerdata 439, "Derek"
         ballseal 0
     endparty
 
-trainerdata 440, "Huey"
+trainerdata 440 // Huey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -15132,9 +15414,16 @@ trainerdata 440, "Huey"
         level 36
         pokemon SPECIES_POLIWHIRL
         ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_TOXICROAK
+        ballseal 0
     endparty
 
-trainerdata 441, "Huey"
+trainerdata 441 // Huey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -15161,9 +15450,23 @@ trainerdata 441, "Huey"
         level 41
         pokemon SPECIES_POLIWRATH
         ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_TOXICROAK
+        ballseal 0
     endparty
 
-trainerdata 442, "Mickey"
+trainerdata 442 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -15185,7 +15488,7 @@ trainerdata 442, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 443, "Mickey"
+trainerdata 443 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -15207,7 +15510,7 @@ trainerdata 443, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 444, "Reena"
+trainerdata 444 // Reena
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -15224,26 +15527,26 @@ trainerdata 444, "Reena"
         // mon 0
         ivs 50
         abilityslot 0
-        level 38
+        level 40
         pokemon SPECIES_GROWLITHE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 36
+        level 40
         pokemon SPECIES_NIDORINA
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 32
-        level 38
+        level 41
         pokemon SPECIES_STARYU
         ballseal 0
     endparty
 
-trainerdata 445, "Reena"
+trainerdata 445 // Reena
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -15279,7 +15582,7 @@ trainerdata 445, "Reena"
         ballseal 0
     endparty
 
-trainerdata 446, "Jose"
+trainerdata 446 // Jose
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -15308,7 +15611,7 @@ trainerdata 446, "Jose"
         ballseal 0
     endparty
 
-trainerdata 447, "Vance"
+trainerdata 447 // Vance
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -15325,19 +15628,19 @@ trainerdata 447, "Vance"
         // mon 0
         ivs 50
         abilityslot 0
-        level 33
-        pokemon SPECIES_HOOTHOOT
+        level 38
+        pokemon SPECIES_NOCTOWL
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 32
+        level 40
         pokemon SPECIES_PIDGEOTTO
         ballseal 0
     endparty
 
-trainerdata 448, "Vance"
+trainerdata 448 // Vance
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -15354,14 +15657,14 @@ trainerdata 448, "Vance"
         // mon 0
         ivs 50
         abilityslot 0
-        level 37
+        level 40
         pokemon SPECIES_PIDGEOTTO
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 38
+        level 41
         pokemon SPECIES_PIDGEOT
         ballseal 0
 
@@ -15373,7 +15676,7 @@ trainerdata 448, "Vance"
         ballseal 0
     endparty
 
-trainerdata 449, "Arnie"
+trainerdata 449 // Arnie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -15399,7 +15702,7 @@ trainerdata 449, "Arnie"
         ballseal 0
     endparty
 
-trainerdata 450, "Wilton"
+trainerdata 450 // Wilton
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -15416,14 +15719,14 @@ trainerdata 450, "Wilton"
         // mon 0
         ivs 0
         abilityslot 0
-        level 32
+        level 38
         pokemon SPECIES_GOLDEEN
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 36
+        level 39
         pokemon SPECIES_SEAKING
         ballseal 0
 
@@ -15435,7 +15738,7 @@ trainerdata 450, "Wilton"
         ballseal 0
     endparty
 
-trainerdata 451, "Parry"
+trainerdata 451 // Parry
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -15452,19 +15755,19 @@ trainerdata 451, "Parry"
         // mon 0
         ivs 0
         abilityslot 0
-        level 38
+        level 45
         pokemon SPECIES_ONIX
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 35
+        level 45
         pokemon SPECIES_GRAVELER
         ballseal 0
     endparty
 
-trainerdata 452, "Parry"
+trainerdata 452 // Parry
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -15481,19 +15784,19 @@ trainerdata 452, "Parry"
         // mon 0
         ivs 0
         abilityslot 0
-        level 41
+        level 46
         pokemon SPECIES_STEELIX
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 37
+        level 45
         pokemon SPECIES_GRAVELER
         ballseal 0
     endparty
 
-trainerdata 453, "Erin"
+trainerdata 453 // Erin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -15529,7 +15832,7 @@ trainerdata 453, "Erin"
         ballseal 0
     endparty
 
-trainerdata 454, "Irwin"
+trainerdata 454 // Irwin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_JUGGLER
     battletype SINGLE_BATTLE
@@ -15572,7 +15875,7 @@ trainerdata 454, "Irwin"
         ballseal 0
     endparty
 
-trainerdata 455, "Irwin"
+trainerdata 455 // Irwin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_JUGGLER
     battletype SINGLE_BATTLE
@@ -15615,7 +15918,7 @@ trainerdata 455, "Irwin"
         ballseal 0
     endparty
 
-trainerdata 456, "Gaven"
+trainerdata 456 // Gaven
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -15632,7 +15935,7 @@ trainerdata 456, "Gaven"
         // mon 0
         ivs 50
         abilityslot 0
-        level 34
+        level 43
         pokemon SPECIES_VICTREEBEL
         move MOVE_WRAP
         move MOVE_TOXIC
@@ -15643,7 +15946,7 @@ trainerdata 456, "Gaven"
         // mon 1
         ivs 50
         abilityslot 0
-        level 34
+        level 43
         pokemon SPECIES_KINGLER
         move MOVE_BUBBLE_BEAM
         move MOVE_STOMP
@@ -15654,7 +15957,7 @@ trainerdata 456, "Gaven"
         // mon 2
         ivs 50
         abilityslot 0
-        level 34
+        level 46
         pokemon SPECIES_FLAREON
         move MOVE_SAND_ATTACK
         move MOVE_QUICK_ATTACK
@@ -15663,7 +15966,7 @@ trainerdata 456, "Gaven"
         ballseal 0
     endparty
 
-trainerdata 457, "Gaven"
+trainerdata 457 // Gaven
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -15680,7 +15983,7 @@ trainerdata 457, "Gaven"
         // mon 0
         ivs 50
         abilityslot 0
-        level 38
+        level 49
         pokemon SPECIES_VICTREEBEL
         move MOVE_WRAP
         move MOVE_TOXIC
@@ -15691,7 +15994,7 @@ trainerdata 457, "Gaven"
         // mon 1
         ivs 50
         abilityslot 0
-        level 39
+        level 49
         pokemon SPECIES_KINGLER
         move MOVE_BRINE
         move MOVE_STOMP
@@ -15702,7 +16005,7 @@ trainerdata 457, "Gaven"
         // mon 2
         ivs 50
         abilityslot 0
-        level 38
+        level 49
         pokemon SPECIES_FLAREON
         move MOVE_FIRE_BLAST
         move MOVE_QUICK_ATTACK
@@ -15711,7 +16014,7 @@ trainerdata 457, "Gaven"
         ballseal 0
     endparty
 
-trainerdata 458, "Jamie"
+trainerdata 458 // Jamie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -15739,7 +16042,7 @@ trainerdata 458, "Jamie"
         // mon 1
         ivs 50
         abilityslot 0
-        level 37
+        level 42
         pokemon SPECIES_AMPHAROS
         move MOVE_DISCHARGE
         move MOVE_SIGNAL_BEAM
@@ -15748,7 +16051,7 @@ trainerdata 458, "Jamie"
         ballseal 0
     endparty
 
-trainerdata 459, "Jamie"
+trainerdata 459 // Jamie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -15776,7 +16079,7 @@ trainerdata 459, "Jamie"
         // mon 1
         ivs 50
         abilityslot 0
-        level 40
+        level 45
         pokemon SPECIES_AMPHAROS
         move MOVE_DISCHARGE
         move MOVE_SIGNAL_BEAM
@@ -15785,7 +16088,7 @@ trainerdata 459, "Jamie"
         ballseal 0
     endparty
 
-trainerdata 460, "Wade"
+trainerdata 460 // Wade
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -15844,7 +16147,7 @@ trainerdata 460, "Wade"
         ballseal 0
     endparty
 
-trainerdata 461, "Wade"
+trainerdata 461 // Wade
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -15903,7 +16206,7 @@ trainerdata 461, "Wade"
         ballseal 0
     endparty
 
-trainerdata 462, "Ralph"
+trainerdata 462 // Ralph
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -15925,7 +16228,7 @@ trainerdata 462, "Ralph"
         ballseal 0
     endparty
 
-trainerdata 463, "Ralph"
+trainerdata 463 // Ralph
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -15954,7 +16257,7 @@ trainerdata 463, "Ralph"
         ballseal 0
     endparty
 
-trainerdata 464, "Dana"
+trainerdata 464 // Dana
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -15991,7 +16294,7 @@ trainerdata 464, "Dana"
         ballseal 0
     endparty
 
-trainerdata 465, "Dana"
+trainerdata 465 // Dana
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -16028,7 +16331,7 @@ trainerdata 465, "Dana"
         ballseal 0
     endparty
 
-trainerdata 466, "Tiffany"
+trainerdata 466 // Tiffany
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -16045,7 +16348,7 @@ trainerdata 466, "Tiffany"
         // mon 0
         ivs 0
         abilityslot 0
-        level 34
+        level 40
         pokemon SPECIES_CLEFAIRY
         move MOVE_GRAVITY
         move MOVE_SING
@@ -16054,7 +16357,7 @@ trainerdata 466, "Tiffany"
         ballseal 0
     endparty
 
-trainerdata 467, "Tiffany"
+trainerdata 467 // Tiffany
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -16071,7 +16374,7 @@ trainerdata 467, "Tiffany"
         // mon 0
         ivs 0
         abilityslot 0
-        level 41
+        level 43
         pokemon SPECIES_CLEFABLE
         move MOVE_GRAVITY
         move MOVE_SING
@@ -16080,7 +16383,7 @@ trainerdata 467, "Tiffany"
         ballseal 0
     endparty
 
-trainerdata 468, "Ross"
+trainerdata 468 // Ross
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCIENTIST_1
     battletype SINGLE_BATTLE
@@ -16109,7 +16412,7 @@ trainerdata 468, "Ross"
         ballseal 0
     endparty
 
-trainerdata 469, "Mitch"
+trainerdata 469 // Mitch
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCIENTIST_1
     battletype SINGLE_BATTLE
@@ -16131,7 +16434,7 @@ trainerdata 469, "Mitch"
         ballseal 0
     endparty
 
-trainerdata 470, "Gregg"
+trainerdata 470 // Gregg
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCIENTIST_1
     battletype SINGLE_BATTLE
@@ -16167,7 +16470,7 @@ trainerdata 470, "Gregg"
         ballseal 0
     endparty
 
-trainerdata 471, "Garett"
+trainerdata 471 // Garett
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCIENTIST_1
     battletype SINGLE_BATTLE
@@ -16203,7 +16506,7 @@ trainerdata 471, "Garett"
         ballseal 0
     endparty
 
-trainerdata 472, "Trenton"
+trainerdata 472 // Trenton
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
     battletype SINGLE_BATTLE
@@ -16229,7 +16532,7 @@ trainerdata 472, "Trenton"
         ballseal 0
     endparty
 
-trainerdata 473, "Mickey"
+trainerdata 473 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -16258,7 +16561,7 @@ trainerdata 473, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 474, "Mickey"
+trainerdata 474 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -16280,7 +16583,7 @@ trainerdata 474, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 475, "Mickey"
+trainerdata 475 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -16316,7 +16619,7 @@ trainerdata 475, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 476, "Mickey"
+trainerdata 476 // Mickey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -16352,7 +16655,7 @@ trainerdata 476, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 477, "Mickey"
+trainerdata 477 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -16378,7 +16681,7 @@ trainerdata 477, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 478, "Ariana"
+trainerdata 478 // Ariana
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE
     battletype SINGLE_BATTLE
@@ -16395,7 +16698,7 @@ trainerdata 478, "Ariana"
         // mon 0
         ivs 100
         abilityslot 0
-        level 32
+        level 34
         pokemon SPECIES_ARBOK
         move MOVE_WRAP
         move MOVE_POISON_STING
@@ -16406,7 +16709,7 @@ trainerdata 478, "Ariana"
         // mon 1
         ivs 100
         abilityslot 0
-        level 32
+        level 35
         pokemon SPECIES_VILEPLUME
         move MOVE_MEGA_DRAIN
         move MOVE_SWEET_SCENT
@@ -16417,7 +16720,7 @@ trainerdata 478, "Ariana"
         // mon 2
         ivs 100
         abilityslot 32
-        level 32
+        level 34
         pokemon SPECIES_MURKROW
         move MOVE_WING_ATTACK
         move MOVE_PURSUIT
@@ -16426,7 +16729,7 @@ trainerdata 478, "Ariana"
         ballseal 0
     endparty
 
-trainerdata 479, "Ariana"
+trainerdata 479 // Ariana
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE
     battletype SINGLE_BATTLE
@@ -16443,7 +16746,7 @@ trainerdata 479, "Ariana"
         // mon 0
         ivs 100
         abilityslot 0
-        level 25
+        level 34
         pokemon SPECIES_ARBOK
         move MOVE_WRAP
         move MOVE_POISON_STING
@@ -16454,7 +16757,7 @@ trainerdata 479, "Ariana"
         // mon 1
         ivs 100
         abilityslot 0
-        level 25
+        level 33
         pokemon SPECIES_GLOOM
         move MOVE_MEGA_DRAIN
         move MOVE_SWEET_SCENT
@@ -16465,7 +16768,7 @@ trainerdata 479, "Ariana"
         // mon 2
         ivs 100
         abilityslot 32
-        level 27
+        level 35
         pokemon SPECIES_MURKROW
         move MOVE_WING_ATTACK
         move MOVE_PURSUIT
@@ -16474,7 +16777,7 @@ trainerdata 479, "Ariana"
         ballseal 0
     endparty
 
-trainerdata 480, "Diana"
+trainerdata 480 // Diana
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SKIER
     battletype SINGLE_BATTLE
@@ -16491,12 +16794,19 @@ trainerdata 480, "Diana"
         // mon 0
         ivs 10
         abilityslot 0
-        level 29
+        level 33
+        pokemon SPECIES_SNORUNT
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 33
         pokemon SPECIES_JYNX
         ballseal 0
     endparty
 
-trainerdata 481, "Jill"
+trainerdata 481 // Jill
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SKIER
     battletype SINGLE_BATTLE
@@ -16513,12 +16823,19 @@ trainerdata 481, "Jill"
         // mon 0
         ivs 10
         abilityslot 0
-        level 29
-        pokemon SPECIES_DEWGONG
+        level 35
+        pokemon SPECIES_JYNX
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 35
+        pokemon SPECIES_CLOYSTER
         ballseal 0
     endparty
 
-trainerdata 482, "Deandre"
+trainerdata 482 // Deandre
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
     battletype SINGLE_BATTLE
@@ -16535,26 +16852,26 @@ trainerdata 482, "Deandre"
         // mon 0
         ivs 10
         abilityslot 0
-        level 25
+        level 34
         pokemon SPECIES_SEEL
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
-        level 26
+        level 34
         pokemon SPECIES_DEWGONG
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 0
-        level 25
+        level 34
         pokemon SPECIES_SEEL
         ballseal 0
     endparty
 
-trainerdata 483, "Patton"
+trainerdata 483 // Patton
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
     battletype SINGLE_BATTLE
@@ -16571,19 +16888,19 @@ trainerdata 483, "Patton"
         // mon 0
         ivs 10
         abilityslot 0
-        level 27
+        level 34
         pokemon SPECIES_SWINUB
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
-        level 27
-        pokemon SPECIES_SWINUB
+        level 34
+        pokemon SPECIES_SNOVER
         ballseal 0
     endparty
 
-trainerdata 484, "Gerardo"
+trainerdata 484 // Gerardo
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BOARDER
     battletype SINGLE_BATTLE
@@ -16600,7 +16917,7 @@ trainerdata 484, "Gerardo"
         // mon 0
         ivs 10
         abilityslot 0
-        level 25
+        level 33
         pokemon SPECIES_SHELLDER
         move MOVE_ICE_SHARD
         move MOVE_SUPERSONIC
@@ -16611,7 +16928,7 @@ trainerdata 484, "Gerardo"
         // mon 1
         ivs 10
         abilityslot 0
-        level 26
+        level 35
         pokemon SPECIES_CLOYSTER
         move MOVE_ICE_SHARD
         move MOVE_AURORA_BEAM
@@ -16622,16 +16939,16 @@ trainerdata 484, "Gerardo"
         // mon 2
         ivs 10
         abilityslot 0
-        level 25
-        pokemon SPECIES_SEEL
-        move MOVE_ICE_SHARD
-        move MOVE_AQUA_RING
-        move MOVE_ENCORE
-        move MOVE_ICY_WIND
+        level 36
+        pokemon SPECIES_LAPRAS
+        move MOVE_SURF
+        move MOVE_ICE_BEAM
+        move MOVE_BODY_SLAM
+        move MOVE_CONFUSE_RAY
         ballseal 0
     endparty
 
-trainerdata 485, "Archer"
+trainerdata 485 // Archer
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE_0
     battletype SINGLE_BATTLE
@@ -16648,7 +16965,7 @@ trainerdata 485, "Archer"
         // mon 0
         ivs 200
         abilityslot 0
-        level 35
+        level 36
         pokemon SPECIES_HOUNDOUR
         move MOVE_FIRE_FANG
         move MOVE_ROAR
@@ -16659,7 +16976,7 @@ trainerdata 485, "Archer"
         // mon 1
         ivs 200
         abilityslot 0
-        level 35
+        level 38
         pokemon SPECIES_KOFFING
         move MOVE_TACKLE
         move MOVE_SLUDGE
@@ -16670,7 +16987,7 @@ trainerdata 485, "Archer"
         // mon 2
         ivs 200
         abilityslot 0
-        level 38
+        level 39
         pokemon SPECIES_HOUNDOOM
         move MOVE_FIRE_FANG
         move MOVE_SMOG
@@ -16679,7 +16996,7 @@ trainerdata 485, "Archer"
         ballseal 0
     endparty
 
-trainerdata 486, "Proton"
+trainerdata 486 // Proton  - Slowpoke well
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_EXECUTIVE_1
     battletype SINGLE_BATTLE
@@ -16696,19 +17013,26 @@ trainerdata 486, "Proton"
         // mon 0
         ivs 100
         abilityslot 0
-        level 8
-        pokemon SPECIES_ZUBAT
+        level 11
+        pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 100
         abilityslot 0
-        level 12
+        level 15
         pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 13
+        pokemon SPECIES_ZUBAT
         ballseal 0
     endparty
 
-trainerdata 487, "Petrel"
+trainerdata 487 // Petrel
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE_2
     battletype SINGLE_BATTLE
@@ -16725,7 +17049,7 @@ trainerdata 487, "Petrel"
         // mon 0
         ivs 100
         abilityslot 0
-        level 30
+        level 33
         pokemon SPECIES_KOFFING
         move MOVE_TACKLE
         move MOVE_SELF_DESTRUCT
@@ -16736,7 +17060,7 @@ trainerdata 487, "Petrel"
         // mon 1
         ivs 100
         abilityslot 0
-        level 30
+        level 33
         pokemon SPECIES_KOFFING
         move MOVE_TACKLE
         move MOVE_SELF_DESTRUCT
@@ -16747,7 +17071,7 @@ trainerdata 487, "Petrel"
         // mon 2
         ivs 100
         abilityslot 0
-        level 30
+        level 34
         pokemon SPECIES_KOFFING
         move MOVE_TACKLE
         move MOVE_SELF_DESTRUCT
@@ -16758,7 +17082,7 @@ trainerdata 487, "Petrel"
         // mon 3
         ivs 100
         abilityslot 0
-        level 32
+        level 36
         pokemon SPECIES_WEEZING
         move MOVE_TACKLE
         move MOVE_EXPLOSION
@@ -16769,7 +17093,7 @@ trainerdata 487, "Petrel"
         // mon 4
         ivs 100
         abilityslot 0
-        level 30
+        level 32
         pokemon SPECIES_KOFFING
         move MOVE_TACKLE
         move MOVE_SELF_DESTRUCT
@@ -16780,7 +17104,7 @@ trainerdata 487, "Petrel"
         // mon 5
         ivs 100
         abilityslot 0
-        level 30
+        level 33
         pokemon SPECIES_KOFFING
         move MOVE_TACKLE
         move MOVE_SMOG
@@ -16789,7 +17113,7 @@ trainerdata 487, "Petrel"
         ballseal 0
     endparty
 
-trainerdata 488, "Petrel"
+trainerdata 488 // Petrel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_EXECUTIVE_2
     battletype SINGLE_BATTLE
@@ -16825,7 +17149,7 @@ trainerdata 488, "Petrel"
         ballseal 0
     endparty
 
-trainerdata 489, "Silver"
+trainerdata 489 // Silver
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -16906,7 +17230,7 @@ trainerdata 489, "Silver"
         ballseal 0
     endparty
 
-trainerdata 490, "Silver"
+trainerdata 490 // Silver
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -16987,7 +17311,7 @@ trainerdata 490, "Silver"
         ballseal 0
     endparty
 
-trainerdata 491, "Silver"
+trainerdata 491 // Silver
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -17074,7 +17398,7 @@ trainerdata 491, "Silver"
         ballseal 0
     endparty
 
-trainerdata 492, "Alex"
+trainerdata 492 // Alex
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -17110,7 +17434,7 @@ trainerdata 492, "Alex"
         ballseal 0
     endparty
 
-trainerdata 493, "Edith"
+trainerdata 493 // Edith
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     battletype SINGLE_BATTLE
@@ -17128,11 +17452,18 @@ trainerdata 493, "Edith"
         ivs 10
         abilityslot 0
         level 22
-        pokemon SPECIES_HAUNTER
+        pokemon SPECIES_MISDREAVUS
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 21
+        pokemon SPECIES_SHUPPET
         ballseal 0
     endparty
 
-trainerdata 494, "Georgina"
+trainerdata 494 // Georgina
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     battletype SINGLE_BATTLE
@@ -17149,40 +17480,40 @@ trainerdata 494, "Georgina"
         // mon 0
         ivs 10
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
+        level 18
+        pokemon SPECIES_MISDREAVUS
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 0
-        level 16
+        level 19
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 3
         ivs 10
         abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
+        level 20
+        pokemon SPECIES_HAUNTER
         ballseal 0
 
         // mon 4
         ivs 10
         abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
+        level 20
+        pokemon SPECIES_HAUNTER
         ballseal 0
     endparty
 
-trainerdata 495, "Boy"
+trainerdata 495 // Boy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PASSERBY
     battletype SINGLE_BATTLE
@@ -17204,7 +17535,7 @@ trainerdata 495, "Boy"
         ballseal 0
     endparty
 
-trainerdata 496, "Boy"
+trainerdata 496 // Boy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PASSERBY
     battletype SINGLE_BATTLE
@@ -17226,7 +17557,7 @@ trainerdata 496, "Boy"
         ballseal 0
     endparty
 
-trainerdata 497, "Boy"
+trainerdata 497 // Boy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PASSERBY
     battletype SINGLE_BATTLE
@@ -17248,7 +17579,7 @@ trainerdata 497, "Boy"
         ballseal 0
     endparty
 
-trainerdata 498, "Eusine"
+trainerdata 498 // Eusine - Cianwood
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_MYSTERY_MAN
     battletype SINGLE_BATTLE
@@ -17265,7 +17596,7 @@ trainerdata 498, "Eusine"
         // mon 0
         ivs 150
         abilityslot 0
-        level 25
+        level 29
         pokemon SPECIES_DROWZEE
         move MOVE_DREAM_EATER
         move MOVE_HYPNOSIS
@@ -17276,7 +17607,7 @@ trainerdata 498, "Eusine"
         // mon 1
         ivs 150
         abilityslot 0
-        level 25
+        level 30
         pokemon SPECIES_HAUNTER
         move MOVE_LICK
         move MOVE_HYPNOSIS
@@ -17287,7 +17618,7 @@ trainerdata 498, "Eusine"
         // mon 2
         ivs 150
         abilityslot 32
-        level 27
+        level 30
         pokemon SPECIES_ELECTRODE
         move MOVE_SCREECH
         move MOVE_SONIC_BOOM
@@ -17296,7 +17627,7 @@ trainerdata 498, "Eusine"
         ballseal 0
     endparty
 
-trainerdata 499, "Grunt"
+trainerdata 499 // Grunt
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -17333,7 +17664,7 @@ trainerdata 499, "Grunt"
         ballseal 0
     endparty
 
-trainerdata 500, "Kobe"
+trainerdata 500 // Kobe
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -17359,7 +17690,7 @@ trainerdata 500, "Kobe"
         ballseal 0
     endparty
 
-trainerdata 501, "Piper"
+trainerdata 501 // Piper
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -17387,17 +17718,6 @@ trainerdata 501, "Piper"
         // mon 1
         ivs 50
         abilityslot 32
-        level 33
-        pokemon SPECIES_HORSEA
-        move MOVE_SMOKESCREEN
-        move MOVE_LEER
-        move MOVE_BRINE
-        move MOVE_TWISTER
-        ballseal 0
-
-        // mon 2
-        ivs 50
-        abilityslot 32
         level 35
         pokemon SPECIES_SEADRA
         move MOVE_AGILITY
@@ -17405,9 +17725,20 @@ trainerdata 501, "Piper"
         move MOVE_WATERFALL
         move MOVE_TWISTER
         ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 32
+        level 35
+        pokemon SPECIES_ALTARIA
+        move MOVE_DRAGON_PULSE
+        move MOVE_TAKE_DOWN
+        move MOVE_FLY
+        move MOVE_SAFEGUARD
+        ballseal 0
     endparty
 
-trainerdata 502, "Clea & Gil"
+trainerdata 502 // Clea & Gil
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -17436,15 +17767,15 @@ trainerdata 502, "Clea & Gil"
         ivs 0
         abilityslot 0
         level 35
-        pokemon SPECIES_DRATINI
-        move MOVE_THUNDER_WAVE
-        move MOVE_TWISTER
-        move MOVE_SURF
-        move MOVE_HEADBUTT
+        pokemon SPECIES_GIBLE
+        move MOVE_SLASH
+        move MOVE_DIG
+        move MOVE_DRAGON_RAGE
+        move MOVE_FLAMETHROWER
         ballseal 0
     endparty
 
-trainerdata 503, "Jack"
+trainerdata 503 // Jack
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -17492,7 +17823,7 @@ trainerdata 503, "Jack"
         ballseal 0
     endparty
 
-trainerdata 504, "Mickey"
+trainerdata 504 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -17540,7 +17871,7 @@ trainerdata 504, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 505, "Alan"
+trainerdata 505 // Alan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -17583,7 +17914,7 @@ trainerdata 505, "Alan"
         ballseal 0
     endparty
 
-trainerdata 506, "Mickey"
+trainerdata 506 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -17642,7 +17973,7 @@ trainerdata 506, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 507, "Chad"
+trainerdata 507 // Chad
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -17679,7 +18010,7 @@ trainerdata 507, "Chad"
         ballseal 0
     endparty
 
-trainerdata 508, "Mickey"
+trainerdata 508 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -17716,7 +18047,7 @@ trainerdata 508, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 509, "Huey"
+trainerdata 509 // Huey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -17751,9 +18082,20 @@ trainerdata 509, "Huey"
         move MOVE_ICE_PUNCH
         move MOVE_SUBMISSION
         ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_TOXICROAK
+        move MOVE_BRICK_BREAK
+        move MOVE_POISON_JAB
+        move MOVE_ASSURANCE
+        move MOVE_STRENGTH
+        ballseal 0
     endparty
 
-trainerdata 510, "Joey"
+trainerdata 510 // Joey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -17779,7 +18121,7 @@ trainerdata 510, "Joey"
         ballseal 0
     endparty
 
-trainerdata 511, "Mickey"
+trainerdata 511 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -17805,7 +18147,7 @@ trainerdata 511, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 512, "Wade"
+trainerdata 512 // Wade
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -17864,7 +18206,7 @@ trainerdata 512, "Wade"
         ballseal 0
     endparty
 
-trainerdata 513, "Arnie"
+trainerdata 513 // Arnie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -17901,7 +18243,7 @@ trainerdata 513, "Arnie"
         ballseal 0
     endparty
 
-trainerdata 514, "Mickey"
+trainerdata 514 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -17927,7 +18269,7 @@ trainerdata 514, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 515, "Ralph"
+trainerdata 515 // Ralph
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -17956,7 +18298,7 @@ trainerdata 515, "Ralph"
         ballseal 0
     endparty
 
-trainerdata 516, "Mickey"
+trainerdata 516 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -17993,7 +18335,7 @@ trainerdata 516, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 517, "Tully"
+trainerdata 517 // Tully
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -18039,9 +18381,20 @@ trainerdata 517, "Tully"
         move MOVE_AQUA_TAIL
         move MOVE_MINIMIZE
         ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_MILOTIC
+        move MOVE_ICE_BEAM
+        move MOVE_SURF
+        move MOVE_AQUA_TAIL
+        move MOVE_TWISTER
+        ballseal 0
     endparty
 
-trainerdata 518, "Liz"
+trainerdata 518 // Liz
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -18077,7 +18430,7 @@ trainerdata 518, "Liz"
         ballseal 0
     endparty
 
-trainerdata 519, "Mickey"
+trainerdata 519 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -18125,7 +18478,7 @@ trainerdata 519, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 520, "Gina"
+trainerdata 520 // Gina
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -18161,7 +18514,7 @@ trainerdata 520, "Gina"
         ballseal 0
     endparty
 
-trainerdata 521, "Mickey"
+trainerdata 521 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -18209,7 +18562,7 @@ trainerdata 521, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 522, "Tiffany"
+trainerdata 522 // Tiffany
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -18235,7 +18588,7 @@ trainerdata 522, "Tiffany"
         ballseal 0
     endparty
 
-trainerdata 523, "Anthony"
+trainerdata 523 // Anthony
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -18271,7 +18624,7 @@ trainerdata 523, "Anthony"
         ballseal 0
     endparty
 
-trainerdata 524, "Mickey"
+trainerdata 524 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -18319,7 +18672,7 @@ trainerdata 524, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 525, "Todd"
+trainerdata 525 // Todd
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -18362,7 +18715,7 @@ trainerdata 525, "Todd"
         ballseal 0
     endparty
 
-trainerdata 526, "Mickey"
+trainerdata 526 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -18421,7 +18774,7 @@ trainerdata 526, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 527, "Irwin"
+trainerdata 527 // Irwin
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_JUGGLER
     battletype SINGLE_BATTLE
@@ -18480,7 +18833,7 @@ trainerdata 527, "Irwin"
         ballseal 0
     endparty
 
-trainerdata 528, "Dana"
+trainerdata 528 // Dana
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -18517,7 +18870,7 @@ trainerdata 528, "Dana"
         ballseal 0
     endparty
 
-trainerdata 529, "Mickey"
+trainerdata 529 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -18554,7 +18907,7 @@ trainerdata 529, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 530, "Brent"
+trainerdata 530 // Brent
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -18597,7 +18950,7 @@ trainerdata 530, "Brent"
         ballseal 0
     endparty
 
-trainerdata 531, "Mickey"
+trainerdata 531 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -18634,7 +18987,7 @@ trainerdata 531, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 532, "Mickey"
+trainerdata 532 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -18693,7 +19046,7 @@ trainerdata 532, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 533, "Wayne"
+trainerdata 533 // Wayne
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -18722,7 +19075,7 @@ trainerdata 533, "Wayne"
         ballseal 0
     endparty
 
-trainerdata 534, "Kimberly"
+trainerdata 534 // Kimberly
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -18744,7 +19097,7 @@ trainerdata 534, "Kimberly"
         ballseal 0
     endparty
 
-trainerdata 535, "Marigold"
+trainerdata 535 // Marigold
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     battletype SINGLE_BATTLE
@@ -18766,7 +19119,7 @@ trainerdata 535, "Marigold"
         ballseal 0
     endparty
 
-trainerdata 536, "Bertrand"
+trainerdata 536 // Bertrand
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -18802,7 +19155,7 @@ trainerdata 536, "Bertrand"
         ballseal 0
     endparty
 
-trainerdata 537, "Harrison"
+trainerdata 537 // Harrison
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     battletype SINGLE_BATTLE
@@ -18831,7 +19184,7 @@ trainerdata 537, "Harrison"
         ballseal 0
     endparty
 
-trainerdata 538, "Hugh"
+trainerdata 538 // Hugh
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -18857,7 +19210,7 @@ trainerdata 538, "Hugh"
         ballseal 0
     endparty
 
-trainerdata 539, "Markus"
+trainerdata 539 // Markus
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -18883,7 +19236,7 @@ trainerdata 539, "Markus"
         ballseal 0
     endparty
 
-trainerdata 540, "Rex"
+trainerdata 540 // Rex
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -18905,7 +19258,7 @@ trainerdata 540, "Rex"
         ballseal 0
     endparty
 
-trainerdata 541, "Andy"
+trainerdata 541 // Andy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -18927,7 +19280,7 @@ trainerdata 541, "Andy"
         ballseal 0
     endparty
 
-trainerdata 542, "Mickey"
+trainerdata 542 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -18964,7 +19317,7 @@ trainerdata 542, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 543, "Mickey"
+trainerdata 543 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -19001,7 +19354,7 @@ trainerdata 543, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 544, "Mickey"
+trainerdata 544 // Mickey
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAGE
     battletype SINGLE_BATTLE
@@ -19038,7 +19391,7 @@ trainerdata 544, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 545, "French"
+trainerdata 545 // French
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -19077,7 +19430,7 @@ trainerdata 545, "French"
         ballseal 0
     endparty
 
-trainerdata 546, "Sherman"
+trainerdata 546 // Sherman
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -19114,7 +19467,7 @@ trainerdata 546, "Sherman"
         ballseal 0
     endparty
 
-trainerdata 547, "Bruce"
+trainerdata 547 // Bruce
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -19150,7 +19503,7 @@ trainerdata 547, "Bruce"
         ballseal 0
     endparty
 
-trainerdata 548, "Manford"
+trainerdata 548 // Manford
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -19176,7 +19529,7 @@ trainerdata 548, "Manford"
         ballseal 0
     endparty
 
-trainerdata 549, "Zac & Jen"
+trainerdata 549 // Zac & Jen
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_DOUBLE_TEAM
     battletype SINGLE_BATTLE
@@ -19213,7 +19566,7 @@ trainerdata 549, "Zac & Jen"
         ballseal 0
     endparty
 
-trainerdata 550, "Ander"
+trainerdata 550 // Ander
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -19249,7 +19602,7 @@ trainerdata 550, "Ander"
         ballseal 0
     endparty
 
-trainerdata 551, "Dwight"
+trainerdata 551 // Dwight
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -19278,7 +19631,7 @@ trainerdata 551, "Dwight"
         ballseal 0
     endparty
 
-trainerdata 552, "Regis"
+trainerdata 552 // Regis
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -19307,7 +19660,7 @@ trainerdata 552, "Regis"
         ballseal 0
     endparty
 
-trainerdata 553, "Moe & Lulu"
+trainerdata 553 // Moe & Lulu
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
     battletype SINGLE_BATTLE
@@ -19336,7 +19689,7 @@ trainerdata 553, "Moe & Lulu"
         ballseal 0
     endparty
 
-trainerdata 554, "Milton"
+trainerdata 554 // Milton
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GENTLEMAN
     battletype SINGLE_BATTLE
@@ -19358,7 +19711,7 @@ trainerdata 554, "Milton"
         ballseal 0
     endparty
 
-trainerdata 555, "Justin"
+trainerdata 555 // Justin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -19387,7 +19740,7 @@ trainerdata 555, "Justin"
         ballseal 0
     endparty
 
-trainerdata 556, "Gail"
+trainerdata 556 // Gail
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -19416,7 +19769,7 @@ trainerdata 556, "Gail"
         ballseal 0
     endparty
 
-trainerdata 557, "Vic & Tara"
+trainerdata 557 // Vic & Tara
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNG_COUPLE
     battletype SINGLE_BATTLE
@@ -19453,7 +19806,7 @@ trainerdata 557, "Vic & Tara"
         ballseal 0
     endparty
 
-trainerdata 558, "Kyler"
+trainerdata 558 // Kyler
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -19489,7 +19842,7 @@ trainerdata 558, "Kyler"
         ballseal 0
     endparty
 
-trainerdata 559, "Tim & Sue"
+trainerdata 559 // Tim & Sue
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
     battletype SINGLE_BATTLE
@@ -19518,7 +19871,7 @@ trainerdata 559, "Tim & Sue"
         ballseal 0
     endparty
 
-trainerdata 560, "Clark"
+trainerdata 560 // Clark
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -19540,7 +19893,7 @@ trainerdata 560, "Clark"
         ballseal 0
     endparty
 
-trainerdata 561, "Tanner"
+trainerdata 561 // Tanner
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -19562,7 +19915,7 @@ trainerdata 561, "Tanner"
         ballseal 0
     endparty
 
-trainerdata 562, "Piper"
+trainerdata 562 // Piper
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -19584,7 +19937,7 @@ trainerdata 562, "Piper"
         ballseal 0
     endparty
 
-trainerdata 563, "Ginger"
+trainerdata 563 // Ginger
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -19606,7 +19959,7 @@ trainerdata 563, "Ginger"
         ballseal 0
     endparty
 
-trainerdata 564, "Clarice"
+trainerdata 564 // Clarice
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TEACHER
     battletype SINGLE_BATTLE
@@ -19645,7 +19998,7 @@ trainerdata 564, "Clarice"
         ballseal 0
     endparty
 
-trainerdata 565, "Josh"
+trainerdata 565 // Josh
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -19667,7 +20020,7 @@ trainerdata 565, "Josh"
         ballseal 0
     endparty
 
-trainerdata 566, "Connor"
+trainerdata 566 // Connor
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -19694,7 +20047,7 @@ trainerdata 566, "Connor"
         ballseal 0
     endparty
 
-trainerdata 567, "Torin"
+trainerdata 567 // Torin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -19723,7 +20076,7 @@ trainerdata 567, "Torin"
         ballseal 0
     endparty
 
-trainerdata 568, "Travis"
+trainerdata 568 // Travis
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -19749,7 +20102,7 @@ trainerdata 568, "Travis"
         ballseal 0
     endparty
 
-trainerdata 569, "Kay & Tia"
+trainerdata 569 // Kay & Tia
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -19786,7 +20139,7 @@ trainerdata 569, "Kay & Tia"
         ballseal 0
     endparty
 
-trainerdata 570, "Boone"
+trainerdata 570 // Boone
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -19815,7 +20168,7 @@ trainerdata 570, "Boone"
         ballseal 0
     endparty
 
-trainerdata 571, "Eleanor"
+trainerdata 571 // Eleanor
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     battletype SINGLE_BATTLE
@@ -19844,7 +20197,7 @@ trainerdata 571, "Eleanor"
         ballseal 0
     endparty
 
-trainerdata 572, "Dale"
+trainerdata 572 // Dale
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -19867,7 +20220,7 @@ trainerdata 572, "Dale"
         ballseal 0
     endparty
 
-trainerdata 573, "Jacob"
+trainerdata 573 // Jacob
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -19896,7 +20249,7 @@ trainerdata 573, "Jacob"
         ballseal 0
     endparty
 
-trainerdata 574, "Aiden"
+trainerdata 574 // Aiden
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -19918,7 +20271,7 @@ trainerdata 574, "Aiden"
         ballseal 0
     endparty
 
-trainerdata 575, "Dan"
+trainerdata 575 // Dan
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -19954,7 +20307,7 @@ trainerdata 575, "Dan"
         ballseal 0
     endparty
 
-trainerdata 576, "Theron"
+trainerdata 576 // Theron
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -19976,7 +20329,7 @@ trainerdata 576, "Theron"
         ballseal 0
     endparty
 
-trainerdata 577, "Markey"
+trainerdata 577 // Markey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -19998,7 +20351,7 @@ trainerdata 577, "Markey"
         ballseal 0
     endparty
 
-trainerdata 578, "Teddy"
+trainerdata 578 // Teddy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -20020,7 +20373,7 @@ trainerdata 578, "Teddy"
         ballseal 0
     endparty
 
-trainerdata 579, "Ernest"
+trainerdata 579 // Ernest
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -20049,7 +20402,7 @@ trainerdata 579, "Ernest"
         ballseal 0
     endparty
 
-trainerdata 580, "Pedro"
+trainerdata 580 // Pedro
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -20076,7 +20429,7 @@ trainerdata 580, "Pedro"
         ballseal 0
     endparty
 
-trainerdata 581, "Adrian"
+trainerdata 581 // Adrian
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -20098,7 +20451,7 @@ trainerdata 581, "Adrian"
         ballseal 0
     endparty
 
-trainerdata 582, "Cheyenne"
+trainerdata 582 // Cheyenne
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -20120,7 +20473,7 @@ trainerdata 582, "Cheyenne"
         ballseal 0
     endparty
 
-trainerdata 583, "Bert"
+trainerdata 583 // Bert
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -20149,7 +20502,7 @@ trainerdata 583, "Bert"
         ballseal 0
     endparty
 
-trainerdata 584, "Ernie"
+trainerdata 584 // Ernie
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -20171,7 +20524,7 @@ trainerdata 584, "Ernie"
         ballseal 0
     endparty
 
-trainerdata 585, "Elmo"
+trainerdata 585 // Elmo
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -20200,7 +20553,7 @@ trainerdata 585, "Elmo"
         ballseal 0
     endparty
 
-trainerdata 586, "Luis"
+trainerdata 586 // Luis
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -20229,7 +20582,7 @@ trainerdata 586, "Luis"
         ballseal 0
     endparty
 
-trainerdata 587, "Leona"
+trainerdata 587 // Leona
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -20251,7 +20604,7 @@ trainerdata 587, "Leona"
         ballseal 0
     endparty
 
-trainerdata 588, "Mina"
+trainerdata 588 // Mina
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -20287,7 +20640,7 @@ trainerdata 588, "Mina"
         ballseal 0
     endparty
 
-trainerdata 589, "Murphy"
+trainerdata 589 // Murphy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -20330,7 +20683,7 @@ trainerdata 589, "Murphy"
         ballseal 0
     endparty
 
-trainerdata 590, "Liam"
+trainerdata 590 // Liam
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -20352,7 +20705,7 @@ trainerdata 590, "Liam"
         ballseal 0
     endparty
 
-trainerdata 591, "Gideon"
+trainerdata 591 // Gideon
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -20389,7 +20742,7 @@ trainerdata 591, "Gideon"
         ballseal 0
     endparty
 
-trainerdata 592, "Chelan"
+trainerdata 592 // Chelan
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -20415,7 +20768,7 @@ trainerdata 592, "Chelan"
         ballseal 0
     endparty
 
-trainerdata 593, "Kendra"
+trainerdata 593 // Kendra
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -20437,7 +20790,7 @@ trainerdata 593, "Kendra"
         ballseal 0
     endparty
 
-trainerdata 594, "Esteban"
+trainerdata 594 // Esteban
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -20466,7 +20819,7 @@ trainerdata 594, "Esteban"
         ballseal 0
     endparty
 
-trainerdata 595, "Duane"
+trainerdata 595 // Duane
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     battletype SINGLE_BATTLE
@@ -20495,7 +20848,7 @@ trainerdata 595, "Duane"
         ballseal 0
     endparty
 
-trainerdata 596, "Kinsley"
+trainerdata 596 // Kinsley
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -20531,7 +20884,7 @@ trainerdata 596, "Kinsley"
         ballseal 0
     endparty
 
-trainerdata 597, "Easton"
+trainerdata 597 // Easton
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -20574,7 +20927,7 @@ trainerdata 597, "Easton"
         ballseal 0
     endparty
 
-trainerdata 598, "Day & Dani"
+trainerdata 598 // Day & Dani
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -20603,7 +20956,7 @@ trainerdata 598, "Day & Dani"
         ballseal 0
     endparty
 
-trainerdata 599, "Virgil"
+trainerdata 599 // Virgil
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -20625,7 +20978,7 @@ trainerdata 599, "Virgil"
         ballseal 0
     endparty
 
-trainerdata 600, "Selina"
+trainerdata 600 // Selina
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -20647,7 +21000,7 @@ trainerdata 600, "Selina"
         ballseal 0
     endparty
 
-trainerdata 601, "Grunt"
+trainerdata 601 // Grunt - Ecruteak Dance Theater
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -20664,12 +21017,12 @@ trainerdata 601, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 12
+        level 18
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty
 
-trainerdata 602, "Jose"
+trainerdata 602 // Jose
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -20705,7 +21058,7 @@ trainerdata 602, "Jose"
         ballseal 0
     endparty
 
-trainerdata 603, "Erin"
+trainerdata 603 // Erin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     battletype SINGLE_BATTLE
@@ -20748,7 +21101,7 @@ trainerdata 603, "Erin"
         ballseal 0
     endparty
 
-trainerdata 604, "Gaven"
+trainerdata 604 // Gaven
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -20796,7 +21149,7 @@ trainerdata 604, "Gaven"
         ballseal 0
     endparty
 
-trainerdata 605, "Kenji"
+trainerdata 605 // Kenji
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     battletype SINGLE_BATTLE
@@ -20813,7 +21166,7 @@ trainerdata 605, "Kenji"
         // mon 0
         ivs 30
         abilityslot 0
-        level 41
+        level 49
         pokemon SPECIES_ONIX
         ballseal 0
 
@@ -20839,7 +21192,7 @@ trainerdata 605, "Kenji"
         ballseal 0
     endparty
 
-trainerdata 606, "Parry"
+trainerdata 606 // Parry
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -20868,7 +21221,7 @@ trainerdata 606, "Parry"
         ballseal 0
     endparty
 
-trainerdata 607, "Reena"
+trainerdata 607 // Reena
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -20916,7 +21269,7 @@ trainerdata 607, "Reena"
         ballseal 0
     endparty
 
-trainerdata 608, "Wilton"
+trainerdata 608 // Wilton
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -20952,7 +21305,7 @@ trainerdata 608, "Wilton"
         ballseal 0
     endparty
 
-trainerdata 609, "Jamie"
+trainerdata 609 // Jamie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -20989,7 +21342,7 @@ trainerdata 609, "Jamie"
         ballseal 0
     endparty
 
-trainerdata 610, "Derek"
+trainerdata 610 // Derek
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     battletype SINGLE_BATTLE
@@ -21032,7 +21385,7 @@ trainerdata 610, "Derek"
         ballseal 0
     endparty
 
-trainerdata 611, "Beverly"
+trainerdata 611 // Beverly
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     battletype SINGLE_BATTLE
@@ -21054,7 +21407,7 @@ trainerdata 611, "Beverly"
         ballseal 0
     endparty
 
-trainerdata 612, "Vance"
+trainerdata 612 // Vance
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -21090,7 +21443,7 @@ trainerdata 612, "Vance"
         ballseal 0
     endparty
 
-trainerdata 613, "Krise"
+trainerdata 613 // Krise
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -21119,7 +21472,7 @@ trainerdata 613, "Krise"
         ballseal 0
     endparty
 
-trainerdata 614, "Krise"
+trainerdata 614 // Krise
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -21148,7 +21501,7 @@ trainerdata 614, "Krise"
         ballseal 0
     endparty
 
-trainerdata 615, "Krise"
+trainerdata 615 // Krise
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     battletype SINGLE_BATTLE
@@ -21177,7 +21530,7 @@ trainerdata 615, "Krise"
         ballseal 0
     endparty
 
-trainerdata 616, "Ian"
+trainerdata 616 // Ian
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -21206,7 +21559,7 @@ trainerdata 616, "Ian"
         ballseal 0
     endparty
 
-trainerdata 617, "Ian"
+trainerdata 617 // Ian
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -21235,7 +21588,7 @@ trainerdata 617, "Ian"
         ballseal 0
     endparty
 
-trainerdata 618, "Ian"
+trainerdata 618 // Ian
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
@@ -21264,7 +21617,7 @@ trainerdata 618, "Ian"
         ballseal 0
     endparty
 
-trainerdata 619, "Walt"
+trainerdata 619 // Walt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -21293,7 +21646,7 @@ trainerdata 619, "Walt"
         ballseal 0
     endparty
 
-trainerdata 620, "Walt"
+trainerdata 620 // Walt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -21322,7 +21675,7 @@ trainerdata 620, "Walt"
         ballseal 0
     endparty
 
-trainerdata 621, "Walt"
+trainerdata 621 // Walt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     battletype SINGLE_BATTLE
@@ -21358,7 +21711,7 @@ trainerdata 621, "Walt"
         ballseal 0
     endparty
 
-trainerdata 622, "Doug"
+trainerdata 622 // Doug
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -21387,7 +21740,7 @@ trainerdata 622, "Doug"
         ballseal 0
     endparty
 
-trainerdata 623, "Doug"
+trainerdata 623 // Doug
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -21416,7 +21769,7 @@ trainerdata 623, "Doug"
         ballseal 0
     endparty
 
-trainerdata 624, "Doug"
+trainerdata 624 // Doug
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -21445,7 +21798,7 @@ trainerdata 624, "Doug"
         ballseal 0
     endparty
 
-trainerdata 625, "Rob"
+trainerdata 625 // Rob
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -21474,7 +21827,7 @@ trainerdata 625, "Rob"
         ballseal 0
     endparty
 
-trainerdata 626, "Rob"
+trainerdata 626 // Rob
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -21503,7 +21856,7 @@ trainerdata 626, "Rob"
         ballseal 0
     endparty
 
-trainerdata 627, "Rob"
+trainerdata 627 // Rob
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -21532,7 +21885,7 @@ trainerdata 627, "Rob"
         ballseal 0
     endparty
 
-trainerdata 628, "Reese"
+trainerdata 628 // Reese
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -21569,7 +21922,7 @@ trainerdata 628, "Reese"
         ballseal 0
     endparty
 
-trainerdata 629, "Reese"
+trainerdata 629 // Reese
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -21606,7 +21959,7 @@ trainerdata 629, "Reese"
         ballseal 0
     endparty
 
-trainerdata 630, "Reese"
+trainerdata 630 // Reese
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -21643,7 +21996,7 @@ trainerdata 630, "Reese"
         ballseal 0
     endparty
 
-trainerdata 631, "Aiden"
+trainerdata 631 // Aiden
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -21672,7 +22025,7 @@ trainerdata 631, "Aiden"
         ballseal 0
     endparty
 
-trainerdata 632, "Aiden"
+trainerdata 632 // Aiden
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -21701,7 +22054,7 @@ trainerdata 632, "Aiden"
         ballseal 0
     endparty
 
-trainerdata 633, "Aiden"
+trainerdata 633 // Aiden
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -21737,7 +22090,7 @@ trainerdata 633, "Aiden"
         ballseal 0
     endparty
 
-trainerdata 634, "Ernest"
+trainerdata 634 // Ernest
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -21766,7 +22119,7 @@ trainerdata 634, "Ernest"
         ballseal 0
     endparty
 
-trainerdata 635, "Ernest"
+trainerdata 635 // Ernest
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -21795,7 +22148,7 @@ trainerdata 635, "Ernest"
         ballseal 0
     endparty
 
-trainerdata 636, "Ernest"
+trainerdata 636 // Ernest
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     battletype SINGLE_BATTLE
@@ -21824,7 +22177,7 @@ trainerdata 636, "Ernest"
         ballseal 0
     endparty
 
-trainerdata 637, "Hillary"
+trainerdata 637 // Hillary
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     battletype SINGLE_BATTLE
@@ -21853,7 +22206,7 @@ trainerdata 637, "Hillary"
         ballseal 0
     endparty
 
-trainerdata 638, "Hillary"
+trainerdata 638 // Hillary
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     battletype SINGLE_BATTLE
@@ -21882,7 +22235,7 @@ trainerdata 638, "Hillary"
         ballseal 0
     endparty
 
-trainerdata 639, "Hillary"
+trainerdata 639 // Hillary
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     battletype SINGLE_BATTLE
@@ -21911,7 +22264,7 @@ trainerdata 639, "Hillary"
         ballseal 0
     endparty
 
-trainerdata 640, "Billy"
+trainerdata 640 // Billy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -21947,7 +22300,7 @@ trainerdata 640, "Billy"
         ballseal 0
     endparty
 
-trainerdata 641, "Billy"
+trainerdata 641 // Billy
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -21983,7 +22336,7 @@ trainerdata 641, "Billy"
         ballseal 0
     endparty
 
-trainerdata 642, "Billy"
+trainerdata 642 // Billy
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -22042,7 +22395,7 @@ trainerdata 642, "Billy"
         ballseal 0
     endparty
 
-trainerdata 643, "Kay & Tia"
+trainerdata 643 // Kay & Tia
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -22079,7 +22432,7 @@ trainerdata 643, "Kay & Tia"
         ballseal 0
     endparty
 
-trainerdata 644, "Kay & Tia"
+trainerdata 644 // Kay & Tia
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -22116,7 +22469,7 @@ trainerdata 644, "Kay & Tia"
         ballseal 0
     endparty
 
-trainerdata 645, "Kay & Tia"
+trainerdata 645 // Kay & Tia
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     battletype SINGLE_BATTLE
@@ -22153,7 +22506,7 @@ trainerdata 645, "Kay & Tia"
         ballseal 0
     endparty
 
-trainerdata 646, "Josh"
+trainerdata 646 // Josh
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -22182,7 +22535,7 @@ trainerdata 646, "Josh"
         ballseal 0
     endparty
 
-trainerdata 647, "Josh"
+trainerdata 647 // Josh
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -22211,7 +22564,7 @@ trainerdata 647, "Josh"
         ballseal 0
     endparty
 
-trainerdata 648, "Josh"
+trainerdata 648 // Josh
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     battletype SINGLE_BATTLE
@@ -22240,7 +22593,7 @@ trainerdata 648, "Josh"
         ballseal 0
     endparty
 
-trainerdata 649, "Torin"
+trainerdata 649 // Torin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -22276,7 +22629,7 @@ trainerdata 649, "Torin"
         ballseal 0
     endparty
 
-trainerdata 650, "Torin"
+trainerdata 650 // Torin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -22312,7 +22665,7 @@ trainerdata 650, "Torin"
         ballseal 0
     endparty
 
-trainerdata 651, "Torin"
+trainerdata 651 // Torin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     battletype SINGLE_BATTLE
@@ -22348,7 +22701,7 @@ trainerdata 651, "Torin"
         ballseal 0
     endparty
 
-trainerdata 652, "Tim & Sue"
+trainerdata 652 // Tim & Sue
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
     battletype SINGLE_BATTLE
@@ -22377,7 +22730,7 @@ trainerdata 652, "Tim & Sue"
         ballseal 0
     endparty
 
-trainerdata 653, "Tim & Sue"
+trainerdata 653 // Tim & Sue
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNG_COUPLE
     battletype SINGLE_BATTLE
@@ -22414,7 +22767,7 @@ trainerdata 653, "Tim & Sue"
         ballseal 0
     endparty
 
-trainerdata 654, "Tim & Sue"
+trainerdata 654 // Tim & Sue
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNG_COUPLE
     battletype SINGLE_BATTLE
@@ -22451,7 +22804,7 @@ trainerdata 654, "Tim & Sue"
         ballseal 0
     endparty
 
-trainerdata 655, "Kenny"
+trainerdata 655 // Kenny
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -22494,7 +22847,7 @@ trainerdata 655, "Kenny"
         ballseal 0
     endparty
 
-trainerdata 656, "Kenny"
+trainerdata 656 // Kenny
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -22537,7 +22890,7 @@ trainerdata 656, "Kenny"
         ballseal 0
     endparty
 
-trainerdata 657, "Kenny"
+trainerdata 657 // Kenny
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -22580,7 +22933,7 @@ trainerdata 657, "Kenny"
         ballseal 0
     endparty
 
-trainerdata 658, "Tanner"
+trainerdata 658 // Tanner
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -22609,7 +22962,7 @@ trainerdata 658, "Tanner"
         ballseal 0
     endparty
 
-trainerdata 659, "Tanner"
+trainerdata 659 // Tanner
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -22645,7 +22998,7 @@ trainerdata 659, "Tanner"
         ballseal 0
     endparty
 
-trainerdata 660, "Tanner"
+trainerdata 660 // Tanner
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -22681,7 +23034,7 @@ trainerdata 660, "Tanner"
         ballseal 0
     endparty
 
-trainerdata 661, "Kyle"
+trainerdata 661 // Kyle
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -22717,7 +23070,7 @@ trainerdata 661, "Kyle"
         ballseal 0
     endparty
 
-trainerdata 662, "Kyle"
+trainerdata 662 // Kyle
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -22760,7 +23113,7 @@ trainerdata 662, "Kyle"
         ballseal 0
     endparty
 
-trainerdata 663, "Kyle"
+trainerdata 663 // Kyle
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -22803,7 +23156,7 @@ trainerdata 663, "Kyle"
         ballseal 0
     endparty
 
-trainerdata 664, "Kyler"
+trainerdata 664 // Kyler
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -22846,7 +23199,7 @@ trainerdata 664, "Kyler"
         ballseal 0
     endparty
 
-trainerdata 665, "Kyler"
+trainerdata 665 // Kyler
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -22896,7 +23249,7 @@ trainerdata 665, "Kyler"
         ballseal 0
     endparty
 
-trainerdata 666, "Kyler"
+trainerdata 666 // Kyler
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     battletype SINGLE_BATTLE
@@ -22953,7 +23306,7 @@ trainerdata 666, "Kyler"
         ballseal 0
     endparty
 
-trainerdata 667, "Cheryl"
+trainerdata 667 // Cheryl
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_2
     battletype SINGLE_BATTLE
@@ -23028,7 +23381,7 @@ trainerdata 667, "Cheryl"
         ballseal 0
     endparty
 
-trainerdata 668, "Marley"
+trainerdata 668 // Marley
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_4
     battletype SINGLE_BATTLE
@@ -23103,7 +23456,7 @@ trainerdata 668, "Marley"
         ballseal 0
     endparty
 
-trainerdata 669, "Mira"
+trainerdata 669 // Mira
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_6
     battletype SINGLE_BATTLE
@@ -23178,7 +23531,7 @@ trainerdata 669, "Mira"
         ballseal 0
     endparty
 
-trainerdata 670, "Riley"
+trainerdata 670 // Riley
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_3
     battletype SINGLE_BATTLE
@@ -23253,7 +23606,7 @@ trainerdata 670, "Riley"
         ballseal 0
     endparty
 
-trainerdata 671, "Buck"
+trainerdata 671 // Buck
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_5
     battletype SINGLE_BATTLE
@@ -23328,7 +23681,7 @@ trainerdata 671, "Buck"
         ballseal 0
     endparty
 
-trainerdata 672, "Alfred"
+trainerdata 672 // Alfred
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GENTLEMAN
     battletype SINGLE_BATTLE
@@ -23348,9 +23701,16 @@ trainerdata 672, "Alfred"
         level 36
         pokemon SPECIES_NOCTOWL
         ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GARDEVOIR
+        ballseal 0
     endparty
 
-trainerdata 673, "Alfred"
+trainerdata 673 // Alfred
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GENTLEMAN
     battletype SINGLE_BATTLE
@@ -23370,9 +23730,16 @@ trainerdata 673, "Alfred"
         level 42
         pokemon SPECIES_NOCTOWL
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_GARDEVOIR
+        ballseal 0
     endparty
 
-trainerdata 674, "Alfred"
+trainerdata 674 // Alfred
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_GENTLEMAN
     battletype SINGLE_BATTLE
@@ -23396,9 +23763,20 @@ trainerdata 674, "Alfred"
         move MOVE_AIR_SLASH
         move MOVE_REFLECT
         ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_GARDEVOIR
+        move MOVE_CALM_MIND
+        move MOVE_PSYCHIC
+        move MOVE_THUNDER_PUNCH
+        move MOVE_MYSTICAL_FIRE
+        ballseal 0
     endparty
 
-trainerdata 675, "Lance"
+trainerdata 675 // Lance
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_10
     battletype SINGLE_BATTLE
@@ -23424,7 +23802,7 @@ trainerdata 675, "Lance"
         ballseal 0
     endparty
 
-trainerdata 676, "Parker"
+trainerdata 676 // Parker
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -23461,7 +23839,7 @@ trainerdata 676, "Parker"
         ballseal 0
     endparty
 
-trainerdata 677, "Eddie"
+trainerdata 677 // Eddie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     battletype SINGLE_BATTLE
@@ -23487,7 +23865,7 @@ trainerdata 677, "Eddie"
         ballseal 0
     endparty
 
-trainerdata 678, "Joy"
+trainerdata 678 // Joy
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     battletype SINGLE_BATTLE
@@ -23513,7 +23891,7 @@ trainerdata 678, "Joy"
         ballseal 0
     endparty
 
-trainerdata 679, "Callie"
+trainerdata 679 // Callie
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -23530,7 +23908,7 @@ trainerdata 679, "Callie"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_CLEFABLE
         move MOVE_GROWL
         move MOVE_ENCORE
@@ -23541,7 +23919,7 @@ trainerdata 679, "Callie"
         // mon 1
         ivs 0
         abilityslot 0
-        level 16
+        level 19
         pokemon SPECIES_WIGGLYTUFF
         move MOVE_SING
         move MOVE_DEFENSE_CURL
@@ -23550,7 +23928,7 @@ trainerdata 679, "Callie"
         ballseal 0
     endparty
 
-trainerdata 680, "Kassandra"
+trainerdata 680 // Kassandra
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -23567,7 +23945,7 @@ trainerdata 680, "Kassandra"
         // mon 0
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_WIGGLYTUFF
         move MOVE_SING
         move MOVE_DEFENSE_CURL
@@ -23578,7 +23956,7 @@ trainerdata 680, "Kassandra"
         // mon 1
         ivs 0
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_CLEFABLE
         move MOVE_GROWL
         move MOVE_ENCORE
@@ -23587,7 +23965,7 @@ trainerdata 680, "Kassandra"
         ballseal 0
     endparty
 
-trainerdata 681, "Arabella"
+trainerdata 681 // Arabella
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -23624,7 +24002,7 @@ trainerdata 681, "Arabella"
         ballseal 0
     endparty
 
-trainerdata 682, "Bonita"
+trainerdata 682 // Bonita
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     battletype SINGLE_BATTLE
@@ -23661,7 +24039,7 @@ trainerdata 682, "Bonita"
         ballseal 0
     endparty
 
-trainerdata 683, "Salma"
+trainerdata 683 // Salma
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     battletype SINGLE_BATTLE
@@ -23700,7 +24078,7 @@ trainerdata 683, "Salma"
         ballseal 0
     endparty
 
-trainerdata 684, "Elan & Ida"
+trainerdata 684 // Elan & Ida
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_DOUBLE_TEAM
     battletype SINGLE_BATTLE
@@ -23739,7 +24117,7 @@ trainerdata 684, "Elan & Ida"
         ballseal 0
     endparty
 
-trainerdata 685, "Edwin"
+trainerdata 685 // Edwin
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -23765,7 +24143,7 @@ trainerdata 685, "Edwin"
         ballseal 0
     endparty
 
-trainerdata 686, "Bryce"
+trainerdata 686 // Bryce
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
     battletype SINGLE_BATTLE
@@ -23794,7 +24172,7 @@ trainerdata 686, "Bryce"
         ballseal 0
     endparty
 
-trainerdata 687, "Shaun"
+trainerdata 687 // Shaun
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
     battletype SINGLE_BATTLE
@@ -23823,7 +24201,7 @@ trainerdata 687, "Shaun"
         ballseal 0
     endparty
 
-trainerdata 688, "Cady"
+trainerdata 688 // Cady
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SKIER
     battletype SINGLE_BATTLE
@@ -23845,7 +24223,7 @@ trainerdata 688, "Cady"
         ballseal 0
     endparty
 
-trainerdata 689, "Cary"
+trainerdata 689 // Cary
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -23871,7 +24249,7 @@ trainerdata 689, "Cary"
         ballseal 0
     endparty
 
-trainerdata 690, "Waldo"
+trainerdata 690 // Waldo
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -23897,7 +24275,7 @@ trainerdata 690, "Waldo"
         ballseal 0
     endparty
 
-trainerdata 691, "Merle"
+trainerdata 691 // Merle
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     battletype SINGLE_BATTLE
@@ -23923,7 +24301,7 @@ trainerdata 691, "Merle"
         ballseal 0
     endparty
 
-trainerdata 692, "Lowell"
+trainerdata 692 // Lowell
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
     battletype SINGLE_BATTLE
@@ -23949,7 +24327,7 @@ trainerdata 692, "Lowell"
         ballseal 0
     endparty
 
-trainerdata 693, "Linden"
+trainerdata 693 // Linden
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
     battletype SINGLE_BATTLE
@@ -23975,7 +24353,7 @@ trainerdata 693, "Linden"
         ballseal 0
     endparty
 
-trainerdata 694, "Daniel"
+trainerdata 694 // Daniel
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
     battletype SINGLE_BATTLE
@@ -24001,7 +24379,7 @@ trainerdata 694, "Daniel"
         ballseal 0
     endparty
 
-trainerdata 695, "Dane"
+trainerdata 695 // Dane
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -24030,7 +24408,7 @@ trainerdata 695, "Dane"
         ballseal 0
     endparty
 
-trainerdata 696, "Dion"
+trainerdata 696 // Dion
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -24052,7 +24430,7 @@ trainerdata 696, "Dion"
         ballseal 0
     endparty
 
-trainerdata 697, "Stacey"
+trainerdata 697 // Stacey
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -24088,7 +24466,7 @@ trainerdata 697, "Stacey"
         ballseal 0
     endparty
 
-trainerdata 698, "Ellis"
+trainerdata 698 // Ellis
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -24124,7 +24502,7 @@ trainerdata 698, "Ellis"
         ballseal 0
     endparty
 
-trainerdata 699, "Abner"
+trainerdata 699 // Abner
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     battletype SINGLE_BATTLE
@@ -24160,7 +24538,7 @@ trainerdata 699, "Abner"
         ballseal 0
     endparty
 
-trainerdata 700, "Giovanni"
+trainerdata 700 // Giovanni
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ROCKET_BOSS
     battletype SINGLE_BATTLE
@@ -24223,7 +24601,7 @@ trainerdata 700, "Giovanni"
         ballseal 0
     endparty
 
-trainerdata 701, "Lance"
+trainerdata 701 // Lance
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CHAMPION
     battletype SINGLE_BATTLE
@@ -24310,7 +24688,7 @@ trainerdata 701, "Lance"
         ballseal 0
     endparty
 
-trainerdata 702, "Will"
+trainerdata 702 // Will
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_0
     battletype SINGLE_BATTLE
@@ -24397,7 +24775,7 @@ trainerdata 702, "Will"
         ballseal 0
     endparty
 
-trainerdata 703, "Koga"
+trainerdata 703 // Koga
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_2
     battletype SINGLE_BATTLE
@@ -24484,7 +24862,7 @@ trainerdata 703, "Koga"
         ballseal 0
     endparty
 
-trainerdata 704, "Bruno"
+trainerdata 704 // Bruno
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_3
     battletype SINGLE_BATTLE
@@ -24571,7 +24949,7 @@ trainerdata 704, "Bruno"
         ballseal 0
     endparty
 
-trainerdata 705, "Karen"
+trainerdata 705 // Karen
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_1
     battletype SINGLE_BATTLE
@@ -24658,7 +25036,7 @@ trainerdata 705, "Karen"
         ballseal 0
     endparty
 
-trainerdata 706, "Proton"
+trainerdata 706 // Proton - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE_1
     battletype SINGLE_BATTLE
@@ -24675,7 +25053,7 @@ trainerdata 706, "Proton"
         // mon 0
         ivs 100
         abilityslot 0
-        level 28
+        level 32
         pokemon SPECIES_GOLBAT
         move MOVE_LEECH_LIFE
         move MOVE_BITE
@@ -24686,7 +25064,7 @@ trainerdata 706, "Proton"
         // mon 1
         ivs 100
         abilityslot 0
-        level 33
+        level 34
         pokemon SPECIES_WEEZING
         move MOVE_DOUBLE_HIT
         move MOVE_SLUDGE
@@ -24695,7 +25073,7 @@ trainerdata 706, "Proton"
         ballseal 0
     endparty
 
-trainerdata 707, "Palmer"
+trainerdata 707 // Palmer
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TOWER_TYCOON
     battletype SINGLE_BATTLE
@@ -24717,7 +25095,7 @@ trainerdata 707, "Palmer"
         ballseal 0
     endparty
 
-trainerdata 708, "Argenta"
+trainerdata 708 // Argenta
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HALL_MATRON
     battletype SINGLE_BATTLE
@@ -24739,7 +25117,7 @@ trainerdata 708, "Argenta"
         ballseal 0
     endparty
 
-trainerdata 709, "Thorton"
+trainerdata 709 // Thorton
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FACTORY_HEAD
     battletype SINGLE_BATTLE
@@ -24761,7 +25139,7 @@ trainerdata 709, "Thorton"
         ballseal 0
     endparty
 
-trainerdata 710, "Dahlia"
+trainerdata 710 // Dahlia
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ARCADE_STAR
     battletype SINGLE_BATTLE
@@ -24783,7 +25161,7 @@ trainerdata 710, "Dahlia"
         ballseal 0
     endparty
 
-trainerdata 711, "Darach"
+trainerdata 711 // Darach
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CASTLE_VALET
     battletype SINGLE_BATTLE
@@ -24805,7 +25183,7 @@ trainerdata 711, "Darach"
         ballseal 0
     endparty
 
-trainerdata 712, "Falkner"
+trainerdata 712 // Falkner
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_M
     battletype SINGLE_BATTLE
@@ -24892,7 +25270,7 @@ trainerdata 712, "Falkner"
         ballseal 0
     endparty
 
-trainerdata 713, "Bugsy"
+trainerdata 713 // Bugsy
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_F
     battletype SINGLE_BATTLE
@@ -24979,7 +25357,7 @@ trainerdata 713, "Bugsy"
         ballseal 0
     endparty
 
-trainerdata 714, "Whitney"
+trainerdata 714 // Whitney
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER
     battletype SINGLE_BATTLE
@@ -25066,7 +25444,7 @@ trainerdata 714, "Whitney"
         ballseal 0
     endparty
 
-trainerdata 715, "Morty"
+trainerdata 715 // Morty
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_0
     battletype SINGLE_BATTLE
@@ -25153,7 +25531,7 @@ trainerdata 715, "Morty"
         ballseal 0
     endparty
 
-trainerdata 716, "Pryce"
+trainerdata 716 // Pryce
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_1
     battletype SINGLE_BATTLE
@@ -25240,7 +25618,7 @@ trainerdata 716, "Pryce"
         ballseal 0
     endparty
 
-trainerdata 717, "Jasmine"
+trainerdata 717 // Jasmine
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_2
     battletype SINGLE_BATTLE
@@ -25327,7 +25705,7 @@ trainerdata 717, "Jasmine"
         ballseal 0
     endparty
 
-trainerdata 718, "Chuck"
+trainerdata 718 // Chuck
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_3
     battletype SINGLE_BATTLE
@@ -25346,7 +25724,7 @@ trainerdata 718, "Chuck"
         abilityslot 0
         level 54
         pokemon SPECIES_MEDICHAM
-        item ITEM_SITRUS_BERRY
+        item ITEM_WIDE_LENS
         move MOVE_HI_JUMP_KICK
         move MOVE_PSYCHO_CUT
         move MOVE_ATTRACT
@@ -25414,7 +25792,7 @@ trainerdata 718, "Chuck"
         ballseal 0
     endparty
 
-trainerdata 719, "Clair"
+trainerdata 719 // Clair
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_4
     battletype SINGLE_BATTLE
@@ -25436,8 +25814,8 @@ trainerdata 719, "Clair"
         item ITEM_WACAN_BERRY
         move MOVE_DRAGON_DANCE
         move MOVE_EARTHQUAKE
-        move MOVE_WATERFALL
-        move MOVE_DRAGON_PULSE
+        move MOVE_AQUA_TAIL
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 1
@@ -25470,10 +25848,10 @@ trainerdata 719, "Clair"
         level 56
         pokemon SPECIES_KINGDRA
         item ITEM_NONE
-        move MOVE_YAWN
+        move MOVE_SWIFT
         move MOVE_HYDRO_PUMP
         move MOVE_ICE_BEAM
-        move MOVE_DRAGON_BREATH
+        move MOVE_DRAGON_PULSE
         ballseal 0
 
         // mon 4
@@ -25501,7 +25879,7 @@ trainerdata 719, "Clair"
         ballseal 0
     endparty
 
-trainerdata 720, "Brock"
+trainerdata 720 // Brock
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_5
     battletype SINGLE_BATTLE
@@ -25588,7 +25966,7 @@ trainerdata 720, "Brock"
         ballseal 0
     endparty
 
-trainerdata 721, "Misty"
+trainerdata 721 // Misty
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_6
     battletype SINGLE_BATTLE
@@ -25675,7 +26053,7 @@ trainerdata 721, "Misty"
         ballseal 0
     endparty
 
-trainerdata 722, "Lt. Surge"
+trainerdata 722 // Lt. Surge
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_7
     battletype SINGLE_BATTLE
@@ -25762,7 +26140,7 @@ trainerdata 722, "Lt. Surge"
         ballseal 0
     endparty
 
-trainerdata 723, "Erika"
+trainerdata 723 // Erika
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_8
     battletype SINGLE_BATTLE
@@ -25849,7 +26227,7 @@ trainerdata 723, "Erika"
         ballseal 0
     endparty
 
-trainerdata 724, "Janine"
+trainerdata 724 // Janine
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_9
     battletype SINGLE_BATTLE
@@ -25936,7 +26314,7 @@ trainerdata 724, "Janine"
         ballseal 0
     endparty
 
-trainerdata 725, "Sabrina"
+trainerdata 725 // Sabrina
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_10
     battletype SINGLE_BATTLE
@@ -26023,7 +26401,7 @@ trainerdata 725, "Sabrina"
         ballseal 0
     endparty
 
-trainerdata 726, "Blaine"
+trainerdata 726 // Blaine
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_11
     battletype SINGLE_BATTLE
@@ -26110,7 +26488,7 @@ trainerdata 726, "Blaine"
         ballseal 0
     endparty
 
-trainerdata 727, "Blue"
+trainerdata 727 // Blue
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_12
     battletype SINGLE_BATTLE
@@ -26197,7 +26575,7 @@ trainerdata 727, "Blue"
         ballseal 0
     endparty
 
-trainerdata 728, "Charlotte"
+trainerdata 728 // Charlotte
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     battletype SINGLE_BATTLE
@@ -26219,7 +26597,7 @@ trainerdata 728, "Charlotte"
         ballseal 1
     endparty
 
-trainerdata 729, "Duff & Eda"
+trainerdata 729 // Duff & Eda
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
     battletype SINGLE_BATTLE
@@ -26236,19 +26614,19 @@ trainerdata 729, "Duff & Eda"
         // mon 0
         ivs 0
         abilityslot 32
-        level 22
+        level 31
         pokemon SPECIES_ONIX
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 22
+        level 31
         pokemon SPECIES_CLOYSTER
         ballseal 0
     endparty
 
-trainerdata 730, "Thom & Kae"
+trainerdata 730 // Thom & Kae
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_DOUBLE_TEAM
     battletype SINGLE_BATTLE
@@ -26265,7 +26643,7 @@ trainerdata 730, "Thom & Kae"
         // mon 0
         ivs 50
         abilityslot 0
-        level 25
+        level 31
         pokemon SPECIES_ELECTABUZZ
         move MOVE_THUNDERBOLT
         move MOVE_LIGHT_SCREEN
@@ -26276,7 +26654,7 @@ trainerdata 730, "Thom & Kae"
         // mon 1
         ivs 50
         abilityslot 0
-        level 25
+        level 30
         pokemon SPECIES_MAGMAR
         move MOVE_FLAMETHROWER
         move MOVE_CONFUSE_RAY
@@ -26285,7 +26663,7 @@ trainerdata 730, "Thom & Kae"
         ballseal 0
     endparty
 
-trainerdata 731, "Devin"
+trainerdata 731 // Devin
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     battletype SINGLE_BATTLE
@@ -26302,26 +26680,26 @@ trainerdata 731, "Devin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 19
+        level 29
         pokemon SPECIES_DUNSPARCE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 19
+        level 29
         pokemon SPECIES_DUNSPARCE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 19
+        level 30
         pokemon SPECIES_DUNSPARCE
         ballseal 0
     endparty
 
-trainerdata 732, "Grant"
+trainerdata 732 // Grant
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     battletype SINGLE_BATTLE
@@ -26338,19 +26716,19 @@ trainerdata 732, "Grant"
         // mon 0
         ivs 0
         abilityslot 0
-        level 21
-        pokemon SPECIES_SKIPLOOM
+        level 30
+        pokemon SPECIES_JUMPLUFF
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 21
-        pokemon SPECIES_MARILL
+        level 29
+        pokemon SPECIES_AZUMARILL
         ballseal 0
     endparty
 
-trainerdata 733, "Lance"
+trainerdata 733 // Lance
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CHAMPION
     battletype SINGLE_BATTLE
@@ -26401,7 +26779,7 @@ trainerdata 733, "Lance"
         ballseal 0
     endparty
 
-trainerdata 734, "Clair"
+trainerdata 734 // Clair
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_4
     battletype SINGLE_BATTLE
@@ -26452,7 +26830,7 @@ trainerdata 734, "Clair"
         ballseal 0
     endparty
 
-trainerdata 735, "Silver"
+trainerdata 735 // Silver
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -26503,7 +26881,7 @@ trainerdata 735, "Silver"
         ballseal 0
     endparty
 
-trainerdata 736, "Silver"
+trainerdata 736 // Silver
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
@@ -26554,7 +26932,7 @@ trainerdata 736, "Silver"
         ballseal 0
     endparty
 
-trainerdata 737, "Silver"
+trainerdata 737 // Silver
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     battletype SINGLE_BATTLE
