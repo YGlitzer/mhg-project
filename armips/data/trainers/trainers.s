@@ -24599,6 +24599,18 @@ trainerdata 700 // Giovanni
         move MOVE_CRUNCH
         move MOVE_ROAR
         ballseal 0
+        
+        // mon 4
+        ivs 100
+        abilityslot 32
+        level 47
+        pokemon SPECIES_PERSIAN
+        item ITEM_KINGS_ROCK
+        move MOVE_HONE_CLAWS
+        move MOVE_FURY_SWIPES
+        move MOVE_BITE
+        move MOVE_AERIAL_ACE
+        ballseal 0
     endparty
 
 trainerdata 701 // Lance
