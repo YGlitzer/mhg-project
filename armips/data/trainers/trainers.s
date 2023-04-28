@@ -466,21 +466,21 @@ trainerdata 14 // Duncan
         // mon 0
         ivs 0
         abilityslot 0
-        level 23
+        level 31
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 25
+        level 33
         pokemon SPECIES_MAGMAR
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 23
+        level 32
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty
@@ -6080,7 +6080,7 @@ trainerdata 184 // Krise
         ballseal 0
     endparty
 
-trainerdata 185 // Grunt
+trainerdata 185 // Grunt - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6097,19 +6097,19 @@ trainerdata 185 // Grunt
         // mon 0
         ivs 30
         abilityslot 32
-        level 24
+        level 32
         pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
-        level 24
+        level 33
         pokemon SPECIES_RATICATE
         ballseal 0
     endparty
 
-trainerdata 186 // Grunt
+trainerdata 186 // Grunt - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6126,26 +6126,26 @@ trainerdata 186 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 23
+        level 31
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 23
+        level 30
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
-        level 25
+        level 31
         pokemon SPECIES_MUK
         ballseal 0
     endparty
 
-trainerdata 187 // Grunt
+trainerdata 187 // Grunt - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6162,40 +6162,40 @@ trainerdata 187 // Grunt
         // mon 0
         ivs 30
         abilityslot 32
-        level 21
+        level 29
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
-        level 21
+        level 30
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 23
-        pokemon SPECIES_RATTATA
+        level 31
+        pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 32
-        level 23
+        level 30
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 4
         ivs 30
         abilityslot 32
-        level 23
+        level 30
         pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 
-trainerdata 188 // Grunt
+trainerdata 188 // Grunt - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6212,19 +6212,19 @@ trainerdata 188 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 26
+        level 30
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 26
-        pokemon SPECIES_ZUBAT
+        level 31
+        pokemon SPECIES_GOLBAT
         ballseal 0
     endparty
 
-trainerdata 189 // Grunt
+trainerdata 189 // Grunt - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6241,33 +6241,33 @@ trainerdata 189 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 23
+        level 30
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 23
+        level 30
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
-        level 23
-        pokemon SPECIES_ZUBAT
+        level 31
+        pokemon SPECIES_GOLBAT
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 32
-        level 23
-        pokemon SPECIES_RATTATA
+        level 32
+        pokemon SPECIES_RATICATE
         ballseal 0
     endparty
 
-trainerdata 190 // Grunt
+trainerdata 190 // Grunt - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6284,12 +6284,12 @@ trainerdata 190 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 26
+        level 33
         pokemon SPECIES_WEEZING
         ballseal 0
     endparty
 
-trainerdata 191 // Grunt
+trainerdata 191 // Grunt - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6306,19 +6306,19 @@ trainerdata 191 // Grunt
         // mon 0
         ivs 30
         abilityslot 32
-        level 24
+        level 29
         pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 26
+        level 31
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty
 
-trainerdata 192 // Grunt
+trainerdata 192 // Grunt - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6335,26 +6335,26 @@ trainerdata 192 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 22
+        level 29
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 24
+        level 29
         pokemon SPECIES_GOLBAT
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
-        level 22
+        level 29
         pokemon SPECIES_GRIMER
         ballseal 0
     endparty
 
-trainerdata 193 // Grunt
+trainerdata 193 // Grunt - Goldenrod Tunnel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6371,22 +6371,22 @@ trainerdata 193 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 23
+        level 29
         pokemon SPECIES_MUK
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 23
+        level 26
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 25
-        pokemon SPECIES_RATTATA
+        level 28
+        pokemon SPECIES_RATICATE
         ballseal 0
     endparty
 
@@ -6412,7 +6412,7 @@ trainerdata 194 // Mickey
         ballseal 0
     endparty
 
-trainerdata 195 // Grunt
+trainerdata 195 // Grunt - Goldenrod Tunnel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6429,12 +6429,12 @@ trainerdata 195 // Grunt
         // mon 0
         ivs 30
         abilityslot 32
-        level 27
+        level 31
         pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 
-trainerdata 196 // Grunt
+trainerdata 196 // Grunt - Goldenrod Tunnel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6451,19 +6451,19 @@ trainerdata 196 // Grunt
         // mon 0
         ivs 30
         abilityslot 32
-        level 24
+        level 29
         pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 24
+        level 30
         pokemon SPECIES_GOLBAT
         ballseal 0
     endparty
 
-trainerdata 197 // Grunt
+trainerdata 197 // Grunt - Goldenrod Tunnel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -6480,19 +6480,19 @@ trainerdata 197 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 26
+        level 30
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 23
+        level 30
         pokemon SPECIES_WEEZING
         ballseal 0
     endparty
 
-trainerdata 198 // Grunt
+trainerdata 198 // Grunt - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     battletype SINGLE_BATTLE
@@ -6514,7 +6514,7 @@ trainerdata 198 // Grunt
         ballseal 0
     endparty
 
-trainerdata 199 // Grunt
+trainerdata 199 // Grunt - Goldenrod Tunnel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     battletype SINGLE_BATTLE
@@ -6531,19 +6531,19 @@ trainerdata 199 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 25
+        level 28
         pokemon SPECIES_GLOOM
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 25
-        pokemon SPECIES_GLOOM
+        level 30
+        pokemon SPECIES_WEEPINBELL
         ballseal 0
     endparty
 
-trainerdata 200 // Grunt
+trainerdata 200 // Grunt  - Goldenrod Radio Tower
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     battletype SINGLE_BATTLE
@@ -7062,7 +7062,7 @@ trainerdata 215 // Connie
         ballseal 0
     endparty
 
-trainerdata 216 // Grunt
+trainerdata 216 // Grunt - Rocket HQ
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7079,29 +7079,29 @@ trainerdata 216 // Grunt
         // mon 0
         ivs 30
         abilityslot 32
-        level 16
+        level 25
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
-        level 16
+        level 26
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 16
+        level 26
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 32
-        level 16
-        pokemon SPECIES_RATTATA
+        level 26
+        pokemon SPECIES_RATICATE
         ballseal 0
     endparty
 
@@ -7141,7 +7141,7 @@ trainerdata 217 // Denis
         ballseal 0
     endparty
 
-trainerdata 218 // Grunt
+trainerdata 218 // Grunt - Rocket HQ
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7158,12 +7158,12 @@ trainerdata 218 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 18
+        level 24
         pokemon SPECIES_GOLBAT
         ballseal 0
     endparty
 
-trainerdata 219 // Grunt
+trainerdata 219 // Grunt - Rocket HQ
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7180,26 +7180,26 @@ trainerdata 219 // Grunt
         // mon 0
         ivs 30
         abilityslot 32
-        level 17
+        level 24
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 17
+        level 25
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 17
-        pokemon SPECIES_RATTATA
+        level 26
+        pokemon SPECIES_RATICATE
         ballseal 0
     endparty
 
-trainerdata 220 // Grunt
+trainerdata 220 // Grunt - Rocket HQ
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7216,15 +7216,15 @@ trainerdata 220 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 18
+        level 23
         pokemon SPECIES_VENONAT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
-        level 18
-        pokemon SPECIES_VENONAT
+        level 25
+        pokemon SPECIES_DUSTOX
         ballseal 0
     endparty
 
@@ -7250,7 +7250,7 @@ trainerdata 221 // Mickey
         ballseal 0
     endparty
 
-trainerdata 222 // Grunt
+trainerdata 222 // Grunt - Rocket HQ
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7267,12 +7267,12 @@ trainerdata 222 // Grunt
         // mon 0
         ivs 30
         abilityslot 32
-        level 19
+        level 25
         pokemon SPECIES_RATICATE
         ballseal 0
     endparty
 
-trainerdata 223 // Grunt
+trainerdata 223 // Grunt - Rocket HQ
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7289,19 +7289,19 @@ trainerdata 223 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 17
+        level 25
         pokemon SPECIES_DROWZEE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 19
-        pokemon SPECIES_ZUBAT
+        level 27
+        pokemon SPECIES_GOLBAT
         ballseal 0
     endparty
 
-trainerdata 224 // Grunt
+trainerdata 224 // Grunt - Rocket HQ
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7318,21 +7318,21 @@ trainerdata 224 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 16
+        level 26
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 17
+        level 27
         pokemon SPECIES_GRIMER
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
-        level 18
+        level 25
         pokemon SPECIES_RATTATA
         ballseal 0
     endparty
@@ -7381,7 +7381,7 @@ trainerdata 226 // Mickey
         ballseal 0
     endparty
 
-trainerdata 227 // Grunt
+trainerdata 227 // Grunt - Goldenrod Tunnel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7398,19 +7398,19 @@ trainerdata 227 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 25
+        level 29
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 25
-        pokemon SPECIES_KOFFING
+        level 31
+        pokemon SPECIES_WEEZING
         ballseal 0
     endparty
 
-trainerdata 228 // Grunt
+trainerdata 228 // Grunt - Goldenrod Tunnel
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -7427,14 +7427,14 @@ trainerdata 228 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 24
+        level 29
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 24
+        level 31
         pokemon SPECIES_MUK
         ballseal 0
     endparty
@@ -10044,7 +10044,7 @@ trainerdata 283 // Orson
         // mon 0
         ivs 0
         abilityslot 0
-        level 26
+        level 30
         pokemon SPECIES_GROWLITHE
         move MOVE_ROAR
         move MOVE_FLAME_WHEEL
@@ -10055,7 +10055,7 @@ trainerdata 283 // Orson
         // mon 1
         ivs 0
         abilityslot 0
-        level 24
+        level 31
         pokemon SPECIES_KOFFING
         move MOVE_TACKLE
         move MOVE_SMOG
@@ -14216,7 +14216,7 @@ trainerdata 403 // Spencer
         ballseal 0
     endparty
 
-trainerdata 404 // Grunt
+trainerdata 404 // Grunt - Rocket HQ
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TEAM_ROCKET_1
     battletype SINGLE_BATTLE
@@ -16523,7 +16523,7 @@ trainerdata 472 // Trenton
         // mon 0
         ivs 0
         abilityslot 32
-        level 30
+        level 33
         pokemon SPECIES_PORYGON
         move MOVE_CONVERSION
         move MOVE_CONVERSION_2
@@ -17627,7 +17627,7 @@ trainerdata 498 // Eusine - Cianwood
         ballseal 0
     endparty
 
-trainerdata 499 // Grunt
+trainerdata 499 // Grunt - Rocket HQ Double
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TEAM_ROCKET
     battletype SINGLE_BATTLE
@@ -17644,7 +17644,7 @@ trainerdata 499 // Grunt
         // mon 0
         ivs 30
         abilityslot 0
-        level 18
+        level 29
         pokemon SPECIES_DROWZEE
         move MOVE_HYPNOSIS
         move MOVE_DISABLE
@@ -17655,8 +17655,8 @@ trainerdata 499 // Grunt
         // mon 1
         ivs 30
         abilityslot 0
-        level 20
-        pokemon SPECIES_GRIMER
+        level 30
+        pokemon SPECIES_MUK
         move MOVE_SLUDGE
         move MOVE_DISABLE
         move MOVE_MUD_SLAP
@@ -24543,7 +24543,7 @@ trainerdata 700 // Giovanni
     trainerclass CLASS_ROCKET_BOSS
     battletype SINGLE_BATTLE
     nummons 4
-    item ITEM_FULL_RESTORE
+    item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -24599,7 +24599,7 @@ trainerdata 700 // Giovanni
         move MOVE_CRUNCH
         move MOVE_ROAR
         ballseal 0
-        
+
         // mon 4
         ivs 100
         abilityslot 32
