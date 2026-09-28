@@ -31160,6 +31160,123 @@ const TrainerData sTrainerData[] = {
         },
     },
 
+    //Test Battle
+    [738] = {
+        .name = "Ron",
+        .data = {
+            .trainerType = TRAINER_DATA_TYPE_ITEMS,
+            .trainerClass = TRAINERCLASS_YOUNGSTER,
+            .items = { ITEM_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE },
+            .aiFlags = F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS,
+            .battleType = SINGLE_BATTLE,
+        },
+        .party = {
+            {
+                .ivs = 0,
+                .abilitySlot = TRAINER_POKEMON_ABILITY_1,
+                .level = 1,
+                .species = SPECIES_CHIKORITA,
+                .ballSeal = 0,
+            },
+        },
+        .text = {
+            {
+                .type = TRMSG_INTRO,
+                .text = "I just lost, so I’m trying to find\\nmore Pokémon.\\rWait! You look weak! Come on,\\nlet’s battle!\\r",
+            },
+            {
+                .type = TRMSG_LOSE,
+                .text = "Oh...\\nI’m out of Pokémon that can fight.\\n",
+            },
+            {
+                .type = TRMSG_AFTER,
+                .text = "I knew it--if you don’t have many\\nPokémon, battles are harder!\\fI need to catch more Pokémon!\\n",
+            },
+            {
+                .type = TRMSG_PHONE_REMATCH_INTRO,
+                .text = "I’ve been waiting!\\nLet’s battle now!\\r",
+            },
+        },
+    },
+
+    [739] = {
+        .name = "Alex",
+        .data = {
+            .trainerType = TRAINER_DATA_TYPE_ITEMS,
+            .trainerClass = TRAINERCLASS_BUG_CATCHER,
+            .items = { ITEM_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE },
+            .aiFlags = F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS,
+            .battleType = SINGLE_BATTLE,
+        },
+        .party = {
+            {
+                .ivs = 0,
+                .abilitySlot = TRAINER_POKEMON_ABILITY_1,
+                .level = 1,
+                .species = SPECIES_MEGANIUM,
+                .ballSeal = 0,
+            },
+        },
+        .text = {
+            {
+                .type = TRMSG_INTRO,
+                .text = "I just lost, so I’m trying to find\\nmore Pokémon.\\rWait! You look weak! Come on,\\nlet’s battle!\\r",
+            },
+            {
+                .type = TRMSG_LOSE,
+                .text = "Oh...\\nI’m out of Pokémon that can fight.\\n",
+            },
+            {
+                .type = TRMSG_AFTER,
+                .text = "I knew it--if you don’t have many\\nPokémon, battles are harder!\\fI need to catch more Pokémon!\\n",
+            },
+            {
+                .type = TRMSG_PHONE_REMATCH_INTRO,
+                .text = "I’ve been waiting!\\nLet’s battle now!\\r",
+            },
+        },
+    },
+
+    [740] = {
+        .name = "Tia",
+        .data = {
+            .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
+            .trainerClass = TRAINERCLASS_LASS,
+            .items = { ITEM_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE },
+            .aiFlags = F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS,
+            .battleType = SINGLE_BATTLE,
+        },
+        .party = {
+            {
+                .ivs = 0,
+                .abilitySlot = TRAINER_POKEMON_ABILITY_1,
+                .level = 38,
+                .species = SPECIES_VENUSAUR,
+                .item = ITEM_ANTIDOTE,
+                .moves = { MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_NONE, MOVE_NONE },
+                .ballSeal = 0,
+            },
+        },
+        .text = {
+            {
+                .type = TRMSG_INTRO,
+                .text = "I just lost, so I’m trying to find\\nmore Pokémon.\\rWait! You look weak! Come on,\\nlet’s battle!\\r",
+            },
+            {
+                .type = TRMSG_LOSE,
+                .text = "Oh...\\nI’m out of Pokémon that can fight.\\n",
+            },
+            {
+                .type = TRMSG_AFTER,
+                .text = "I knew it--if you don’t have many\\nPokémon, battles are harder!\\fI need to catch more Pokémon!\\n",
+            },
+            {
+                .type = TRMSG_PHONE_REMATCH_INTRO,
+                .text = "I’ve been waiting!\\nLet’s battle now!\\r",
+            },
+        },
+    },
+
 };
 
 const u16 sTrainerTextOrder[] = {
