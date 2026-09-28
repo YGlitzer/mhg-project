@@ -31238,7 +31238,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [740] = {
-        .name = "Tia",
+        .name = "Tiany",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LASS,
